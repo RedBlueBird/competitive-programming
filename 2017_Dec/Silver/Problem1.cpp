@@ -7,7 +7,8 @@ int main() {
     ifstream fin  ("homework.in");
 //    ofstream fout ("../output.txt");
 //    ifstream fin ("../input.txt");
-    
+
+    //Take inputs
     int n;
     fin >> n;
     vector<int> hwk(n);
@@ -15,6 +16,10 @@ int main() {
         fin >> hwk[i];
     }
 
+    //Iterate backward.
+    //Average is calculated by take the average of the sum minus lowest seen score.
+    //Take the highest average, add it to the solution.
+    //If multiple highest average exists, add all to the solution.
     float bestScore = 0;
     vector<int> ans;
     int minScore = hwk[1];
@@ -32,6 +37,8 @@ int main() {
             ans.push_back(i);
         }
     }
+
+    //Output
     for (int i = ans.size()-1; i >= 0; i--){
         fout << ans[i] << "\n";
     }

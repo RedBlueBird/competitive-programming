@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Problem2.dir/all
 all: CMakeFiles/USACO_contests.dir/all
 all: CMakeFiles/Problem1.dir/all
 
@@ -63,10 +64,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Problem2.dir/clean
 clean: CMakeFiles/USACO_contests.dir/clean
 clean: CMakeFiles/Problem1.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Problem2.dir
+
+# All Build rule for target.
+CMakeFiles/Problem2.dir/all:
+	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/depend
+	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Problem2"
+.PHONY : CMakeFiles/Problem2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Problem2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Problem2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Problem2.dir/rule
+
+# Convenience name for target.
+Problem2: CMakeFiles/Problem2.dir/rule
+
+.PHONY : Problem2
+
+# clean rule for target.
+CMakeFiles/Problem2.dir/clean:
+	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/clean
+.PHONY : CMakeFiles/Problem2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/USACO_contests.dir
@@ -75,7 +104,7 @@ clean: CMakeFiles/Problem1.dir/clean
 CMakeFiles/USACO_contests.dir/all:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/depend
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target USACO_contests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target USACO_contests"
 .PHONY : CMakeFiles/USACO_contests.dir/all
 
 # Build rule for subdir invocation for target.
