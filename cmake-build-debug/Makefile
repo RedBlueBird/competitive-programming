@@ -122,6 +122,46 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
 .PHONY : USACO_contests/fast
 
+#=============================================================================
+# Target rules for targets named Problem1
+
+# Build rule for target.
+Problem1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Problem1
+.PHONY : Problem1
+
+# fast build rule for target.
+Problem1/fast:
+	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/build
+.PHONY : Problem1/fast
+
+2018_Jan/Silver/Problem1.obj: 2018_Jan/Silver/Problem1.cpp.obj
+
+.PHONY : 2018_Jan/Silver/Problem1.obj
+
+# target to build an object file
+2018_Jan/Silver/Problem1.cpp.obj:
+	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj
+.PHONY : 2018_Jan/Silver/Problem1.cpp.obj
+
+2018_Jan/Silver/Problem1.i: 2018_Jan/Silver/Problem1.cpp.i
+
+.PHONY : 2018_Jan/Silver/Problem1.i
+
+# target to preprocess a source file
+2018_Jan/Silver/Problem1.cpp.i:
+	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.i
+.PHONY : 2018_Jan/Silver/Problem1.cpp.i
+
+2018_Jan/Silver/Problem1.s: 2018_Jan/Silver/Problem1.cpp.s
+
+.PHONY : 2018_Jan/Silver/Problem1.s
+
+# target to generate assembly for a file
+2018_Jan/Silver/Problem1.cpp.s:
+	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.s
+.PHONY : 2018_Jan/Silver/Problem1.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -156,8 +196,12 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... USACO_contests
+	@echo ... Problem1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 2018_Jan/Silver/Problem1.obj
+	@echo ... 2018_Jan/Silver/Problem1.i
+	@echo ... 2018_Jan/Silver/Problem1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

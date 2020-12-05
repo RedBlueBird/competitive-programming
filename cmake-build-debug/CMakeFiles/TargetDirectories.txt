@@ -1,3 +1,4 @@
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/USACO_contests.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/Problem1.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -4,3 +4,4 @@ project(USACO_contests)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(USACO_contests main.cpp)
+add_executable(Problem1 2018_Jan/Silver/Problem1.cpp)
