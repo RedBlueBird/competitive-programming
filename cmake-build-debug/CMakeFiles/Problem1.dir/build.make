@@ -56,27 +56,27 @@ include CMakeFiles/Problem1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Problem1.dir/flags.make
 
-CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj: CMakeFiles/Problem1.dir/flags.make
-CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj: ../2018_Jan/Silver/Problem1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Problem1.dir\2018_Jan\Silver\Problem1.cpp.obj -c C:\Users\xiaon\Documents\USACO\2018_Jan\Silver\Problem1.cpp
+CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj: CMakeFiles/Problem1.dir/flags.make
+CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj: ../2017_Dec/Silver/Problem1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Problem1.dir\2017_Dec\Silver\Problem1.cpp.obj -c C:\Users\xiaon\Documents\USACO\2017_Dec\Silver\Problem1.cpp
 
-CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2018_Jan\Silver\Problem1.cpp > CMakeFiles\Problem1.dir\2018_Jan\Silver\Problem1.cpp.i
+CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2017_Dec\Silver\Problem1.cpp > CMakeFiles\Problem1.dir\2017_Dec\Silver\Problem1.cpp.i
 
-CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2018_Jan\Silver\Problem1.cpp -o CMakeFiles\Problem1.dir\2018_Jan\Silver\Problem1.cpp.s
+CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2017_Dec\Silver\Problem1.cpp -o CMakeFiles\Problem1.dir\2017_Dec\Silver\Problem1.cpp.s
 
 # Object files for target Problem1
 Problem1_OBJECTS = \
-"CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj"
+"CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj"
 
 # External object files for target Problem1
 Problem1_EXTERNAL_OBJECTS =
 
-Problem1.exe: CMakeFiles/Problem1.dir/2018_Jan/Silver/Problem1.cpp.obj
+Problem1.exe: CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj
 Problem1.exe: CMakeFiles/Problem1.dir/build.make
 Problem1.exe: CMakeFiles/Problem1.dir/linklibs.rsp
 Problem1.exe: CMakeFiles/Problem1.dir/objects1.rsp
