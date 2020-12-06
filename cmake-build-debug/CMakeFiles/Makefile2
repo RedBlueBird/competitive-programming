@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 all: CMakeFiles/Problem2.dir/all
 all: CMakeFiles/USACO_contests.dir/all
 all: CMakeFiles/Problem1.dir/all
+all: CMakeFiles/Problem3.dir/all
 
 .PHONY : all
 
@@ -67,6 +68,7 @@ preinstall:
 clean: CMakeFiles/Problem2.dir/clean
 clean: CMakeFiles/USACO_contests.dir/clean
 clean: CMakeFiles/Problem1.dir/clean
+clean: CMakeFiles/Problem3.dir/clean
 
 .PHONY : clean
 
@@ -104,7 +106,7 @@ CMakeFiles/Problem2.dir/clean:
 CMakeFiles/USACO_contests.dir/all:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/depend
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target USACO_contests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target USACO_contests"
 .PHONY : CMakeFiles/USACO_contests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -150,6 +152,33 @@ Problem1: CMakeFiles/Problem1.dir/rule
 CMakeFiles/Problem1.dir/clean:
 	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/clean
 .PHONY : CMakeFiles/Problem1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Problem3.dir
+
+# All Build rule for target.
+CMakeFiles/Problem3.dir/all:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/depend
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Problem3"
+.PHONY : CMakeFiles/Problem3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Problem3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Problem3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Problem3.dir/rule
+
+# Convenience name for target.
+Problem3: CMakeFiles/Problem3.dir/rule
+
+.PHONY : Problem3
+
+# clean rule for target.
+CMakeFiles/Problem3.dir/clean:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/clean
+.PHONY : CMakeFiles/Problem3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Problem2.dir/DependInfo.cmake"
   "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
   "CMakeFiles/Problem1.dir/DependInfo.cmake"
+  "CMakeFiles/Problem3.dir/DependInfo.cmake"
   )

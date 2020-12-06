@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -148,6 +148,19 @@ Problem1/fast:
 	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/build
 .PHONY : Problem1/fast
 
+#=============================================================================
+# Target rules for targets named Problem3
+
+# Build rule for target.
+Problem3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Problem3
+.PHONY : Problem3
+
+# fast build rule for target.
+Problem3/fast:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/build
+.PHONY : Problem3/fast
+
 2017_Dec/Silver/Problem1.obj: 2017_Dec/Silver/Problem1.cpp.obj
 
 .PHONY : 2017_Dec/Silver/Problem1.obj
@@ -202,6 +215,33 @@ Problem1/fast:
 	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/2017_Dec/Silver/Problem2.cpp.s
 .PHONY : 2017_Dec/Silver/Problem2.cpp.s
 
+2017_Dec/Silver/Problem3.obj: 2017_Dec/Silver/Problem3.cpp.obj
+
+.PHONY : 2017_Dec/Silver/Problem3.obj
+
+# target to build an object file
+2017_Dec/Silver/Problem3.cpp.obj:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.obj
+.PHONY : 2017_Dec/Silver/Problem3.cpp.obj
+
+2017_Dec/Silver/Problem3.i: 2017_Dec/Silver/Problem3.cpp.i
+
+.PHONY : 2017_Dec/Silver/Problem3.i
+
+# target to preprocess a source file
+2017_Dec/Silver/Problem3.cpp.i:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.i
+.PHONY : 2017_Dec/Silver/Problem3.cpp.i
+
+2017_Dec/Silver/Problem3.s: 2017_Dec/Silver/Problem3.cpp.s
+
+.PHONY : 2017_Dec/Silver/Problem3.s
+
+# target to generate assembly for a file
+2017_Dec/Silver/Problem3.cpp.s:
+	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.s
+.PHONY : 2017_Dec/Silver/Problem3.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -238,14 +278,18 @@ help:
 	@echo ... Problem2
 	@echo ... USACO_contests
 	@echo ... Problem1
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Problem3
+	@echo ... edit_cache
 	@echo ... 2017_Dec/Silver/Problem1.obj
 	@echo ... 2017_Dec/Silver/Problem1.i
 	@echo ... 2017_Dec/Silver/Problem1.s
 	@echo ... 2017_Dec/Silver/Problem2.obj
 	@echo ... 2017_Dec/Silver/Problem2.i
 	@echo ... 2017_Dec/Silver/Problem2.s
+	@echo ... 2017_Dec/Silver/Problem3.obj
+	@echo ... 2017_Dec/Silver/Problem3.i
+	@echo ... 2017_Dec/Silver/Problem3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
