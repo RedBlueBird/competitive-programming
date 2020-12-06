@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Problem2
-
-# Build rule for target.
-Problem2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Problem2
-.PHONY : Problem2
-
-# fast build rule for target.
-Problem2/fast:
-	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/build
-.PHONY : Problem2/fast
-
-#=============================================================================
 # Target rules for targets named USACO_contests
 
 # Build rule for target.
@@ -136,111 +123,44 @@ USACO_contests/fast:
 .PHONY : USACO_contests/fast
 
 #=============================================================================
-# Target rules for targets named Problem1
+# Target rules for targets named 1-Lifeguards
 
 # Build rule for target.
-Problem1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Problem1
-.PHONY : Problem1
+1-Lifeguards: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-Lifeguards
+.PHONY : 1-Lifeguards
 
 # fast build rule for target.
-Problem1/fast:
-	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/build
-.PHONY : Problem1/fast
+1-Lifeguards/fast:
+	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/build
+.PHONY : 1-Lifeguards/fast
 
-#=============================================================================
-# Target rules for targets named Problem3
+2018_Jan/Silver/1-Lifeguards.obj: 2018_Jan/Silver/1-Lifeguards.cpp.obj
 
-# Build rule for target.
-Problem3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Problem3
-.PHONY : Problem3
-
-# fast build rule for target.
-Problem3/fast:
-	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/build
-.PHONY : Problem3/fast
-
-2017_Dec/Silver/Problem1.obj: 2017_Dec/Silver/Problem1.cpp.obj
-
-.PHONY : 2017_Dec/Silver/Problem1.obj
+.PHONY : 2018_Jan/Silver/1-Lifeguards.obj
 
 # target to build an object file
-2017_Dec/Silver/Problem1.cpp.obj:
-	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.obj
-.PHONY : 2017_Dec/Silver/Problem1.cpp.obj
+2018_Jan/Silver/1-Lifeguards.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.obj
+.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.obj
 
-2017_Dec/Silver/Problem1.i: 2017_Dec/Silver/Problem1.cpp.i
+2018_Jan/Silver/1-Lifeguards.i: 2018_Jan/Silver/1-Lifeguards.cpp.i
 
-.PHONY : 2017_Dec/Silver/Problem1.i
-
-# target to preprocess a source file
-2017_Dec/Silver/Problem1.cpp.i:
-	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.i
-.PHONY : 2017_Dec/Silver/Problem1.cpp.i
-
-2017_Dec/Silver/Problem1.s: 2017_Dec/Silver/Problem1.cpp.s
-
-.PHONY : 2017_Dec/Silver/Problem1.s
-
-# target to generate assembly for a file
-2017_Dec/Silver/Problem1.cpp.s:
-	$(MAKE) -f CMakeFiles\Problem1.dir\build.make CMakeFiles/Problem1.dir/2017_Dec/Silver/Problem1.cpp.s
-.PHONY : 2017_Dec/Silver/Problem1.cpp.s
-
-2017_Dec/Silver/Problem2.obj: 2017_Dec/Silver/Problem2.cpp.obj
-
-.PHONY : 2017_Dec/Silver/Problem2.obj
-
-# target to build an object file
-2017_Dec/Silver/Problem2.cpp.obj:
-	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/2017_Dec/Silver/Problem2.cpp.obj
-.PHONY : 2017_Dec/Silver/Problem2.cpp.obj
-
-2017_Dec/Silver/Problem2.i: 2017_Dec/Silver/Problem2.cpp.i
-
-.PHONY : 2017_Dec/Silver/Problem2.i
+.PHONY : 2018_Jan/Silver/1-Lifeguards.i
 
 # target to preprocess a source file
-2017_Dec/Silver/Problem2.cpp.i:
-	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/2017_Dec/Silver/Problem2.cpp.i
-.PHONY : 2017_Dec/Silver/Problem2.cpp.i
+2018_Jan/Silver/1-Lifeguards.cpp.i:
+	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.i
+.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.i
 
-2017_Dec/Silver/Problem2.s: 2017_Dec/Silver/Problem2.cpp.s
+2018_Jan/Silver/1-Lifeguards.s: 2018_Jan/Silver/1-Lifeguards.cpp.s
 
-.PHONY : 2017_Dec/Silver/Problem2.s
-
-# target to generate assembly for a file
-2017_Dec/Silver/Problem2.cpp.s:
-	$(MAKE) -f CMakeFiles\Problem2.dir\build.make CMakeFiles/Problem2.dir/2017_Dec/Silver/Problem2.cpp.s
-.PHONY : 2017_Dec/Silver/Problem2.cpp.s
-
-2017_Dec/Silver/Problem3.obj: 2017_Dec/Silver/Problem3.cpp.obj
-
-.PHONY : 2017_Dec/Silver/Problem3.obj
-
-# target to build an object file
-2017_Dec/Silver/Problem3.cpp.obj:
-	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.obj
-.PHONY : 2017_Dec/Silver/Problem3.cpp.obj
-
-2017_Dec/Silver/Problem3.i: 2017_Dec/Silver/Problem3.cpp.i
-
-.PHONY : 2017_Dec/Silver/Problem3.i
-
-# target to preprocess a source file
-2017_Dec/Silver/Problem3.cpp.i:
-	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.i
-.PHONY : 2017_Dec/Silver/Problem3.cpp.i
-
-2017_Dec/Silver/Problem3.s: 2017_Dec/Silver/Problem3.cpp.s
-
-.PHONY : 2017_Dec/Silver/Problem3.s
+.PHONY : 2018_Jan/Silver/1-Lifeguards.s
 
 # target to generate assembly for a file
-2017_Dec/Silver/Problem3.cpp.s:
-	$(MAKE) -f CMakeFiles\Problem3.dir\build.make CMakeFiles/Problem3.dir/2017_Dec/Silver/Problem3.cpp.s
-.PHONY : 2017_Dec/Silver/Problem3.cpp.s
+2018_Jan/Silver/1-Lifeguards.cpp.s:
+	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.s
+.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -275,21 +195,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Problem2
 	@echo ... USACO_contests
-	@echo ... Problem1
-	@echo ... rebuild_cache
-	@echo ... Problem3
+	@echo ... 1-Lifeguards
 	@echo ... edit_cache
-	@echo ... 2017_Dec/Silver/Problem1.obj
-	@echo ... 2017_Dec/Silver/Problem1.i
-	@echo ... 2017_Dec/Silver/Problem1.s
-	@echo ... 2017_Dec/Silver/Problem2.obj
-	@echo ... 2017_Dec/Silver/Problem2.i
-	@echo ... 2017_Dec/Silver/Problem2.s
-	@echo ... 2017_Dec/Silver/Problem3.obj
-	@echo ... 2017_Dec/Silver/Problem3.i
-	@echo ... 2017_Dec/Silver/Problem3.s
+	@echo ... rebuild_cache
+	@echo ... 2018_Jan/Silver/1-Lifeguards.obj
+	@echo ... 2018_Jan/Silver/1-Lifeguards.i
+	@echo ... 2018_Jan/Silver/1-Lifeguards.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
