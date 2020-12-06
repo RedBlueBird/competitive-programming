@@ -55,4 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
   "CMakeFiles/1-Lifeguards.dir/DependInfo.cmake"
+  "CMakeFiles/2-RentalService.dir/DependInfo.cmake"
+  "CMakeFiles/3-MooTube.dir/DependInfo.cmake"
   )

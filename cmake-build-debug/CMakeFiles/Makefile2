@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/USACO_contests.dir/all
 all: CMakeFiles/1-Lifeguards.dir/all
+all: CMakeFiles/2-RentalService.dir/all
+all: CMakeFiles/3-MooTube.dir/all
 
 .PHONY : all
 
@@ -65,6 +67,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/USACO_contests.dir/clean
 clean: CMakeFiles/1-Lifeguards.dir/clean
+clean: CMakeFiles/2-RentalService.dir/clean
+clean: CMakeFiles/3-MooTube.dir/clean
 
 .PHONY : clean
 
@@ -75,7 +79,7 @@ clean: CMakeFiles/1-Lifeguards.dir/clean
 CMakeFiles/USACO_contests.dir/all:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/depend
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target USACO_contests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target USACO_contests"
 .PHONY : CMakeFiles/USACO_contests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,6 +125,60 @@ CMakeFiles/1-Lifeguards.dir/rule: cmake_check_build_system
 CMakeFiles/1-Lifeguards.dir/clean:
 	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/clean
 .PHONY : CMakeFiles/1-Lifeguards.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-RentalService.dir
+
+# All Build rule for target.
+CMakeFiles/2-RentalService.dir/all:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/depend
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 2-RentalService"
+.PHONY : CMakeFiles/2-RentalService.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-RentalService.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-RentalService.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-RentalService.dir/rule
+
+# Convenience name for target.
+2-RentalService: CMakeFiles/2-RentalService.dir/rule
+
+.PHONY : 2-RentalService
+
+# clean rule for target.
+CMakeFiles/2-RentalService.dir/clean:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/clean
+.PHONY : CMakeFiles/2-RentalService.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3-MooTube.dir
+
+# All Build rule for target.
+CMakeFiles/3-MooTube.dir/all:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/depend
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 3-MooTube"
+.PHONY : CMakeFiles/3-MooTube.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3-MooTube.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-MooTube.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3-MooTube.dir/rule
+
+# Convenience name for target.
+3-MooTube: CMakeFiles/3-MooTube.dir/rule
+
+.PHONY : 3-MooTube
+
+# clean rule for target.
+CMakeFiles/3-MooTube.dir/clean:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/clean
+.PHONY : CMakeFiles/3-MooTube.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

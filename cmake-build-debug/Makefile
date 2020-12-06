@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -135,6 +135,32 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/build
 .PHONY : 1-Lifeguards/fast
 
+#=============================================================================
+# Target rules for targets named 2-RentalService
+
+# Build rule for target.
+2-RentalService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-RentalService
+.PHONY : 2-RentalService
+
+# fast build rule for target.
+2-RentalService/fast:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/build
+.PHONY : 2-RentalService/fast
+
+#=============================================================================
+# Target rules for targets named 3-MooTube
+
+# Build rule for target.
+3-MooTube: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-MooTube
+.PHONY : 3-MooTube
+
+# fast build rule for target.
+3-MooTube/fast:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/build
+.PHONY : 3-MooTube/fast
+
 2018_Jan/Silver/1-Lifeguards.obj: 2018_Jan/Silver/1-Lifeguards.cpp.obj
 
 .PHONY : 2018_Jan/Silver/1-Lifeguards.obj
@@ -161,6 +187,60 @@ USACO_contests/fast:
 2018_Jan/Silver/1-Lifeguards.cpp.s:
 	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.s
 .PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.s
+
+2018_Jan/Silver/2-RentalService.obj: 2018_Jan/Silver/2-RentalService.cpp.obj
+
+.PHONY : 2018_Jan/Silver/2-RentalService.obj
+
+# target to build an object file
+2018_Jan/Silver/2-RentalService.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.obj
+.PHONY : 2018_Jan/Silver/2-RentalService.cpp.obj
+
+2018_Jan/Silver/2-RentalService.i: 2018_Jan/Silver/2-RentalService.cpp.i
+
+.PHONY : 2018_Jan/Silver/2-RentalService.i
+
+# target to preprocess a source file
+2018_Jan/Silver/2-RentalService.cpp.i:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.i
+.PHONY : 2018_Jan/Silver/2-RentalService.cpp.i
+
+2018_Jan/Silver/2-RentalService.s: 2018_Jan/Silver/2-RentalService.cpp.s
+
+.PHONY : 2018_Jan/Silver/2-RentalService.s
+
+# target to generate assembly for a file
+2018_Jan/Silver/2-RentalService.cpp.s:
+	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.s
+.PHONY : 2018_Jan/Silver/2-RentalService.cpp.s
+
+2018_Jan/Silver/3-MooTube.obj: 2018_Jan/Silver/3-MooTube.cpp.obj
+
+.PHONY : 2018_Jan/Silver/3-MooTube.obj
+
+# target to build an object file
+2018_Jan/Silver/3-MooTube.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.obj
+.PHONY : 2018_Jan/Silver/3-MooTube.cpp.obj
+
+2018_Jan/Silver/3-MooTube.i: 2018_Jan/Silver/3-MooTube.cpp.i
+
+.PHONY : 2018_Jan/Silver/3-MooTube.i
+
+# target to preprocess a source file
+2018_Jan/Silver/3-MooTube.cpp.i:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.i
+.PHONY : 2018_Jan/Silver/3-MooTube.cpp.i
+
+2018_Jan/Silver/3-MooTube.s: 2018_Jan/Silver/3-MooTube.cpp.s
+
+.PHONY : 2018_Jan/Silver/3-MooTube.s
+
+# target to generate assembly for a file
+2018_Jan/Silver/3-MooTube.cpp.s:
+	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.s
+.PHONY : 2018_Jan/Silver/3-MooTube.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -197,11 +277,19 @@ help:
 	@echo ... depend
 	@echo ... USACO_contests
 	@echo ... 1-Lifeguards
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 2-RentalService
+	@echo ... 3-MooTube
+	@echo ... edit_cache
 	@echo ... 2018_Jan/Silver/1-Lifeguards.obj
 	@echo ... 2018_Jan/Silver/1-Lifeguards.i
 	@echo ... 2018_Jan/Silver/1-Lifeguards.s
+	@echo ... 2018_Jan/Silver/2-RentalService.obj
+	@echo ... 2018_Jan/Silver/2-RentalService.i
+	@echo ... 2018_Jan/Silver/2-RentalService.s
+	@echo ... 2018_Jan/Silver/3-MooTube.obj
+	@echo ... 2018_Jan/Silver/3-MooTube.i
+	@echo ... 2018_Jan/Silver/3-MooTube.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
