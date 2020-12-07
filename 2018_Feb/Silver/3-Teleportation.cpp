@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-//    ofstream fout("reststops.out");
-//    ifstream fin("reststops.in");
+//    ofstream fout("teleport.out");
+//    ifstream fin("teleport.in");
     ofstream fout("../output.txt");
     ifstream fin("../input.txt");
 
-
+    //Take inputs
 
     return 0;
 }

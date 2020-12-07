@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 1-RestStops
+
+# Build rule for target.
+1-RestStops: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-RestStops
+.PHONY : 1-RestStops
+
+# fast build rule for target.
+1-RestStops/fast:
+	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/build
+.PHONY : 1-RestStops/fast
+
+#=============================================================================
 # Target rules for targets named USACO_contests
 
 # Build rule for target.
@@ -123,124 +136,111 @@ USACO_contests/fast:
 .PHONY : USACO_contests/fast
 
 #=============================================================================
-# Target rules for targets named 1-Lifeguards
+# Target rules for targets named 2-SnowBoots
 
 # Build rule for target.
-1-Lifeguards: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-Lifeguards
-.PHONY : 1-Lifeguards
+2-SnowBoots: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-SnowBoots
+.PHONY : 2-SnowBoots
 
 # fast build rule for target.
-1-Lifeguards/fast:
-	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/build
-.PHONY : 1-Lifeguards/fast
+2-SnowBoots/fast:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
+.PHONY : 2-SnowBoots/fast
 
 #=============================================================================
-# Target rules for targets named 2-RentalService
+# Target rules for targets named 3-Teleportation
 
 # Build rule for target.
-2-RentalService: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-RentalService
-.PHONY : 2-RentalService
+3-Teleportation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Teleportation
+.PHONY : 3-Teleportation
 
 # fast build rule for target.
-2-RentalService/fast:
-	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/build
-.PHONY : 2-RentalService/fast
+3-Teleportation/fast:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
+.PHONY : 3-Teleportation/fast
 
-#=============================================================================
-# Target rules for targets named 3-MooTube
+2018_Feb/Silver/1-RestStops.obj: 2018_Feb/Silver/1-RestStops.cpp.obj
 
-# Build rule for target.
-3-MooTube: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-MooTube
-.PHONY : 3-MooTube
-
-# fast build rule for target.
-3-MooTube/fast:
-	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/build
-.PHONY : 3-MooTube/fast
-
-2018_Jan/Silver/1-Lifeguards.obj: 2018_Jan/Silver/1-Lifeguards.cpp.obj
-
-.PHONY : 2018_Jan/Silver/1-Lifeguards.obj
+.PHONY : 2018_Feb/Silver/1-RestStops.obj
 
 # target to build an object file
-2018_Jan/Silver/1-Lifeguards.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.obj
-.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.obj
+2018_Feb/Silver/1-RestStops.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.obj
+.PHONY : 2018_Feb/Silver/1-RestStops.cpp.obj
 
-2018_Jan/Silver/1-Lifeguards.i: 2018_Jan/Silver/1-Lifeguards.cpp.i
+2018_Feb/Silver/1-RestStops.i: 2018_Feb/Silver/1-RestStops.cpp.i
 
-.PHONY : 2018_Jan/Silver/1-Lifeguards.i
+.PHONY : 2018_Feb/Silver/1-RestStops.i
 
 # target to preprocess a source file
-2018_Jan/Silver/1-Lifeguards.cpp.i:
-	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.i
-.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.i
+2018_Feb/Silver/1-RestStops.cpp.i:
+	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.i
+.PHONY : 2018_Feb/Silver/1-RestStops.cpp.i
 
-2018_Jan/Silver/1-Lifeguards.s: 2018_Jan/Silver/1-Lifeguards.cpp.s
+2018_Feb/Silver/1-RestStops.s: 2018_Feb/Silver/1-RestStops.cpp.s
 
-.PHONY : 2018_Jan/Silver/1-Lifeguards.s
+.PHONY : 2018_Feb/Silver/1-RestStops.s
 
 # target to generate assembly for a file
-2018_Jan/Silver/1-Lifeguards.cpp.s:
-	$(MAKE) -f CMakeFiles\1-Lifeguards.dir\build.make CMakeFiles/1-Lifeguards.dir/2018_Jan/Silver/1-Lifeguards.cpp.s
-.PHONY : 2018_Jan/Silver/1-Lifeguards.cpp.s
+2018_Feb/Silver/1-RestStops.cpp.s:
+	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.s
+.PHONY : 2018_Feb/Silver/1-RestStops.cpp.s
 
-2018_Jan/Silver/2-RentalService.obj: 2018_Jan/Silver/2-RentalService.cpp.obj
+2018_Feb/Silver/2-SnowBoots.obj: 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
-.PHONY : 2018_Jan/Silver/2-RentalService.obj
+.PHONY : 2018_Feb/Silver/2-SnowBoots.obj
 
 # target to build an object file
-2018_Jan/Silver/2-RentalService.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.obj
-.PHONY : 2018_Jan/Silver/2-RentalService.cpp.obj
+2018_Feb/Silver/2-SnowBoots.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj
+.PHONY : 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
-2018_Jan/Silver/2-RentalService.i: 2018_Jan/Silver/2-RentalService.cpp.i
+2018_Feb/Silver/2-SnowBoots.i: 2018_Feb/Silver/2-SnowBoots.cpp.i
 
-.PHONY : 2018_Jan/Silver/2-RentalService.i
+.PHONY : 2018_Feb/Silver/2-SnowBoots.i
 
 # target to preprocess a source file
-2018_Jan/Silver/2-RentalService.cpp.i:
-	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.i
-.PHONY : 2018_Jan/Silver/2-RentalService.cpp.i
+2018_Feb/Silver/2-SnowBoots.cpp.i:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.i
+.PHONY : 2018_Feb/Silver/2-SnowBoots.cpp.i
 
-2018_Jan/Silver/2-RentalService.s: 2018_Jan/Silver/2-RentalService.cpp.s
+2018_Feb/Silver/2-SnowBoots.s: 2018_Feb/Silver/2-SnowBoots.cpp.s
 
-.PHONY : 2018_Jan/Silver/2-RentalService.s
+.PHONY : 2018_Feb/Silver/2-SnowBoots.s
 
 # target to generate assembly for a file
-2018_Jan/Silver/2-RentalService.cpp.s:
-	$(MAKE) -f CMakeFiles\2-RentalService.dir\build.make CMakeFiles/2-RentalService.dir/2018_Jan/Silver/2-RentalService.cpp.s
-.PHONY : 2018_Jan/Silver/2-RentalService.cpp.s
+2018_Feb/Silver/2-SnowBoots.cpp.s:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.s
+.PHONY : 2018_Feb/Silver/2-SnowBoots.cpp.s
 
-2018_Jan/Silver/3-MooTube.obj: 2018_Jan/Silver/3-MooTube.cpp.obj
+2018_Feb/Silver/3-Teleportation.obj: 2018_Feb/Silver/3-Teleportation.cpp.obj
 
-.PHONY : 2018_Jan/Silver/3-MooTube.obj
+.PHONY : 2018_Feb/Silver/3-Teleportation.obj
 
 # target to build an object file
-2018_Jan/Silver/3-MooTube.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.obj
-.PHONY : 2018_Jan/Silver/3-MooTube.cpp.obj
+2018_Feb/Silver/3-Teleportation.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/2018_Feb/Silver/3-Teleportation.cpp.obj
+.PHONY : 2018_Feb/Silver/3-Teleportation.cpp.obj
 
-2018_Jan/Silver/3-MooTube.i: 2018_Jan/Silver/3-MooTube.cpp.i
+2018_Feb/Silver/3-Teleportation.i: 2018_Feb/Silver/3-Teleportation.cpp.i
 
-.PHONY : 2018_Jan/Silver/3-MooTube.i
+.PHONY : 2018_Feb/Silver/3-Teleportation.i
 
 # target to preprocess a source file
-2018_Jan/Silver/3-MooTube.cpp.i:
-	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.i
-.PHONY : 2018_Jan/Silver/3-MooTube.cpp.i
+2018_Feb/Silver/3-Teleportation.cpp.i:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/2018_Feb/Silver/3-Teleportation.cpp.i
+.PHONY : 2018_Feb/Silver/3-Teleportation.cpp.i
 
-2018_Jan/Silver/3-MooTube.s: 2018_Jan/Silver/3-MooTube.cpp.s
+2018_Feb/Silver/3-Teleportation.s: 2018_Feb/Silver/3-Teleportation.cpp.s
 
-.PHONY : 2018_Jan/Silver/3-MooTube.s
+.PHONY : 2018_Feb/Silver/3-Teleportation.s
 
 # target to generate assembly for a file
-2018_Jan/Silver/3-MooTube.cpp.s:
-	$(MAKE) -f CMakeFiles\3-MooTube.dir\build.make CMakeFiles/3-MooTube.dir/2018_Jan/Silver/3-MooTube.cpp.s
-.PHONY : 2018_Jan/Silver/3-MooTube.cpp.s
+2018_Feb/Silver/3-Teleportation.cpp.s:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/2018_Feb/Silver/3-Teleportation.cpp.s
+.PHONY : 2018_Feb/Silver/3-Teleportation.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -275,21 +275,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... 1-RestStops
 	@echo ... USACO_contests
-	@echo ... 1-Lifeguards
-	@echo ... rebuild_cache
-	@echo ... 2-RentalService
-	@echo ... 3-MooTube
+	@echo ... 2-SnowBoots
+	@echo ... 3-Teleportation
 	@echo ... edit_cache
-	@echo ... 2018_Jan/Silver/1-Lifeguards.obj
-	@echo ... 2018_Jan/Silver/1-Lifeguards.i
-	@echo ... 2018_Jan/Silver/1-Lifeguards.s
-	@echo ... 2018_Jan/Silver/2-RentalService.obj
-	@echo ... 2018_Jan/Silver/2-RentalService.i
-	@echo ... 2018_Jan/Silver/2-RentalService.s
-	@echo ... 2018_Jan/Silver/3-MooTube.obj
-	@echo ... 2018_Jan/Silver/3-MooTube.i
-	@echo ... 2018_Jan/Silver/3-MooTube.s
+	@echo ... rebuild_cache
+	@echo ... 2018_Feb/Silver/1-RestStops.obj
+	@echo ... 2018_Feb/Silver/1-RestStops.i
+	@echo ... 2018_Feb/Silver/1-RestStops.s
+	@echo ... 2018_Feb/Silver/2-SnowBoots.obj
+	@echo ... 2018_Feb/Silver/2-SnowBoots.i
+	@echo ... 2018_Feb/Silver/2-SnowBoots.s
+	@echo ... 2018_Feb/Silver/3-Teleportation.obj
+	@echo ... 2018_Feb/Silver/3-Teleportation.i
+	@echo ... 2018_Feb/Silver/3-Teleportation.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

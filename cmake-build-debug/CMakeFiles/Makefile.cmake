@@ -53,8 +53,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/1-RestStops.dir/DependInfo.cmake"
   "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
-  "CMakeFiles/1-Lifeguards.dir/DependInfo.cmake"
-  "CMakeFiles/2-RentalService.dir/DependInfo.cmake"
-  "CMakeFiles/3-MooTube.dir/DependInfo.cmake"
+  "CMakeFiles/2-SnowBoots.dir/DependInfo.cmake"
+  "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
   )
