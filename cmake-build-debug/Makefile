@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1-RestStops
+# Target rules for targets named 1-SwitchingOnTheLights
 
 # Build rule for target.
-1-RestStops: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-RestStops
-.PHONY : 1-RestStops
+1-SwitchingOnTheLights: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-SwitchingOnTheLights
+.PHONY : 1-SwitchingOnTheLights
 
 # fast build rule for target.
-1-RestStops/fast:
-	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/build
-.PHONY : 1-RestStops/fast
+1-SwitchingOnTheLights/fast:
+	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/build
+.PHONY : 1-SwitchingOnTheLights/fast
 
 #=============================================================================
 # Target rules for targets named USACO_contests
@@ -161,32 +161,32 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
 .PHONY : 3-Teleportation/fast
 
-2018_Feb/Silver/1-RestStops.obj: 2018_Feb/Silver/1-RestStops.cpp.obj
+2015_Dec/Silver/1-SwitchingOnTheLights.obj: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
-.PHONY : 2018_Feb/Silver/1-RestStops.obj
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.obj
 
 # target to build an object file
-2018_Feb/Silver/1-RestStops.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.obj
-.PHONY : 2018_Feb/Silver/1-RestStops.cpp.obj
+2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
-2018_Feb/Silver/1-RestStops.i: 2018_Feb/Silver/1-RestStops.cpp.i
+2015_Dec/Silver/1-SwitchingOnTheLights.i: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i
 
-.PHONY : 2018_Feb/Silver/1-RestStops.i
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.i
 
 # target to preprocess a source file
-2018_Feb/Silver/1-RestStops.cpp.i:
-	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.i
-.PHONY : 2018_Feb/Silver/1-RestStops.cpp.i
+2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i:
+	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i
 
-2018_Feb/Silver/1-RestStops.s: 2018_Feb/Silver/1-RestStops.cpp.s
+2015_Dec/Silver/1-SwitchingOnTheLights.s: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
 
-.PHONY : 2018_Feb/Silver/1-RestStops.s
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.s
 
 # target to generate assembly for a file
-2018_Feb/Silver/1-RestStops.cpp.s:
-	$(MAKE) -f CMakeFiles\1-RestStops.dir\build.make CMakeFiles/1-RestStops.dir/2018_Feb/Silver/1-RestStops.cpp.s
-.PHONY : 2018_Feb/Silver/1-RestStops.cpp.s
+2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s:
+	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
+.PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
 
 2018_Feb/Silver/2-SnowBoots.obj: 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
@@ -275,15 +275,15 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 1-RestStops
+	@echo ... 1-SwitchingOnTheLights
 	@echo ... USACO_contests
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 2018_Feb/Silver/1-RestStops.obj
-	@echo ... 2018_Feb/Silver/1-RestStops.i
-	@echo ... 2018_Feb/Silver/1-RestStops.s
+	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.obj
+	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.i
+	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.s
 	@echo ... 2018_Feb/Silver/2-SnowBoots.obj
 	@echo ... 2018_Feb/Silver/2-SnowBoots.i
 	@echo ... 2018_Feb/Silver/2-SnowBoots.s

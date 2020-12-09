@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1-RestStops">
-				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-RestStops.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="1-SwitchingOnTheLights">
+				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-SwitchingOnTheLights.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/xiaon/Documents/USACO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-RestStops"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-SwitchingOnTheLights"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1-RestStops/fast">
-				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-RestStops.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="1-SwitchingOnTheLights/fast">
+				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-SwitchingOnTheLights.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/xiaon/Documents/USACO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-RestStops/fast"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-SwitchingOnTheLights/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -206,8 +206,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/xiaon/Documents/USACO/2018_Feb/Silver/1-RestStops.cpp">
-			<Option target="1-RestStops"/>
+		<Unit filename="C:/Users/xiaon/Documents/USACO/2015_Dec/Silver/1-SwitchingOnTheLights.cpp">
+			<Option target="1-SwitchingOnTheLights"/>
 		</Unit>
 		<Unit filename="C:/Users/xiaon/Documents/USACO/2018_Feb/Silver/2-SnowBoots.cpp">
 			<Option target="2-SnowBoots"/>
