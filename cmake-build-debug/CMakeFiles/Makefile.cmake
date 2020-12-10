@@ -57,4 +57,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
   "CMakeFiles/2-SnowBoots.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
+  "CMakeFiles/1-AngryCows.dir/DependInfo.cmake"
+  "CMakeFiles/2-SubsequencesSummingToSevens.dir/DependInfo.cmake"
   )

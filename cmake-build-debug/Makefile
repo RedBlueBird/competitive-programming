@@ -161,6 +161,32 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
 .PHONY : 3-Teleportation/fast
 
+#=============================================================================
+# Target rules for targets named 1-AngryCows
+
+# Build rule for target.
+1-AngryCows: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-AngryCows
+.PHONY : 1-AngryCows
+
+# fast build rule for target.
+1-AngryCows/fast:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/build
+.PHONY : 1-AngryCows/fast
+
+#=============================================================================
+# Target rules for targets named 2-SubsequencesSummingToSevens
+
+# Build rule for target.
+2-SubsequencesSummingToSevens: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-SubsequencesSummingToSevens
+.PHONY : 2-SubsequencesSummingToSevens
+
+# fast build rule for target.
+2-SubsequencesSummingToSevens/fast:
+	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/build
+.PHONY : 2-SubsequencesSummingToSevens/fast
+
 2015_Dec/Silver/1-SwitchingOnTheLights.obj: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
 .PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.obj
@@ -187,6 +213,60 @@ USACO_contests/fast:
 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s:
 	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
 .PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
+
+2016_Jan/Silver/1-AngryCows.obj: 2016_Jan/Silver/1-AngryCows.cpp.obj
+
+.PHONY : 2016_Jan/Silver/1-AngryCows.obj
+
+# target to build an object file
+2016_Jan/Silver/1-AngryCows.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.obj
+.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.obj
+
+2016_Jan/Silver/1-AngryCows.i: 2016_Jan/Silver/1-AngryCows.cpp.i
+
+.PHONY : 2016_Jan/Silver/1-AngryCows.i
+
+# target to preprocess a source file
+2016_Jan/Silver/1-AngryCows.cpp.i:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.i
+.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.i
+
+2016_Jan/Silver/1-AngryCows.s: 2016_Jan/Silver/1-AngryCows.cpp.s
+
+.PHONY : 2016_Jan/Silver/1-AngryCows.s
+
+# target to generate assembly for a file
+2016_Jan/Silver/1-AngryCows.cpp.s:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.s
+.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.s
+
+2016_Jan/Silver/2-SubsequencesSummingToSevens.obj: 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.obj
+
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.obj
+
+# target to build an object file
+2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.obj
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.obj
+
+2016_Jan/Silver/2-SubsequencesSummingToSevens.i: 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.i
+
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.i
+
+# target to preprocess a source file
+2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.i:
+	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.i
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.i
+
+2016_Jan/Silver/2-SubsequencesSummingToSevens.s: 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.s
+
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.s
+
+# target to generate assembly for a file
+2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.s:
+	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.s
+.PHONY : 2016_Jan/Silver/2-SubsequencesSummingToSevens.cpp.s
 
 2018_Feb/Silver/2-SnowBoots.obj: 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
@@ -280,10 +360,18 @@ help:
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
 	@echo ... edit_cache
+	@echo ... 1-AngryCows
 	@echo ... rebuild_cache
+	@echo ... 2-SubsequencesSummingToSevens
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.s
+	@echo ... 2016_Jan/Silver/1-AngryCows.obj
+	@echo ... 2016_Jan/Silver/1-AngryCows.i
+	@echo ... 2016_Jan/Silver/1-AngryCows.s
+	@echo ... 2016_Jan/Silver/2-SubsequencesSummingToSevens.obj
+	@echo ... 2016_Jan/Silver/2-SubsequencesSummingToSevens.i
+	@echo ... 2016_Jan/Silver/2-SubsequencesSummingToSevens.s
 	@echo ... 2018_Feb/Silver/2-SnowBoots.obj
 	@echo ... 2018_Feb/Silver/2-SnowBoots.i
 	@echo ... 2018_Feb/Silver/2-SnowBoots.s
