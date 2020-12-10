@@ -57,7 +57,6 @@ all: CMakeFiles/USACO_contests.dir/all
 all: CMakeFiles/2-SnowBoots.dir/all
 all: CMakeFiles/3-Teleportation.dir/all
 all: CMakeFiles/1-AngryCows.dir/all
-all: CMakeFiles/2-SubsequencesSummingToSevens.dir/all
 
 .PHONY : all
 
@@ -72,7 +71,6 @@ clean: CMakeFiles/USACO_contests.dir/clean
 clean: CMakeFiles/2-SnowBoots.dir/clean
 clean: CMakeFiles/3-Teleportation.dir/clean
 clean: CMakeFiles/1-AngryCows.dir/clean
-clean: CMakeFiles/2-SubsequencesSummingToSevens.dir/clean
 
 .PHONY : clean
 
@@ -110,7 +108,7 @@ CMakeFiles/1-SwitchingOnTheLights.dir/clean:
 CMakeFiles/USACO_contests.dir/all:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/depend
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target USACO_contests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target USACO_contests"
 .PHONY : CMakeFiles/USACO_contests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +162,7 @@ CMakeFiles/2-SnowBoots.dir/clean:
 CMakeFiles/3-Teleportation.dir/all:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/depend
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 3-Teleportation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 3-Teleportation"
 .PHONY : CMakeFiles/3-Teleportation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,33 +208,6 @@ CMakeFiles/1-AngryCows.dir/rule: cmake_check_build_system
 CMakeFiles/1-AngryCows.dir/clean:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/clean
 .PHONY : CMakeFiles/1-AngryCows.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-SubsequencesSummingToSevens.dir
-
-# All Build rule for target.
-CMakeFiles/2-SubsequencesSummingToSevens.dir/all:
-	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/depend
-	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 2-SubsequencesSummingToSevens"
-.PHONY : CMakeFiles/2-SubsequencesSummingToSevens.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-SubsequencesSummingToSevens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-SubsequencesSummingToSevens.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/2-SubsequencesSummingToSevens.dir/rule
-
-# Convenience name for target.
-2-SubsequencesSummingToSevens: CMakeFiles/2-SubsequencesSummingToSevens.dir/rule
-
-.PHONY : 2-SubsequencesSummingToSevens
-
-# clean rule for target.
-CMakeFiles/2-SubsequencesSummingToSevens.dir/clean:
-	$(MAKE) -f CMakeFiles\2-SubsequencesSummingToSevens.dir\build.make CMakeFiles/2-SubsequencesSummingToSevens.dir/clean
-.PHONY : CMakeFiles/2-SubsequencesSummingToSevens.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
