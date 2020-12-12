@@ -174,6 +174,19 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/build
 .PHONY : 1-AngryCows/fast
 
+#=============================================================================
+# Target rules for targets named 1-CircularBarn
+
+# Build rule for target.
+1-CircularBarn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-CircularBarn
+.PHONY : 1-CircularBarn
+
+# fast build rule for target.
+1-CircularBarn/fast:
+	$(MAKE) -f CMakeFiles\1-CircularBarn.dir\build.make CMakeFiles/1-CircularBarn.dir/build
+.PHONY : 1-CircularBarn/fast
+
 2015_Dec/Silver/1-SwitchingOnTheLights.obj: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
 .PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.obj
@@ -200,6 +213,33 @@ USACO_contests/fast:
 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s:
 	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
 .PHONY : 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s
+
+2016_Feb/Silver/1-CircularBarn.obj: 2016_Feb/Silver/1-CircularBarn.cpp.obj
+
+.PHONY : 2016_Feb/Silver/1-CircularBarn.obj
+
+# target to build an object file
+2016_Feb/Silver/1-CircularBarn.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-CircularBarn.dir\build.make CMakeFiles/1-CircularBarn.dir/2016_Feb/Silver/1-CircularBarn.cpp.obj
+.PHONY : 2016_Feb/Silver/1-CircularBarn.cpp.obj
+
+2016_Feb/Silver/1-CircularBarn.i: 2016_Feb/Silver/1-CircularBarn.cpp.i
+
+.PHONY : 2016_Feb/Silver/1-CircularBarn.i
+
+# target to preprocess a source file
+2016_Feb/Silver/1-CircularBarn.cpp.i:
+	$(MAKE) -f CMakeFiles\1-CircularBarn.dir\build.make CMakeFiles/1-CircularBarn.dir/2016_Feb/Silver/1-CircularBarn.cpp.i
+.PHONY : 2016_Feb/Silver/1-CircularBarn.cpp.i
+
+2016_Feb/Silver/1-CircularBarn.s: 2016_Feb/Silver/1-CircularBarn.cpp.s
+
+.PHONY : 2016_Feb/Silver/1-CircularBarn.s
+
+# target to generate assembly for a file
+2016_Feb/Silver/1-CircularBarn.cpp.s:
+	$(MAKE) -f CMakeFiles\1-CircularBarn.dir\build.make CMakeFiles/1-CircularBarn.dir/2016_Feb/Silver/1-CircularBarn.cpp.s
+.PHONY : 2016_Feb/Silver/1-CircularBarn.cpp.s
 
 2016_Jan/Silver/1-AngryCows.obj: 2016_Jan/Silver/1-AngryCows.cpp.obj
 
@@ -321,10 +361,14 @@ help:
 	@echo ... 3-Teleportation
 	@echo ... edit_cache
 	@echo ... 1-AngryCows
+	@echo ... 1-CircularBarn
 	@echo ... rebuild_cache
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.s
+	@echo ... 2016_Feb/Silver/1-CircularBarn.obj
+	@echo ... 2016_Feb/Silver/1-CircularBarn.i
+	@echo ... 2016_Feb/Silver/1-CircularBarn.s
 	@echo ... 2016_Jan/Silver/1-AngryCows.obj
 	@echo ... 2016_Jan/Silver/1-AngryCows.i
 	@echo ... 2016_Jan/Silver/1-AngryCows.s

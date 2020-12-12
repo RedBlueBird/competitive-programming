@@ -12,3 +12,6 @@ add_executable(3-Teleportation 2018_Feb/Silver/3-Teleportation.cpp)
 add_executable(1-SwitchingOnTheLights 2015_Dec/Silver/1-SwitchingOnTheLights.cpp)
 
 add_executable(1-AngryCows 2016_Jan/Silver/1-AngryCows.cpp)
+
+add_executable(1-CircularBarn 2016_Feb/Silver/1-CircularBarn.cpp)
+

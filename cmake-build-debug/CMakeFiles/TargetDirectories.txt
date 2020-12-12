@@ -4,4 +4,5 @@ C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-SnowBoots.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-Teleportation.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-AngryCows.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-CircularBarn.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
