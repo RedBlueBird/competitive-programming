@@ -13,5 +13,4 @@ add_executable(1-SwitchingOnTheLights 2015_Dec/Silver/1-SwitchingOnTheLights.cpp
 
 add_executable(1-AngryCows 2016_Jan/Silver/1-AngryCows.cpp)
 
-add_executable(1-CircularBarn 2016_Feb/Silver/1-CircularBarn.cpp)
-
+add_executable(2-LoadBalancing 2016_Feb/Silver/2-LoadBalancing.cpp)

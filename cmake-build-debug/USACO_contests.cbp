@@ -237,8 +237,8 @@
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1-CircularBarn">
-				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-CircularBarn.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="2-LoadBalancing">
+				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/2-LoadBalancing.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/xiaon/Documents/USACO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -252,14 +252,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-CircularBarn"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-LoadBalancing"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1-CircularBarn/fast">
-				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/1-CircularBarn.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="2-LoadBalancing/fast">
+				<Option output="C:/Users/xiaon/Documents/USACO/cmake-build-debug/2-LoadBalancing.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/xiaon/Documents/USACO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -273,7 +273,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-CircularBarn/fast"/>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-LoadBalancing/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/xiaon/Documents/USACO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -293,8 +293,8 @@
 		<Unit filename="C:/Users/xiaon/Documents/USACO/2015_Dec/Silver/1-SwitchingOnTheLights.cpp">
 			<Option target="1-SwitchingOnTheLights"/>
 		</Unit>
-		<Unit filename="C:/Users/xiaon/Documents/USACO/2016_Feb/Silver/1-CircularBarn.cpp">
-			<Option target="1-CircularBarn"/>
+		<Unit filename="C:/Users/xiaon/Documents/USACO/2016_Feb/Silver/2-LoadBalancing.cpp">
+			<Option target="2-LoadBalancing"/>
 		</Unit>
 		<Unit filename="C:/Users/xiaon/Documents/USACO/2016_Jan/Silver/1-AngryCows.cpp">
 			<Option target="1-AngryCows"/>

@@ -2,6 +2,11 @@
 typedef long long ll;
 using namespace std;
 
+//Calculate the sum of all squares from 1 to n
+int n2(int n){
+    return n * (n + 1) * (2 * n + 1) / 6;
+}
+
 int main() {
 //    ofstream fout("cbarn.out");
 //    ifstream fin("cbarn.in");
@@ -9,50 +14,29 @@ int main() {
     ifstream fin("../input.txt");
 
     //Take inputs
+    //Determine which room have the most cows,
+    //Rotate the room array such that that room starts at the beginning.
     int n;
     fin >> n;
     vector<int> barns(n);
+    int c = 0;
     for (int i = 0; i < n; i++){
         fin >> barns[i];
+        c = max(0, c + barns[i] - 1);
     }
-
-    //Fill all the zeros from bottom up.
-    //This greedy method is guarantee to work because cows are only
-    //allowed to move clockwise.
-    int a = n-2;
-    int ans = 0;
-    for (; a >= 0; a--){
-        if (barns[a] == 0 && barns[a+1] != 0){
+    for (int i = 0; i < n; i++){
+        if (c == 0){
+            rotate(barns.begin(), barns.begin() + i, barns.end());
             break;
         }
+        c = max(0, c + barns[i] - 1);
     }
-    int counter = 0;
-    int b = (a-1+n)%n;
-    int k = 0;
-    while(counter < n) {
-        if (barns[a] == 0) {
-            while (barns[b] == 0) {
-                b = (b - 1 + n) % n;
-            }
-            barns[b]--;
-            barns[a]++;
-            if (b < a){
-                ans += (int)pow(abs(a-b),2);
-            }else{
-                ans += (int)pow(abs(n-b+a), 2);
-            }
-            if (!barns[b]) counter--;
-            counter++;
-        }
-        else{
-            counter++;
-        }
-        a = (a-1+n)%n;
-        b = (a-1+n)%n;
-        for (int i: barns){
-            cout << i << " ";
-        }
-        cout << " | " << ans << "\n";
+
+    //Append to the answer the total energy spent on the cows in this room
+    int ans = 0;
+    for (int i = 0; i < n; i++){
+        ans += n2(barns[i] + c - 1) - n2(c - 1);
+        c = max(0, c + barns[i] - 1);
     }
 
     //Output
