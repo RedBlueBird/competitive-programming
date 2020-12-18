@@ -162,6 +162,19 @@ USACO_contests/fast:
 .PHONY : 3-Teleportation/fast
 
 #=============================================================================
+# Target rules for targets named 1-CowDanceShow
+
+# Build rule for target.
+1-CowDanceShow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-CowDanceShow
+.PHONY : 1-CowDanceShow
+
+# fast build rule for target.
+1-CowDanceShow/fast:
+	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/build
+.PHONY : 1-CowDanceShow/fast
+
+#=============================================================================
 # Target rules for targets named 1-AngryCows
 
 # Build rule for target.
@@ -268,6 +281,33 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.s
 .PHONY : 2016_Jan/Silver/1-AngryCows.cpp.s
 
+2017_Jan/Silver/1-CowDanceShow.obj: 2017_Jan/Silver/1-CowDanceShow.cpp.obj
+
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.obj
+
+# target to build an object file
+2017_Jan/Silver/1-CowDanceShow.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.obj
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.obj
+
+2017_Jan/Silver/1-CowDanceShow.i: 2017_Jan/Silver/1-CowDanceShow.cpp.i
+
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.i
+
+# target to preprocess a source file
+2017_Jan/Silver/1-CowDanceShow.cpp.i:
+	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.i
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.i
+
+2017_Jan/Silver/1-CowDanceShow.s: 2017_Jan/Silver/1-CowDanceShow.cpp.s
+
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.s
+
+# target to generate assembly for a file
+2017_Jan/Silver/1-CowDanceShow.cpp.s:
+	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.s
+.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.s
+
 2018_Feb/Silver/2-SnowBoots.obj: 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
 .PHONY : 2018_Feb/Silver/2-SnowBoots.obj
@@ -359,6 +399,7 @@ help:
 	@echo ... USACO_contests
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
+	@echo ... 1-CowDanceShow
 	@echo ... edit_cache
 	@echo ... 1-AngryCows
 	@echo ... 2-LoadBalancing
@@ -372,6 +413,9 @@ help:
 	@echo ... 2016_Jan/Silver/1-AngryCows.obj
 	@echo ... 2016_Jan/Silver/1-AngryCows.i
 	@echo ... 2016_Jan/Silver/1-AngryCows.s
+	@echo ... 2017_Jan/Silver/1-CowDanceShow.obj
+	@echo ... 2017_Jan/Silver/1-CowDanceShow.i
+	@echo ... 2017_Jan/Silver/1-CowDanceShow.s
 	@echo ... 2018_Feb/Silver/2-SnowBoots.obj
 	@echo ... 2018_Feb/Silver/2-SnowBoots.i
 	@echo ... 2018_Feb/Silver/2-SnowBoots.s
