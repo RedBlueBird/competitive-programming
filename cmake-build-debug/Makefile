@@ -149,6 +149,19 @@ USACO_contests/fast:
 .PHONY : 2-SnowBoots/fast
 
 #=============================================================================
+# Target rules for targets named 1-WhyDidTheCowCrossTheRoad
+
+# Build rule for target.
+1-WhyDidTheCowCrossTheRoad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-WhyDidTheCowCrossTheRoad
+.PHONY : 1-WhyDidTheCowCrossTheRoad
+
+# fast build rule for target.
+1-WhyDidTheCowCrossTheRoad/fast:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
+.PHONY : 1-WhyDidTheCowCrossTheRoad/fast
+
+#=============================================================================
 # Target rules for targets named 3-Teleportation
 
 # Build rule for target.
@@ -281,6 +294,33 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.s
 .PHONY : 2016_Jan/Silver/1-AngryCows.cpp.s
 
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
+
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj
+
+# target to build an object file
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
+
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
+
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i
+
+# target to preprocess a source file
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
+
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
+
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s
+
+# target to generate assembly for a file
+2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
+.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
+
 2017_Jan/Silver/1-CowDanceShow.obj: 2017_Jan/Silver/1-CowDanceShow.cpp.obj
 
 .PHONY : 2017_Jan/Silver/1-CowDanceShow.obj
@@ -398,9 +438,10 @@ help:
 	@echo ... 1-SwitchingOnTheLights
 	@echo ... USACO_contests
 	@echo ... 2-SnowBoots
+	@echo ... 1-WhyDidTheCowCrossTheRoad
 	@echo ... 3-Teleportation
-	@echo ... 1-CowDanceShow
 	@echo ... edit_cache
+	@echo ... 1-CowDanceShow
 	@echo ... 1-AngryCows
 	@echo ... 2-LoadBalancing
 	@echo ... rebuild_cache
@@ -413,6 +454,9 @@ help:
 	@echo ... 2016_Jan/Silver/1-AngryCows.obj
 	@echo ... 2016_Jan/Silver/1-AngryCows.i
 	@echo ... 2016_Jan/Silver/1-AngryCows.s
+	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj
+	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i
+	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.obj
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.i
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.s

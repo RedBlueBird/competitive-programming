@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1-SwitchingOnTheLights.dir/DependInfo.cmake"
   "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
   "CMakeFiles/2-SnowBoots.dir/DependInfo.cmake"
+  "CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
   "CMakeFiles/1-CowDanceShow.dir/DependInfo.cmake"
   "CMakeFiles/1-AngryCows.dir/DependInfo.cmake"
