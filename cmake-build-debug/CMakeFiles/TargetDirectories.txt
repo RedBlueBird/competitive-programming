@@ -1,10 +1,13 @@
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-SwitchingOnTheLights.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/USACO_contests.dir
-C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-SnowBoots.dir
-C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir
-C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-Teleportation.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-CowDanceShow.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-AngryCows.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-LoadBalancing.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir
 C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-SnowBoots.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-Teleportation.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-RectangularPasture.dir
+C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-GrassPlanting.dir

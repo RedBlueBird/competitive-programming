@@ -136,45 +136,6 @@ USACO_contests/fast:
 .PHONY : USACO_contests/fast
 
 #=============================================================================
-# Target rules for targets named 2-SnowBoots
-
-# Build rule for target.
-2-SnowBoots: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-SnowBoots
-.PHONY : 2-SnowBoots
-
-# fast build rule for target.
-2-SnowBoots/fast:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
-.PHONY : 2-SnowBoots/fast
-
-#=============================================================================
-# Target rules for targets named 1-WhyDidTheCowCrossTheRoad
-
-# Build rule for target.
-1-WhyDidTheCowCrossTheRoad: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-WhyDidTheCowCrossTheRoad
-.PHONY : 1-WhyDidTheCowCrossTheRoad
-
-# fast build rule for target.
-1-WhyDidTheCowCrossTheRoad/fast:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
-.PHONY : 1-WhyDidTheCowCrossTheRoad/fast
-
-#=============================================================================
-# Target rules for targets named 3-Teleportation
-
-# Build rule for target.
-3-Teleportation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-Teleportation
-.PHONY : 3-Teleportation
-
-# fast build rule for target.
-3-Teleportation/fast:
-	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-.PHONY : 3-Teleportation/fast
-
-#=============================================================================
 # Target rules for targets named 1-CowDanceShow
 
 # Build rule for target.
@@ -212,6 +173,84 @@ USACO_contests/fast:
 2-LoadBalancing/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
 .PHONY : 2-LoadBalancing/fast
+
+#=============================================================================
+# Target rules for targets named 1-WhyDidTheCowCrossTheRoad
+
+# Build rule for target.
+1-WhyDidTheCowCrossTheRoad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-WhyDidTheCowCrossTheRoad
+.PHONY : 1-WhyDidTheCowCrossTheRoad
+
+# fast build rule for target.
+1-WhyDidTheCowCrossTheRoad/fast:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
+.PHONY : 1-WhyDidTheCowCrossTheRoad/fast
+
+#=============================================================================
+# Target rules for targets named 3-WhyDidTheCowCrossTheRoad-III
+
+# Build rule for target.
+3-WhyDidTheCowCrossTheRoad-III: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-WhyDidTheCowCrossTheRoad-III
+.PHONY : 3-WhyDidTheCowCrossTheRoad-III
+
+# fast build rule for target.
+3-WhyDidTheCowCrossTheRoad-III/fast:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/build
+.PHONY : 3-WhyDidTheCowCrossTheRoad-III/fast
+
+#=============================================================================
+# Target rules for targets named 2-SnowBoots
+
+# Build rule for target.
+2-SnowBoots: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-SnowBoots
+.PHONY : 2-SnowBoots
+
+# fast build rule for target.
+2-SnowBoots/fast:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
+.PHONY : 2-SnowBoots/fast
+
+#=============================================================================
+# Target rules for targets named 3-Teleportation
+
+# Build rule for target.
+3-Teleportation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Teleportation
+.PHONY : 3-Teleportation
+
+# fast build rule for target.
+3-Teleportation/fast:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
+.PHONY : 3-Teleportation/fast
+
+#=============================================================================
+# Target rules for targets named 2-RectangularPasture
+
+# Build rule for target.
+2-RectangularPasture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-RectangularPasture
+.PHONY : 2-RectangularPasture
+
+# fast build rule for target.
+2-RectangularPasture/fast:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/build
+.PHONY : 2-RectangularPasture/fast
+
+#=============================================================================
+# Target rules for targets named 1-GrassPlanting
+
+# Build rule for target.
+1-GrassPlanting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-GrassPlanting
+.PHONY : 1-GrassPlanting
+
+# fast build rule for target.
+1-GrassPlanting/fast:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/build
+.PHONY : 1-GrassPlanting/fast
 
 2015_Dec/Silver/1-SwitchingOnTheLights.obj: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
@@ -321,6 +360,33 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
 .PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
 
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
+
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj
+
+# target to build an object file
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
+
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
+
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i
+
+# target to preprocess a source file
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
+
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
+
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s
+
+# target to generate assembly for a file
+2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
+.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
+
 2017_Jan/Silver/1-CowDanceShow.obj: 2017_Jan/Silver/1-CowDanceShow.cpp.obj
 
 .PHONY : 2017_Jan/Silver/1-CowDanceShow.obj
@@ -402,6 +468,60 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/2018_Feb/Silver/3-Teleportation.cpp.s
 .PHONY : 2018_Feb/Silver/3-Teleportation.cpp.s
 
+2019_Jan/Silver/1-GrassPlanting.obj: 2019_Jan/Silver/1-GrassPlanting.cpp.obj
+
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.obj
+
+# target to build an object file
+2019_Jan/Silver/1-GrassPlanting.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.obj
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.obj
+
+2019_Jan/Silver/1-GrassPlanting.i: 2019_Jan/Silver/1-GrassPlanting.cpp.i
+
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.i
+
+# target to preprocess a source file
+2019_Jan/Silver/1-GrassPlanting.cpp.i:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.i
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.i
+
+2019_Jan/Silver/1-GrassPlanting.s: 2019_Jan/Silver/1-GrassPlanting.cpp.s
+
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.s
+
+# target to generate assembly for a file
+2019_Jan/Silver/1-GrassPlanting.cpp.s:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.s
+.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.s
+
+2020_Dec/Silver/2-RectangularPasture.obj: 2020_Dec/Silver/2-RectangularPasture.cpp.obj
+
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.obj
+
+# target to build an object file
+2020_Dec/Silver/2-RectangularPasture.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.obj
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.obj
+
+2020_Dec/Silver/2-RectangularPasture.i: 2020_Dec/Silver/2-RectangularPasture.cpp.i
+
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.i
+
+# target to preprocess a source file
+2020_Dec/Silver/2-RectangularPasture.cpp.i:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.i
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.i
+
+2020_Dec/Silver/2-RectangularPasture.s: 2020_Dec/Silver/2-RectangularPasture.cpp.s
+
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.s
+
+# target to generate assembly for a file
+2020_Dec/Silver/2-RectangularPasture.cpp.s:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.s
+.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -437,14 +557,17 @@ help:
 	@echo ... depend
 	@echo ... 1-SwitchingOnTheLights
 	@echo ... USACO_contests
-	@echo ... 2-SnowBoots
-	@echo ... 1-WhyDidTheCowCrossTheRoad
-	@echo ... 3-Teleportation
 	@echo ... edit_cache
 	@echo ... 1-CowDanceShow
 	@echo ... 1-AngryCows
 	@echo ... 2-LoadBalancing
+	@echo ... 1-WhyDidTheCowCrossTheRoad
 	@echo ... rebuild_cache
+	@echo ... 3-WhyDidTheCowCrossTheRoad-III
+	@echo ... 2-SnowBoots
+	@echo ... 3-Teleportation
+	@echo ... 2-RectangularPasture
+	@echo ... 1-GrassPlanting
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.s
@@ -457,6 +580,9 @@ help:
 	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj
 	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i
 	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s
+	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj
+	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i
+	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.obj
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.i
 	@echo ... 2017_Jan/Silver/1-CowDanceShow.s
@@ -466,6 +592,12 @@ help:
 	@echo ... 2018_Feb/Silver/3-Teleportation.obj
 	@echo ... 2018_Feb/Silver/3-Teleportation.i
 	@echo ... 2018_Feb/Silver/3-Teleportation.s
+	@echo ... 2019_Jan/Silver/1-GrassPlanting.obj
+	@echo ... 2019_Jan/Silver/1-GrassPlanting.i
+	@echo ... 2019_Jan/Silver/1-GrassPlanting.s
+	@echo ... 2020_Dec/Silver/2-RectangularPasture.obj
+	@echo ... 2020_Dec/Silver/2-RectangularPasture.i
+	@echo ... 2020_Dec/Silver/2-RectangularPasture.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

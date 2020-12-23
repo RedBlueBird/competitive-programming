@@ -22,6 +22,7 @@ int main() {
         }
         breeds[a-1][i]++;
     }
+
     //Find the total number of that species in before b-th of that species list
     //and subtract the total number of species before a-th of that species list
     //to obtain the total number of species between the a,b interval

@@ -54,12 +54,15 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\USACO\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/1-SwitchingOnTheLights.dir/all
 all: CMakeFiles/USACO_contests.dir/all
-all: CMakeFiles/2-SnowBoots.dir/all
-all: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
-all: CMakeFiles/3-Teleportation.dir/all
 all: CMakeFiles/1-CowDanceShow.dir/all
 all: CMakeFiles/1-AngryCows.dir/all
 all: CMakeFiles/2-LoadBalancing.dir/all
+all: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
+all: CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/all
+all: CMakeFiles/2-SnowBoots.dir/all
+all: CMakeFiles/3-Teleportation.dir/all
+all: CMakeFiles/2-RectangularPasture.dir/all
+all: CMakeFiles/1-GrassPlanting.dir/all
 
 .PHONY : all
 
@@ -71,12 +74,15 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/1-SwitchingOnTheLights.dir/clean
 clean: CMakeFiles/USACO_contests.dir/clean
-clean: CMakeFiles/2-SnowBoots.dir/clean
-clean: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
-clean: CMakeFiles/3-Teleportation.dir/clean
 clean: CMakeFiles/1-CowDanceShow.dir/clean
 clean: CMakeFiles/1-AngryCows.dir/clean
 clean: CMakeFiles/2-LoadBalancing.dir/clean
+clean: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
+clean: CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/clean
+clean: CMakeFiles/2-SnowBoots.dir/clean
+clean: CMakeFiles/3-Teleportation.dir/clean
+clean: CMakeFiles/2-RectangularPasture.dir/clean
+clean: CMakeFiles/1-GrassPlanting.dir/clean
 
 .PHONY : clean
 
@@ -87,7 +93,7 @@ clean: CMakeFiles/2-LoadBalancing.dir/clean
 CMakeFiles/1-SwitchingOnTheLights.dir/all:
 	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/depend
 	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 1-SwitchingOnTheLights"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 1-SwitchingOnTheLights"
 .PHONY : CMakeFiles/1-SwitchingOnTheLights.dir/all
 
 # Build rule for subdir invocation for target.
@@ -114,7 +120,7 @@ CMakeFiles/1-SwitchingOnTheLights.dir/clean:
 CMakeFiles/USACO_contests.dir/all:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/depend
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target USACO_contests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target USACO_contests"
 .PHONY : CMakeFiles/USACO_contests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,87 +139,6 @@ USACO_contests: CMakeFiles/USACO_contests.dir/rule
 CMakeFiles/USACO_contests.dir/clean:
 	$(MAKE) -f CMakeFiles\USACO_contests.dir\build.make CMakeFiles/USACO_contests.dir/clean
 .PHONY : CMakeFiles/USACO_contests.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-SnowBoots.dir
-
-# All Build rule for target.
-CMakeFiles/2-SnowBoots.dir/all:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/depend
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-SnowBoots"
-.PHONY : CMakeFiles/2-SnowBoots.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-SnowBoots.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-SnowBoots.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/2-SnowBoots.dir/rule
-
-# Convenience name for target.
-2-SnowBoots: CMakeFiles/2-SnowBoots.dir/rule
-
-.PHONY : 2-SnowBoots
-
-# clean rule for target.
-CMakeFiles/2-SnowBoots.dir/clean:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/clean
-.PHONY : CMakeFiles/2-SnowBoots.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir
-
-# All Build rule for target.
-CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/depend
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 1-WhyDidTheCowCrossTheRoad"
-.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule
-
-# Convenience name for target.
-1-WhyDidTheCowCrossTheRoad: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule
-
-.PHONY : 1-WhyDidTheCowCrossTheRoad
-
-# clean rule for target.
-CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
-.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/3-Teleportation.dir
-
-# All Build rule for target.
-CMakeFiles/3-Teleportation.dir/all:
-	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/depend
-	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 3-Teleportation"
-.PHONY : CMakeFiles/3-Teleportation.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/3-Teleportation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-Teleportation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3-Teleportation.dir/rule
-
-# Convenience name for target.
-3-Teleportation: CMakeFiles/3-Teleportation.dir/rule
-
-.PHONY : 3-Teleportation
-
-# clean rule for target.
-CMakeFiles/3-Teleportation.dir/clean:
-	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/clean
-.PHONY : CMakeFiles/3-Teleportation.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/1-CowDanceShow.dir
@@ -276,7 +201,7 @@ CMakeFiles/1-AngryCows.dir/clean:
 CMakeFiles/2-LoadBalancing.dir/all:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/depend
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 2-LoadBalancing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-LoadBalancing"
 .PHONY : CMakeFiles/2-LoadBalancing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,6 +220,168 @@ CMakeFiles/2-LoadBalancing.dir/rule: cmake_check_build_system
 CMakeFiles/2-LoadBalancing.dir/clean:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/clean
 .PHONY : CMakeFiles/2-LoadBalancing.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir
+
+# All Build rule for target.
+CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/depend
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 1-WhyDidTheCowCrossTheRoad"
+.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule
+
+# Convenience name for target.
+1-WhyDidTheCowCrossTheRoad: CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/rule
+
+.PHONY : 1-WhyDidTheCowCrossTheRoad
+
+# clean rule for target.
+CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean:
+	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
+.PHONY : CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir
+
+# All Build rule for target.
+CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/all:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/depend
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 3-WhyDidTheCowCrossTheRoad-III"
+.PHONY : CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/rule
+
+# Convenience name for target.
+3-WhyDidTheCowCrossTheRoad-III: CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/rule
+
+.PHONY : 3-WhyDidTheCowCrossTheRoad-III
+
+# clean rule for target.
+CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/clean:
+	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/clean
+.PHONY : CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-SnowBoots.dir
+
+# All Build rule for target.
+CMakeFiles/2-SnowBoots.dir/all:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/depend
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-SnowBoots"
+.PHONY : CMakeFiles/2-SnowBoots.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-SnowBoots.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-SnowBoots.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-SnowBoots.dir/rule
+
+# Convenience name for target.
+2-SnowBoots: CMakeFiles/2-SnowBoots.dir/rule
+
+.PHONY : 2-SnowBoots
+
+# clean rule for target.
+CMakeFiles/2-SnowBoots.dir/clean:
+	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/clean
+.PHONY : CMakeFiles/2-SnowBoots.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3-Teleportation.dir
+
+# All Build rule for target.
+CMakeFiles/3-Teleportation.dir/all:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/depend
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 3-Teleportation"
+.PHONY : CMakeFiles/3-Teleportation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3-Teleportation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-Teleportation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3-Teleportation.dir/rule
+
+# Convenience name for target.
+3-Teleportation: CMakeFiles/3-Teleportation.dir/rule
+
+.PHONY : 3-Teleportation
+
+# clean rule for target.
+CMakeFiles/3-Teleportation.dir/clean:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/clean
+.PHONY : CMakeFiles/3-Teleportation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-RectangularPasture.dir
+
+# All Build rule for target.
+CMakeFiles/2-RectangularPasture.dir/all:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/depend
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2-RectangularPasture"
+.PHONY : CMakeFiles/2-RectangularPasture.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-RectangularPasture.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-RectangularPasture.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-RectangularPasture.dir/rule
+
+# Convenience name for target.
+2-RectangularPasture: CMakeFiles/2-RectangularPasture.dir/rule
+
+.PHONY : 2-RectangularPasture
+
+# clean rule for target.
+CMakeFiles/2-RectangularPasture.dir/clean:
+	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/clean
+.PHONY : CMakeFiles/2-RectangularPasture.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-GrassPlanting.dir
+
+# All Build rule for target.
+CMakeFiles/1-GrassPlanting.dir/all:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/depend
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 1-GrassPlanting"
+.PHONY : CMakeFiles/1-GrassPlanting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-GrassPlanting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-GrassPlanting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1-GrassPlanting.dir/rule
+
+# Convenience name for target.
+1-GrassPlanting: CMakeFiles/1-GrassPlanting.dir/rule
+
+.PHONY : 1-GrassPlanting
+
+# clean rule for target.
+CMakeFiles/1-GrassPlanting.dir/clean:
+	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/clean
+.PHONY : CMakeFiles/1-GrassPlanting.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
