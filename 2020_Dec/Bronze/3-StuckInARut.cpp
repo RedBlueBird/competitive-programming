@@ -32,10 +32,6 @@ int main() {
     vector<int> leftstop(n, INT_MAX);
     for (int i = 0; i < upcow.size(); i++){
         for (int j = 0; j < leftcow.size(); j++){
-//            if (i != 0 && upcow[i][0] == upcow[i-1][0] && upstop[upcow[i-1][2]] >= upcow[i][1]){
-//                upstop[upcow[i-1][2]] = upcow[i][1]-1;
-//                ans[upcow[i-1][2]] = upcow[i][1] - upcow[i-1][1];
-//            }
             if (upcow[i][0] >= leftcow[j][1] && upcow[i][1] <= leftcow[j][0] && leftstop[leftcow[j][2]] >= upcow[i][0]){
                 if (upcow[i][0] - leftcow[j][1] < leftcow[j][0] - upcow[i][1]){
                     upstop[upcow[i][2]] = leftcow[j][0];
@@ -53,10 +49,6 @@ int main() {
     }
     for (int i = 0; i < leftcow.size(); i++){
         for (int j = 0; j < upcow.size(); j++){
-//            if (i != 0 && leftcow[i][0] == leftcow[i-1][0] && leftstop[leftcow[i-1][2]] >= leftcow[i][1]){
-//                leftstop[leftcow[i-1][2]] = leftcow[i][1]-1;
-//                ans[leftcow[i-1][2]] = leftcow[i][1] - leftcow[i-1][1];
-//            }
             if (upcow[j][0] >= leftcow[i][1] && upcow[j][1] <= leftcow[i][0] && upstop[upcow[j][2]] >= leftcow[i][0]){
                 if (upcow[j][0] - leftcow[i][1] > leftcow[i][0] - upcow[j][1]){
                     leftstop[leftcow[i][2]] = upcow[j][0];

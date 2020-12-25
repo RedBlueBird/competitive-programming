@@ -136,32 +136,6 @@ USACO_contests/fast:
 .PHONY : USACO_contests/fast
 
 #=============================================================================
-# Target rules for targets named 1-CowDanceShow
-
-# Build rule for target.
-1-CowDanceShow: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-CowDanceShow
-.PHONY : 1-CowDanceShow
-
-# fast build rule for target.
-1-CowDanceShow/fast:
-	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/build
-.PHONY : 1-CowDanceShow/fast
-
-#=============================================================================
-# Target rules for targets named 1-AngryCows
-
-# Build rule for target.
-1-AngryCows: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-AngryCows
-.PHONY : 1-AngryCows
-
-# fast build rule for target.
-1-AngryCows/fast:
-	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/build
-.PHONY : 1-AngryCows/fast
-
-#=============================================================================
 # Target rules for targets named 2-LoadBalancing
 
 # Build rule for target.
@@ -173,32 +147,6 @@ USACO_contests/fast:
 2-LoadBalancing/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
 .PHONY : 2-LoadBalancing/fast
-
-#=============================================================================
-# Target rules for targets named 1-WhyDidTheCowCrossTheRoad
-
-# Build rule for target.
-1-WhyDidTheCowCrossTheRoad: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-WhyDidTheCowCrossTheRoad
-.PHONY : 1-WhyDidTheCowCrossTheRoad
-
-# fast build rule for target.
-1-WhyDidTheCowCrossTheRoad/fast:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/build
-.PHONY : 1-WhyDidTheCowCrossTheRoad/fast
-
-#=============================================================================
-# Target rules for targets named 3-WhyDidTheCowCrossTheRoad-III
-
-# Build rule for target.
-3-WhyDidTheCowCrossTheRoad-III: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-WhyDidTheCowCrossTheRoad-III
-.PHONY : 3-WhyDidTheCowCrossTheRoad-III
-
-# fast build rule for target.
-3-WhyDidTheCowCrossTheRoad-III/fast:
-	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/build
-.PHONY : 3-WhyDidTheCowCrossTheRoad-III/fast
 
 #=============================================================================
 # Target rules for targets named 2-SnowBoots
@@ -227,30 +175,108 @@ USACO_contests/fast:
 .PHONY : 3-Teleportation/fast
 
 #=============================================================================
-# Target rules for targets named 2-RectangularPasture
+# Target rules for targets named 1-SleepyCowHerding
 
 # Build rule for target.
-2-RectangularPasture: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-RectangularPasture
-.PHONY : 2-RectangularPasture
+1-SleepyCowHerding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-SleepyCowHerding
+.PHONY : 1-SleepyCowHerding
 
 # fast build rule for target.
-2-RectangularPasture/fast:
-	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/build
-.PHONY : 2-RectangularPasture/fast
+1-SleepyCowHerding/fast:
+	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/build
+.PHONY : 1-SleepyCowHerding/fast
 
 #=============================================================================
-# Target rules for targets named 1-GrassPlanting
+# Target rules for targets named 3-MilkVisits
 
 # Build rule for target.
-1-GrassPlanting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-GrassPlanting
-.PHONY : 1-GrassPlanting
+3-MilkVisits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-MilkVisits
+.PHONY : 3-MilkVisits
 
 # fast build rule for target.
-1-GrassPlanting/fast:
-	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/build
-.PHONY : 1-GrassPlanting/fast
+3-MilkVisits/fast:
+	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/build
+.PHONY : 3-MilkVisits/fast
+
+#=============================================================================
+# Target rules for targets named 1-SwapitySwapitySwap
+
+# Build rule for target.
+1-SwapitySwapitySwap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-SwapitySwapitySwap
+.PHONY : 1-SwapitySwapitySwap
+
+# fast build rule for target.
+1-SwapitySwapitySwap/fast:
+	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/build
+.PHONY : 1-SwapitySwapitySwap/fast
+
+#=============================================================================
+# Target rules for targets named 2-Meetings
+
+# Build rule for target.
+2-Meetings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Meetings
+.PHONY : 2-Meetings
+
+# fast build rule for target.
+2-Meetings/fast:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
+.PHONY : 2-Meetings/fast
+
+#=============================================================================
+# Target rules for targets named 1-BerryPicking
+
+# Build rule for target.
+1-BerryPicking: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-BerryPicking
+.PHONY : 1-BerryPicking
+
+# fast build rule for target.
+1-BerryPicking/fast:
+	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/build
+.PHONY : 1-BerryPicking/fast
+
+#=============================================================================
+# Target rules for targets named 3-WormholeSort
+
+# Build rule for target.
+3-WormholeSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-WormholeSort
+.PHONY : 3-WormholeSort
+
+# fast build rule for target.
+3-WormholeSort/fast:
+	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/build
+.PHONY : 3-WormholeSort/fast
+
+#=============================================================================
+# Target rules for targets named 2-Triangles
+
+# Build rule for target.
+2-Triangles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Triangles
+.PHONY : 2-Triangles
+
+# fast build rule for target.
+2-Triangles/fast:
+	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/build
+.PHONY : 2-Triangles/fast
+
+#=============================================================================
+# Target rules for targets named 3-ClockTree
+
+# Build rule for target.
+3-ClockTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-ClockTree
+.PHONY : 3-ClockTree
+
+# fast build rule for target.
+3-ClockTree/fast:
+	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/build
+.PHONY : 3-ClockTree/fast
 
 2015_Dec/Silver/1-SwitchingOnTheLights.obj: 2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
@@ -306,114 +332,6 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/2016_Feb/Silver/2-LoadBalancing.cpp.s
 .PHONY : 2016_Feb/Silver/2-LoadBalancing.cpp.s
 
-2016_Jan/Silver/1-AngryCows.obj: 2016_Jan/Silver/1-AngryCows.cpp.obj
-
-.PHONY : 2016_Jan/Silver/1-AngryCows.obj
-
-# target to build an object file
-2016_Jan/Silver/1-AngryCows.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.obj
-.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.obj
-
-2016_Jan/Silver/1-AngryCows.i: 2016_Jan/Silver/1-AngryCows.cpp.i
-
-.PHONY : 2016_Jan/Silver/1-AngryCows.i
-
-# target to preprocess a source file
-2016_Jan/Silver/1-AngryCows.cpp.i:
-	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.i
-.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.i
-
-2016_Jan/Silver/1-AngryCows.s: 2016_Jan/Silver/1-AngryCows.cpp.s
-
-.PHONY : 2016_Jan/Silver/1-AngryCows.s
-
-# target to generate assembly for a file
-2016_Jan/Silver/1-AngryCows.cpp.s:
-	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/2016_Jan/Silver/1-AngryCows.cpp.s
-.PHONY : 2016_Jan/Silver/1-AngryCows.cpp.s
-
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
-
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj
-
-# target to build an object file
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.obj
-
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
-
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i
-
-# target to preprocess a source file
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.i
-
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s: 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
-
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s
-
-# target to generate assembly for a file
-2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s:
-	$(MAKE) -f CMakeFiles\1-WhyDidTheCowCrossTheRoad.dir\build.make CMakeFiles/1-WhyDidTheCowCrossTheRoad.dir/2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
-.PHONY : 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.cpp.s
-
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
-
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj
-
-# target to build an object file
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.obj
-
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
-
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i
-
-# target to preprocess a source file
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i:
-	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.i
-
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s: 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
-
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s
-
-# target to generate assembly for a file
-2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s:
-	$(MAKE) -f CMakeFiles\3-WhyDidTheCowCrossTheRoad-III.dir\build.make CMakeFiles/3-WhyDidTheCowCrossTheRoad-III.dir/2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
-.PHONY : 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.cpp.s
-
-2017_Jan/Silver/1-CowDanceShow.obj: 2017_Jan/Silver/1-CowDanceShow.cpp.obj
-
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.obj
-
-# target to build an object file
-2017_Jan/Silver/1-CowDanceShow.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.obj
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.obj
-
-2017_Jan/Silver/1-CowDanceShow.i: 2017_Jan/Silver/1-CowDanceShow.cpp.i
-
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.i
-
-# target to preprocess a source file
-2017_Jan/Silver/1-CowDanceShow.cpp.i:
-	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.i
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.i
-
-2017_Jan/Silver/1-CowDanceShow.s: 2017_Jan/Silver/1-CowDanceShow.cpp.s
-
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.s
-
-# target to generate assembly for a file
-2017_Jan/Silver/1-CowDanceShow.cpp.s:
-	$(MAKE) -f CMakeFiles\1-CowDanceShow.dir\build.make CMakeFiles/1-CowDanceShow.dir/2017_Jan/Silver/1-CowDanceShow.cpp.s
-.PHONY : 2017_Jan/Silver/1-CowDanceShow.cpp.s
-
 2018_Feb/Silver/2-SnowBoots.obj: 2018_Feb/Silver/2-SnowBoots.cpp.obj
 
 .PHONY : 2018_Feb/Silver/2-SnowBoots.obj
@@ -468,59 +386,221 @@ USACO_contests/fast:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/2018_Feb/Silver/3-Teleportation.cpp.s
 .PHONY : 2018_Feb/Silver/3-Teleportation.cpp.s
 
-2019_Jan/Silver/1-GrassPlanting.obj: 2019_Jan/Silver/1-GrassPlanting.cpp.obj
+2019_Dec/Silver/2-Meetings.obj: 2019_Dec/Silver/2-Meetings.cpp.obj
 
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.obj
-
-# target to build an object file
-2019_Jan/Silver/1-GrassPlanting.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.obj
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.obj
-
-2019_Jan/Silver/1-GrassPlanting.i: 2019_Jan/Silver/1-GrassPlanting.cpp.i
-
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.i
-
-# target to preprocess a source file
-2019_Jan/Silver/1-GrassPlanting.cpp.i:
-	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.i
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.i
-
-2019_Jan/Silver/1-GrassPlanting.s: 2019_Jan/Silver/1-GrassPlanting.cpp.s
-
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.s
-
-# target to generate assembly for a file
-2019_Jan/Silver/1-GrassPlanting.cpp.s:
-	$(MAKE) -f CMakeFiles\1-GrassPlanting.dir\build.make CMakeFiles/1-GrassPlanting.dir/2019_Jan/Silver/1-GrassPlanting.cpp.s
-.PHONY : 2019_Jan/Silver/1-GrassPlanting.cpp.s
-
-2020_Dec/Silver/2-RectangularPasture.obj: 2020_Dec/Silver/2-RectangularPasture.cpp.obj
-
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.obj
+.PHONY : 2019_Dec/Silver/2-Meetings.obj
 
 # target to build an object file
-2020_Dec/Silver/2-RectangularPasture.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.obj
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.obj
+2019_Dec/Silver/2-Meetings.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj
+.PHONY : 2019_Dec/Silver/2-Meetings.cpp.obj
 
-2020_Dec/Silver/2-RectangularPasture.i: 2020_Dec/Silver/2-RectangularPasture.cpp.i
+2019_Dec/Silver/2-Meetings.i: 2019_Dec/Silver/2-Meetings.cpp.i
 
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.i
+.PHONY : 2019_Dec/Silver/2-Meetings.i
 
 # target to preprocess a source file
-2020_Dec/Silver/2-RectangularPasture.cpp.i:
-	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.i
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.i
+2019_Dec/Silver/2-Meetings.cpp.i:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.i
+.PHONY : 2019_Dec/Silver/2-Meetings.cpp.i
 
-2020_Dec/Silver/2-RectangularPasture.s: 2020_Dec/Silver/2-RectangularPasture.cpp.s
+2019_Dec/Silver/2-Meetings.s: 2019_Dec/Silver/2-Meetings.cpp.s
 
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.s
+.PHONY : 2019_Dec/Silver/2-Meetings.s
 
 # target to generate assembly for a file
-2020_Dec/Silver/2-RectangularPasture.cpp.s:
-	$(MAKE) -f CMakeFiles\2-RectangularPasture.dir\build.make CMakeFiles/2-RectangularPasture.dir/2020_Dec/Silver/2-RectangularPasture.cpp.s
-.PHONY : 2020_Dec/Silver/2-RectangularPasture.cpp.s
+2019_Dec/Silver/2-Meetings.cpp.s:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.s
+.PHONY : 2019_Dec/Silver/2-Meetings.cpp.s
+
+2019_Dec/Silver/3-MilkVisits.obj: 2019_Dec/Silver/3-MilkVisits.cpp.obj
+
+.PHONY : 2019_Dec/Silver/3-MilkVisits.obj
+
+# target to build an object file
+2019_Dec/Silver/3-MilkVisits.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj
+.PHONY : 2019_Dec/Silver/3-MilkVisits.cpp.obj
+
+2019_Dec/Silver/3-MilkVisits.i: 2019_Dec/Silver/3-MilkVisits.cpp.i
+
+.PHONY : 2019_Dec/Silver/3-MilkVisits.i
+
+# target to preprocess a source file
+2019_Dec/Silver/3-MilkVisits.cpp.i:
+	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.i
+.PHONY : 2019_Dec/Silver/3-MilkVisits.cpp.i
+
+2019_Dec/Silver/3-MilkVisits.s: 2019_Dec/Silver/3-MilkVisits.cpp.s
+
+.PHONY : 2019_Dec/Silver/3-MilkVisits.s
+
+# target to generate assembly for a file
+2019_Dec/Silver/3-MilkVisits.cpp.s:
+	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.s
+.PHONY : 2019_Dec/Silver/3-MilkVisits.cpp.s
+
+2019_Feb/Silver/1-SleepyCowHerding.obj: 2019_Feb/Silver/1-SleepyCowHerding.cpp.obj
+
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.obj
+
+# target to build an object file
+2019_Feb/Silver/1-SleepyCowHerding.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.cpp.obj
+
+2019_Feb/Silver/1-SleepyCowHerding.i: 2019_Feb/Silver/1-SleepyCowHerding.cpp.i
+
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.i
+
+# target to preprocess a source file
+2019_Feb/Silver/1-SleepyCowHerding.cpp.i:
+	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.i
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.cpp.i
+
+2019_Feb/Silver/1-SleepyCowHerding.s: 2019_Feb/Silver/1-SleepyCowHerding.cpp.s
+
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.s
+
+# target to generate assembly for a file
+2019_Feb/Silver/1-SleepyCowHerding.cpp.s:
+	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.s
+.PHONY : 2019_Feb/Silver/1-SleepyCowHerding.cpp.s
+
+2020_Feb/Silver/1-SwapitySwapitySwap.obj: 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.obj
+
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.obj
+
+# target to build an object file
+2020_Feb/Silver/1-SwapitySwapitySwap.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/2020_Feb/Silver/1-SwapitySwapitySwap.cpp.obj
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.obj
+
+2020_Feb/Silver/1-SwapitySwapitySwap.i: 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.i
+
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.i
+
+# target to preprocess a source file
+2020_Feb/Silver/1-SwapitySwapitySwap.cpp.i:
+	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/2020_Feb/Silver/1-SwapitySwapitySwap.cpp.i
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.i
+
+2020_Feb/Silver/1-SwapitySwapitySwap.s: 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.s
+
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.s
+
+# target to generate assembly for a file
+2020_Feb/Silver/1-SwapitySwapitySwap.cpp.s:
+	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/2020_Feb/Silver/1-SwapitySwapitySwap.cpp.s
+.PHONY : 2020_Feb/Silver/1-SwapitySwapitySwap.cpp.s
+
+2020_Feb/Silver/2-Triangles.obj: 2020_Feb/Silver/2-Triangles.cpp.obj
+
+.PHONY : 2020_Feb/Silver/2-Triangles.obj
+
+# target to build an object file
+2020_Feb/Silver/2-Triangles.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj
+.PHONY : 2020_Feb/Silver/2-Triangles.cpp.obj
+
+2020_Feb/Silver/2-Triangles.i: 2020_Feb/Silver/2-Triangles.cpp.i
+
+.PHONY : 2020_Feb/Silver/2-Triangles.i
+
+# target to preprocess a source file
+2020_Feb/Silver/2-Triangles.cpp.i:
+	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.i
+.PHONY : 2020_Feb/Silver/2-Triangles.cpp.i
+
+2020_Feb/Silver/2-Triangles.s: 2020_Feb/Silver/2-Triangles.cpp.s
+
+.PHONY : 2020_Feb/Silver/2-Triangles.s
+
+# target to generate assembly for a file
+2020_Feb/Silver/2-Triangles.cpp.s:
+	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.s
+.PHONY : 2020_Feb/Silver/2-Triangles.cpp.s
+
+2020_Feb/Silver/3-ClockTree.obj: 2020_Feb/Silver/3-ClockTree.cpp.obj
+
+.PHONY : 2020_Feb/Silver/3-ClockTree.obj
+
+# target to build an object file
+2020_Feb/Silver/3-ClockTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/2020_Feb/Silver/3-ClockTree.cpp.obj
+.PHONY : 2020_Feb/Silver/3-ClockTree.cpp.obj
+
+2020_Feb/Silver/3-ClockTree.i: 2020_Feb/Silver/3-ClockTree.cpp.i
+
+.PHONY : 2020_Feb/Silver/3-ClockTree.i
+
+# target to preprocess a source file
+2020_Feb/Silver/3-ClockTree.cpp.i:
+	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/2020_Feb/Silver/3-ClockTree.cpp.i
+.PHONY : 2020_Feb/Silver/3-ClockTree.cpp.i
+
+2020_Feb/Silver/3-ClockTree.s: 2020_Feb/Silver/3-ClockTree.cpp.s
+
+.PHONY : 2020_Feb/Silver/3-ClockTree.s
+
+# target to generate assembly for a file
+2020_Feb/Silver/3-ClockTree.cpp.s:
+	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/2020_Feb/Silver/3-ClockTree.cpp.s
+.PHONY : 2020_Feb/Silver/3-ClockTree.cpp.s
+
+2020_Jan/Silver/1-BerryPicking.obj: 2020_Jan/Silver/1-BerryPicking.cpp.obj
+
+.PHONY : 2020_Jan/Silver/1-BerryPicking.obj
+
+# target to build an object file
+2020_Jan/Silver/1-BerryPicking.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj
+.PHONY : 2020_Jan/Silver/1-BerryPicking.cpp.obj
+
+2020_Jan/Silver/1-BerryPicking.i: 2020_Jan/Silver/1-BerryPicking.cpp.i
+
+.PHONY : 2020_Jan/Silver/1-BerryPicking.i
+
+# target to preprocess a source file
+2020_Jan/Silver/1-BerryPicking.cpp.i:
+	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.i
+.PHONY : 2020_Jan/Silver/1-BerryPicking.cpp.i
+
+2020_Jan/Silver/1-BerryPicking.s: 2020_Jan/Silver/1-BerryPicking.cpp.s
+
+.PHONY : 2020_Jan/Silver/1-BerryPicking.s
+
+# target to generate assembly for a file
+2020_Jan/Silver/1-BerryPicking.cpp.s:
+	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.s
+.PHONY : 2020_Jan/Silver/1-BerryPicking.cpp.s
+
+2020_Jan/Silver/3-WormholeSort.obj: 2020_Jan/Silver/3-WormholeSort.cpp.obj
+
+.PHONY : 2020_Jan/Silver/3-WormholeSort.obj
+
+# target to build an object file
+2020_Jan/Silver/3-WormholeSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/2020_Jan/Silver/3-WormholeSort.cpp.obj
+.PHONY : 2020_Jan/Silver/3-WormholeSort.cpp.obj
+
+2020_Jan/Silver/3-WormholeSort.i: 2020_Jan/Silver/3-WormholeSort.cpp.i
+
+.PHONY : 2020_Jan/Silver/3-WormholeSort.i
+
+# target to preprocess a source file
+2020_Jan/Silver/3-WormholeSort.cpp.i:
+	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/2020_Jan/Silver/3-WormholeSort.cpp.i
+.PHONY : 2020_Jan/Silver/3-WormholeSort.cpp.i
+
+2020_Jan/Silver/3-WormholeSort.s: 2020_Jan/Silver/3-WormholeSort.cpp.s
+
+.PHONY : 2020_Jan/Silver/3-WormholeSort.s
+
+# target to generate assembly for a file
+2020_Jan/Silver/3-WormholeSort.cpp.s:
+	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/2020_Jan/Silver/3-WormholeSort.cpp.s
+.PHONY : 2020_Jan/Silver/3-WormholeSort.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -557,47 +637,55 @@ help:
 	@echo ... depend
 	@echo ... 1-SwitchingOnTheLights
 	@echo ... USACO_contests
-	@echo ... edit_cache
-	@echo ... 1-CowDanceShow
-	@echo ... 1-AngryCows
 	@echo ... 2-LoadBalancing
-	@echo ... 1-WhyDidTheCowCrossTheRoad
-	@echo ... rebuild_cache
-	@echo ... 3-WhyDidTheCowCrossTheRoad-III
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
-	@echo ... 2-RectangularPasture
-	@echo ... 1-GrassPlanting
+	@echo ... 1-SleepyCowHerding
+	@echo ... 3-MilkVisits
+	@echo ... 1-SwapitySwapitySwap
+	@echo ... 2-Meetings
+	@echo ... 1-BerryPicking
+	@echo ... 3-WormholeSort
+	@echo ... 2-Triangles
+	@echo ... 3-ClockTree
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... 2015_Dec/Silver/1-SwitchingOnTheLights.s
 	@echo ... 2016_Feb/Silver/2-LoadBalancing.obj
 	@echo ... 2016_Feb/Silver/2-LoadBalancing.i
 	@echo ... 2016_Feb/Silver/2-LoadBalancing.s
-	@echo ... 2016_Jan/Silver/1-AngryCows.obj
-	@echo ... 2016_Jan/Silver/1-AngryCows.i
-	@echo ... 2016_Jan/Silver/1-AngryCows.s
-	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.obj
-	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.i
-	@echo ... 2017_Feb/Silver/1-WhyDidTheCowCrossTheRoad.s
-	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.obj
-	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.i
-	@echo ... 2017_Feb/Silver/3-WhyDidTheCowCrossTheRoad-III.s
-	@echo ... 2017_Jan/Silver/1-CowDanceShow.obj
-	@echo ... 2017_Jan/Silver/1-CowDanceShow.i
-	@echo ... 2017_Jan/Silver/1-CowDanceShow.s
 	@echo ... 2018_Feb/Silver/2-SnowBoots.obj
 	@echo ... 2018_Feb/Silver/2-SnowBoots.i
 	@echo ... 2018_Feb/Silver/2-SnowBoots.s
 	@echo ... 2018_Feb/Silver/3-Teleportation.obj
 	@echo ... 2018_Feb/Silver/3-Teleportation.i
 	@echo ... 2018_Feb/Silver/3-Teleportation.s
-	@echo ... 2019_Jan/Silver/1-GrassPlanting.obj
-	@echo ... 2019_Jan/Silver/1-GrassPlanting.i
-	@echo ... 2019_Jan/Silver/1-GrassPlanting.s
-	@echo ... 2020_Dec/Silver/2-RectangularPasture.obj
-	@echo ... 2020_Dec/Silver/2-RectangularPasture.i
-	@echo ... 2020_Dec/Silver/2-RectangularPasture.s
+	@echo ... 2019_Dec/Silver/2-Meetings.obj
+	@echo ... 2019_Dec/Silver/2-Meetings.i
+	@echo ... 2019_Dec/Silver/2-Meetings.s
+	@echo ... 2019_Dec/Silver/3-MilkVisits.obj
+	@echo ... 2019_Dec/Silver/3-MilkVisits.i
+	@echo ... 2019_Dec/Silver/3-MilkVisits.s
+	@echo ... 2019_Feb/Silver/1-SleepyCowHerding.obj
+	@echo ... 2019_Feb/Silver/1-SleepyCowHerding.i
+	@echo ... 2019_Feb/Silver/1-SleepyCowHerding.s
+	@echo ... 2020_Feb/Silver/1-SwapitySwapitySwap.obj
+	@echo ... 2020_Feb/Silver/1-SwapitySwapitySwap.i
+	@echo ... 2020_Feb/Silver/1-SwapitySwapitySwap.s
+	@echo ... 2020_Feb/Silver/2-Triangles.obj
+	@echo ... 2020_Feb/Silver/2-Triangles.i
+	@echo ... 2020_Feb/Silver/2-Triangles.s
+	@echo ... 2020_Feb/Silver/3-ClockTree.obj
+	@echo ... 2020_Feb/Silver/3-ClockTree.i
+	@echo ... 2020_Feb/Silver/3-ClockTree.s
+	@echo ... 2020_Jan/Silver/1-BerryPicking.obj
+	@echo ... 2020_Jan/Silver/1-BerryPicking.i
+	@echo ... 2020_Jan/Silver/1-BerryPicking.s
+	@echo ... 2020_Jan/Silver/3-WormholeSort.obj
+	@echo ... 2020_Jan/Silver/3-WormholeSort.i
+	@echo ... 2020_Jan/Silver/3-WormholeSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

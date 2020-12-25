@@ -47,7 +47,11 @@ int main() {
             xdex = sums[i].second;
         }
     }
-    int ans = INT_MAX;
+    for (auto i: sums){
+        cout << i.first << " " << i.second << " \n";
+    }
+    cout << xdex << " \n";
+    int ans = max(c,d);
     int lever = 0;
     for (int i = 0; i < n; i++){
         lever = coordsy[i].first;
@@ -63,6 +67,7 @@ int main() {
         }
         i--;
         ans = min(ans,max(max(a,c),max(b,d)));
+        cout << a << " " << b << " " << c << " " << d << " \n";
     }
 
     //Output

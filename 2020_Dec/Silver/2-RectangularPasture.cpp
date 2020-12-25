@@ -1,67 +1,57 @@
 #include <bits/stdc++.h>
 typedef long long ll;
+
 using namespace std;
 
+//Sort the points by their y values
+bool ycompress(pair<int,int> a, pair<int,int> b){
+    return a.second < b.second;
+}
+
+//Return the total points in a rectangle with 2d prefix sum matrix
+int total(vector<vector<int>>& psum, int x1, int y1, int x2, int y2){
+    return psum[x2][y2] - psum[x2][y1-1] - psum[x1-1][y2] + psum[x1-1][y1-1];
+}
+
 int main() {
-    ofstream fout("../output.txt");
-    ifstream fin("../input.txt");
+//    ofstream fout("../output.txt");
+//    ifstream fin("../input.txt");
 
     //Take inputs
     int n;
-    fin >> n;
-    vector<pair<int,int>> xp(n);
-    vector<pair<int,int>> yp(n);
+    cin >> n;
+    vector<pair<int,int>> cows(n);
     for (int i = 0; i < n; i++){
-        int a,b;
-        fin >> a >> b;
-        xp[i].first = a;
-        xp[i].second = b;
-        yp[i].first = b;
-        yp[i].second = a;
+        cin >> cows[i].first >> cows[i].second;
     }
 
-    sort(xp.begin(), xp.end());
-    sort(yp.begin(), yp.end());
-    map<tuple<int,int,int,int>,int> visited;
-    ll total = 0;
-    for (int i = 0; i < n; i++){
-        int x1 = xp[i].first, y1 = xp[i].second;
-        int x2 = x1, y2 = y1;
-        for (int j = i+1; j < n; j++){
-            x1 = max(x1, xp[j].first);
-            y1 = max(y1, xp[j].second);
-            x2 = min(x2, xp[j].first);
-            y2 = min(y2, xp[j].second);
-            if (visited.count(tuple<int,int,int,int>{x1,y1,x2,y2})) continue;
-            visited[tuple<int,int,int,int>{x1,y1,x2,y2}]++;
-            int counts = 0;
-            for (int k = i+1; k < j; k++){
-                if (xp[k].second < y1 && xp[k].second > y2) counts++;
-            }
-            total += pow(2,counts)-1;
+    //Compress the cow coordinates since all x,y values are unique
+    //Add them into a prefix map
+    //The total pairs possible to be formed between any two points a,b where a_y <= b_y
+    //is the amount of points to the left of min(a_x,b_x) times the amount of points to the right of max(a_x,b_x)
+    //Iterate through all the pairs in o(n^2) and add the products to the answer
+    vector<vector<int>> psum(n+1, vector<int>(n+1,0));
+    ll ans = 0;
+    sort(cows.begin(),cows.end());
+    for (int i = 0; i < n; i++)
+        cows[i].first = i;
+    sort(cows.begin(),cows.end(),ycompress);
+    for (int i = 0; i < n; i++)
+        cows[i].second = i;
+    for (int i = 0; i < n; i++)
+        psum[cows[i].first+1][cows[i].second+1] = 1;
+    for (int i = 1; i <= n; i++)
+        for (int j = 1; j <= n; j++)
+            psum[i][j] += psum[i-1][j] + psum[i][j-1] - psum[i-1][j-1];
+    for (int i = 0; i < n; i++)
+        for (int j = i; j < n; j++){
+            int left = min(cows[i].first, cows[j].first)+1;
+            int right = max(cows[i].first, cows[j].first)+1;
+            ans += total(psum, 1, i+1, left, j+1) * total(psum, right, i+1, n, j+1);
         }
-    }
-    for (int i = 0; i < n; i++){
-        int x1 = yp[i].second, y1 = yp[i].first;
-        int x2 = x1, y2 = y1;
-        int counts = 0;
-        for (int j = i+1; j < n; j++){
-            x1 = max(x1, yp[j].second);
-            y1 = max(y1, yp[j].first);
-            x2 = min(x2, yp[j].second);
-            y2 = min(y2, yp[j].first);
-            if (visited.count(tuple<int,int,int,int>{x1,y1,x2,y2})) continue;
-            visited[tuple<int,int,int,int>{x1,y1,x2,y2}]++;
-            int counts = 0;
-            for (int k = i+1; k < j; k++){
-                if (yp[k].second < x1 && yp[k].second > x2) counts++;
-            }
-            total += pow(2,counts)-1;
-        }
-    }
 
-    //Output
-    fout << pow(2,n) - total;
+    //Output, +1 to include the empty subset
+    cout << ans + 1;
 
     return 0;
 }

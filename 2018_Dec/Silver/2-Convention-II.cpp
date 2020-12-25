@@ -18,6 +18,10 @@ int main() {
     }
     sort(cows.begin(), cows.end());
 
+    //Simulate the whole environment with the rules described in the problem
+    //Whichever cow comes first gets the special grass when there is no one in line
+    //Otherwise they will wait in line, with their arrive time meaningless
+    //Using priority queue to sort the wait line by index
     int time = 0;
     int ans = 0;
     priority_queue<vector<int>> queues;
