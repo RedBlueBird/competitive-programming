@@ -1,2 +1,2 @@
-# USACO
-My codes for the usaco contest questions
+# Competitive Programming
+My cpp codes to cp related questions
