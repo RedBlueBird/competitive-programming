@@ -1,0 +1,14 @@
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-SwitchingOnTheLights.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-LoadBalancing.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-SnowBoots.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-Teleportation.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-SleepyCowHerding.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-MilkVisits.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-SwapitySwapitySwap.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-Meetings.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-BerryPicking.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-WormholeSort.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-Triangles.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-ClockTree.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
