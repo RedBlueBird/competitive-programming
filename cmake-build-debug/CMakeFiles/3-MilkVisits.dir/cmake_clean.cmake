@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "3-MilkVisits.exe"
   "3-MilkVisits.exe.manifest"
   "3-MilkVisits.pdb"
-  "CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj"
+  "CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj"
   "lib3-MilkVisits.dll.a"
 )
 

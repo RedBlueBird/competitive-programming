@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/USACO/2020_Feb/Silver/2-Triangles.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj"
+  "C:/Users/xiaon/Documents/USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

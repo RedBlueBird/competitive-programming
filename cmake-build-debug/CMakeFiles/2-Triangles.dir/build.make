@@ -56,27 +56,27 @@ include CMakeFiles/2-Triangles.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2-Triangles.dir/flags.make
 
-CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj: CMakeFiles/2-Triangles.dir/flags.make
-CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj: ../2020_Feb/Silver/2-Triangles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-Triangles.dir\2020_Feb\Silver\2-Triangles.cpp.obj -c C:\Users\xiaon\Documents\USACO\2020_Feb\Silver\2-Triangles.cpp
+CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj: CMakeFiles/2-Triangles.dir/flags.make
+CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj: ../2019-2020/3-Feb/Silver/2-Triangles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-Triangles.dir\2019-2020\3-Feb\Silver\2-Triangles.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019-2020\3-Feb\Silver\2-Triangles.cpp
 
-CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2020_Feb\Silver\2-Triangles.cpp > CMakeFiles\2-Triangles.dir\2020_Feb\Silver\2-Triangles.cpp.i
+CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019-2020\3-Feb\Silver\2-Triangles.cpp > CMakeFiles\2-Triangles.dir\2019-2020\3-Feb\Silver\2-Triangles.cpp.i
 
-CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2020_Feb\Silver\2-Triangles.cpp -o CMakeFiles\2-Triangles.dir\2020_Feb\Silver\2-Triangles.cpp.s
+CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019-2020\3-Feb\Silver\2-Triangles.cpp -o CMakeFiles\2-Triangles.dir\2019-2020\3-Feb\Silver\2-Triangles.cpp.s
 
 # Object files for target 2-Triangles
 2__Triangles_OBJECTS = \
-"CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj"
+"CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj"
 
 # External object files for target 2-Triangles
 2__Triangles_EXTERNAL_OBJECTS =
 
-2-Triangles.exe: CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj
+2-Triangles.exe: CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj
 2-Triangles.exe: CMakeFiles/2-Triangles.dir/build.make
 2-Triangles.exe: CMakeFiles/2-Triangles.dir/linklibs.rsp
 2-Triangles.exe: CMakeFiles/2-Triangles.dir/objects1.rsp

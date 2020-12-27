@@ -56,27 +56,27 @@ include CMakeFiles/1-SleepyCowHerding.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1-SleepyCowHerding.dir/flags.make
 
-CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj: CMakeFiles/1-SleepyCowHerding.dir/flags.make
-CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj: ../2019_Feb/Silver/1-SleepyCowHerding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-SleepyCowHerding.dir\2019_Feb\Silver\1-SleepyCowHerding.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019_Feb\Silver\1-SleepyCowHerding.cpp
+CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj: CMakeFiles/1-SleepyCowHerding.dir/flags.make
+CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj: ../2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-SleepyCowHerding.dir\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp.obj -c C:\Users\xiaon\Documents\USACO\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp
 
-CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019_Feb\Silver\1-SleepyCowHerding.cpp > CMakeFiles\1-SleepyCowHerding.dir\2019_Feb\Silver\1-SleepyCowHerding.cpp.i
+CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp > CMakeFiles\1-SleepyCowHerding.dir\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp.i
 
-CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019_Feb\Silver\1-SleepyCowHerding.cpp -o CMakeFiles\1-SleepyCowHerding.dir\2019_Feb\Silver\1-SleepyCowHerding.cpp.s
+CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp -o CMakeFiles\1-SleepyCowHerding.dir\2018-2019\3-Feb\Silver\1-SleepyCowHerding.cpp.s
 
 # Object files for target 1-SleepyCowHerding
 1__SleepyCowHerding_OBJECTS = \
-"CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj"
+"CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj"
 
 # External object files for target 1-SleepyCowHerding
 1__SleepyCowHerding_EXTERNAL_OBJECTS =
 
-1-SleepyCowHerding.exe: CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj
+1-SleepyCowHerding.exe: CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj
 1-SleepyCowHerding.exe: CMakeFiles/1-SleepyCowHerding.dir/build.make
 1-SleepyCowHerding.exe: CMakeFiles/1-SleepyCowHerding.dir/linklibs.rsp
 1-SleepyCowHerding.exe: CMakeFiles/1-SleepyCowHerding.dir/objects1.rsp

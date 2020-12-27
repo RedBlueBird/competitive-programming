@@ -56,27 +56,27 @@ include CMakeFiles/2-SnowBoots.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2-SnowBoots.dir/flags.make
 
-CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj: CMakeFiles/2-SnowBoots.dir/flags.make
-CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj: ../2018_Feb/Silver/2-SnowBoots.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-SnowBoots.dir\2018_Feb\Silver\2-SnowBoots.cpp.obj -c C:\Users\xiaon\Documents\USACO\2018_Feb\Silver\2-SnowBoots.cpp
+CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj: CMakeFiles/2-SnowBoots.dir/flags.make
+CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj: ../2017-2018/3-Feb/Silver/2-SnowBoots.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-SnowBoots.dir\2017-2018\3-Feb\Silver\2-SnowBoots.cpp.obj -c C:\Users\xiaon\Documents\USACO\2017-2018\3-Feb\Silver\2-SnowBoots.cpp
 
-CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2018_Feb\Silver\2-SnowBoots.cpp > CMakeFiles\2-SnowBoots.dir\2018_Feb\Silver\2-SnowBoots.cpp.i
+CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2017-2018\3-Feb\Silver\2-SnowBoots.cpp > CMakeFiles\2-SnowBoots.dir\2017-2018\3-Feb\Silver\2-SnowBoots.cpp.i
 
-CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2018_Feb\Silver\2-SnowBoots.cpp -o CMakeFiles\2-SnowBoots.dir\2018_Feb\Silver\2-SnowBoots.cpp.s
+CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2017-2018\3-Feb\Silver\2-SnowBoots.cpp -o CMakeFiles\2-SnowBoots.dir\2017-2018\3-Feb\Silver\2-SnowBoots.cpp.s
 
 # Object files for target 2-SnowBoots
 2__SnowBoots_OBJECTS = \
-"CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj"
+"CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj"
 
 # External object files for target 2-SnowBoots
 2__SnowBoots_EXTERNAL_OBJECTS =
 
-2-SnowBoots.exe: CMakeFiles/2-SnowBoots.dir/2018_Feb/Silver/2-SnowBoots.cpp.obj
+2-SnowBoots.exe: CMakeFiles/2-SnowBoots.dir/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj
 2-SnowBoots.exe: CMakeFiles/2-SnowBoots.dir/build.make
 2-SnowBoots.exe: CMakeFiles/2-SnowBoots.dir/linklibs.rsp
 2-SnowBoots.exe: CMakeFiles/2-SnowBoots.dir/objects1.rsp

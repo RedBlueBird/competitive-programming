@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "2-Triangles.exe"
   "2-Triangles.exe.manifest"
   "2-Triangles.pdb"
-  "CMakeFiles/2-Triangles.dir/2020_Feb/Silver/2-Triangles.cpp.obj"
+  "CMakeFiles/2-Triangles.dir/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj"
   "lib2-Triangles.dll.a"
 )
 

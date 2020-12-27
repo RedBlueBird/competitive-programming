@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/USACO/2019_Dec/Silver/3-MilkVisits.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj"
+  "C:/Users/xiaon/Documents/USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

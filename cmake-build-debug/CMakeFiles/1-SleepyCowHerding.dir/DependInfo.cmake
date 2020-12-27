@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/USACO/2019_Feb/Silver/1-SleepyCowHerding.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-SleepyCowHerding.dir/2019_Feb/Silver/1-SleepyCowHerding.cpp.obj"
+  "C:/Users/xiaon/Documents/USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-SleepyCowHerding.dir/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

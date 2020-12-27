@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/USACO/2015_Dec/Silver/1-SwitchingOnTheLights.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
+  "C:/Users/xiaon/Documents/USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp" "C:/Users/xiaon/Documents/USACO/cmake-build-debug/CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

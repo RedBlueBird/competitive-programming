@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "1-BerryPicking.exe"
   "1-BerryPicking.exe.manifest"
   "1-BerryPicking.pdb"
-  "CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj"
+  "CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj"
   "lib1-BerryPicking.dll.a"
 )
 

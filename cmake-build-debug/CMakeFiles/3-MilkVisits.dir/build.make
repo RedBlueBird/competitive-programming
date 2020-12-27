@@ -56,27 +56,27 @@ include CMakeFiles/3-MilkVisits.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3-MilkVisits.dir/flags.make
 
-CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj: CMakeFiles/3-MilkVisits.dir/flags.make
-CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj: ../2019_Dec/Silver/3-MilkVisits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\3-MilkVisits.dir\2019_Dec\Silver\3-MilkVisits.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\3-MilkVisits.cpp
+CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj: CMakeFiles/3-MilkVisits.dir/flags.make
+CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj: ../2019-2020/1-Dec/Silver/3-MilkVisits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\3-MilkVisits.dir\2019-2020\1-Dec\Silver\3-MilkVisits.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\3-MilkVisits.cpp
 
-CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\3-MilkVisits.cpp > CMakeFiles\3-MilkVisits.dir\2019_Dec\Silver\3-MilkVisits.cpp.i
+CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\3-MilkVisits.cpp > CMakeFiles\3-MilkVisits.dir\2019-2020\1-Dec\Silver\3-MilkVisits.cpp.i
 
-CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\3-MilkVisits.cpp -o CMakeFiles\3-MilkVisits.dir\2019_Dec\Silver\3-MilkVisits.cpp.s
+CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\3-MilkVisits.cpp -o CMakeFiles\3-MilkVisits.dir\2019-2020\1-Dec\Silver\3-MilkVisits.cpp.s
 
 # Object files for target 3-MilkVisits
 3__MilkVisits_OBJECTS = \
-"CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj"
+"CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj"
 
 # External object files for target 3-MilkVisits
 3__MilkVisits_EXTERNAL_OBJECTS =
 
-3-MilkVisits.exe: CMakeFiles/3-MilkVisits.dir/2019_Dec/Silver/3-MilkVisits.cpp.obj
+3-MilkVisits.exe: CMakeFiles/3-MilkVisits.dir/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj
 3-MilkVisits.exe: CMakeFiles/3-MilkVisits.dir/build.make
 3-MilkVisits.exe: CMakeFiles/3-MilkVisits.dir/linklibs.rsp
 3-MilkVisits.exe: CMakeFiles/3-MilkVisits.dir/objects1.rsp

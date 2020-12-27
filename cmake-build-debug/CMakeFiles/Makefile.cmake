@@ -54,7 +54,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1-SwitchingOnTheLights.dir/DependInfo.cmake"
-  "CMakeFiles/USACO_contests.dir/DependInfo.cmake"
   "CMakeFiles/2-LoadBalancing.dir/DependInfo.cmake"
   "CMakeFiles/2-SnowBoots.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
@@ -65,5 +64,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1-BerryPicking.dir/DependInfo.cmake"
   "CMakeFiles/3-WormholeSort.dir/DependInfo.cmake"
   "CMakeFiles/2-Triangles.dir/DependInfo.cmake"
-  "CMakeFiles/3-ClockTree.dir/DependInfo.cmake"
   )

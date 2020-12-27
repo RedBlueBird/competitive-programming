@@ -56,27 +56,27 @@ include CMakeFiles/1-BerryPicking.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1-BerryPicking.dir/flags.make
 
-CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj: CMakeFiles/1-BerryPicking.dir/flags.make
-CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj: ../2020_Jan/Silver/1-BerryPicking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-BerryPicking.dir\2020_Jan\Silver\1-BerryPicking.cpp.obj -c C:\Users\xiaon\Documents\USACO\2020_Jan\Silver\1-BerryPicking.cpp
+CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj: CMakeFiles/1-BerryPicking.dir/flags.make
+CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj: ../2019-2020/2-Jan/Silver/1-BerryPicking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-BerryPicking.dir\2019-2020\2-Jan\Silver\1-BerryPicking.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019-2020\2-Jan\Silver\1-BerryPicking.cpp
 
-CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2020_Jan\Silver\1-BerryPicking.cpp > CMakeFiles\1-BerryPicking.dir\2020_Jan\Silver\1-BerryPicking.cpp.i
+CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019-2020\2-Jan\Silver\1-BerryPicking.cpp > CMakeFiles\1-BerryPicking.dir\2019-2020\2-Jan\Silver\1-BerryPicking.cpp.i
 
-CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2020_Jan\Silver\1-BerryPicking.cpp -o CMakeFiles\1-BerryPicking.dir\2020_Jan\Silver\1-BerryPicking.cpp.s
+CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019-2020\2-Jan\Silver\1-BerryPicking.cpp -o CMakeFiles\1-BerryPicking.dir\2019-2020\2-Jan\Silver\1-BerryPicking.cpp.s
 
 # Object files for target 1-BerryPicking
 1__BerryPicking_OBJECTS = \
-"CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj"
+"CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj"
 
 # External object files for target 1-BerryPicking
 1__BerryPicking_EXTERNAL_OBJECTS =
 
-1-BerryPicking.exe: CMakeFiles/1-BerryPicking.dir/2020_Jan/Silver/1-BerryPicking.cpp.obj
+1-BerryPicking.exe: CMakeFiles/1-BerryPicking.dir/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj
 1-BerryPicking.exe: CMakeFiles/1-BerryPicking.dir/build.make
 1-BerryPicking.exe: CMakeFiles/1-BerryPicking.dir/linklibs.rsp
 1-BerryPicking.exe: CMakeFiles/1-BerryPicking.dir/objects1.rsp

@@ -56,27 +56,27 @@ include CMakeFiles/2-Meetings.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2-Meetings.dir/flags.make
 
-CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj: CMakeFiles/2-Meetings.dir/flags.make
-CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj: ../2019_Dec/Silver/2-Meetings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-Meetings.dir\2019_Dec\Silver\2-Meetings.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\2-Meetings.cpp
+CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj: CMakeFiles/2-Meetings.dir/flags.make
+CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj: ../2019-2020/1-Dec/Silver/2-Meetings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2-Meetings.dir\2019-2020\1-Dec\Silver\2-Meetings.cpp.obj -c C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\2-Meetings.cpp
 
-CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\2-Meetings.cpp > CMakeFiles\2-Meetings.dir\2019_Dec\Silver\2-Meetings.cpp.i
+CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\2-Meetings.cpp > CMakeFiles\2-Meetings.dir\2019-2020\1-Dec\Silver\2-Meetings.cpp.i
 
-CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019_Dec\Silver\2-Meetings.cpp -o CMakeFiles\2-Meetings.dir\2019_Dec\Silver\2-Meetings.cpp.s
+CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2019-2020\1-Dec\Silver\2-Meetings.cpp -o CMakeFiles\2-Meetings.dir\2019-2020\1-Dec\Silver\2-Meetings.cpp.s
 
 # Object files for target 2-Meetings
 2__Meetings_OBJECTS = \
-"CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj"
+"CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj"
 
 # External object files for target 2-Meetings
 2__Meetings_EXTERNAL_OBJECTS =
 
-2-Meetings.exe: CMakeFiles/2-Meetings.dir/2019_Dec/Silver/2-Meetings.cpp.obj
+2-Meetings.exe: CMakeFiles/2-Meetings.dir/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj
 2-Meetings.exe: CMakeFiles/2-Meetings.dir/build.make
 2-Meetings.exe: CMakeFiles/2-Meetings.dir/linklibs.rsp
 2-Meetings.exe: CMakeFiles/2-Meetings.dir/objects1.rsp

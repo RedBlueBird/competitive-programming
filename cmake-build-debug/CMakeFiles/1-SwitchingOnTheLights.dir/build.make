@@ -56,27 +56,27 @@ include CMakeFiles/1-SwitchingOnTheLights.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1-SwitchingOnTheLights.dir/flags.make
 
-CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj: CMakeFiles/1-SwitchingOnTheLights.dir/flags.make
-CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj: ../2015_Dec/Silver/1-SwitchingOnTheLights.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-SwitchingOnTheLights.dir\2015_Dec\Silver\1-SwitchingOnTheLights.cpp.obj -c C:\Users\xiaon\Documents\USACO\2015_Dec\Silver\1-SwitchingOnTheLights.cpp
+CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj: CMakeFiles/1-SwitchingOnTheLights.dir/flags.make
+CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj: ../2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\USACO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1-SwitchingOnTheLights.dir\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp.obj -c C:\Users\xiaon\Documents\USACO\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp
 
-CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2015_Dec\Silver\1-SwitchingOnTheLights.cpp > CMakeFiles\1-SwitchingOnTheLights.dir\2015_Dec\Silver\1-SwitchingOnTheLights.cpp.i
+CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\USACO\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp > CMakeFiles\1-SwitchingOnTheLights.dir\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp.i
 
-CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2015_Dec\Silver\1-SwitchingOnTheLights.cpp -o CMakeFiles\1-SwitchingOnTheLights.dir\2015_Dec\Silver\1-SwitchingOnTheLights.cpp.s
+CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\USACO\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp -o CMakeFiles\1-SwitchingOnTheLights.dir\2015-2016\1-Dec\Silver\1-SwitchingOnTheLights.cpp.s
 
 # Object files for target 1-SwitchingOnTheLights
 1__SwitchingOnTheLights_OBJECTS = \
-"CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
+"CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj"
 
 # External object files for target 1-SwitchingOnTheLights
 1__SwitchingOnTheLights_EXTERNAL_OBJECTS =
 
-1-SwitchingOnTheLights.exe: CMakeFiles/1-SwitchingOnTheLights.dir/2015_Dec/Silver/1-SwitchingOnTheLights.cpp.obj
+1-SwitchingOnTheLights.exe: CMakeFiles/1-SwitchingOnTheLights.dir/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 1-SwitchingOnTheLights.exe: CMakeFiles/1-SwitchingOnTheLights.dir/build.make
 1-SwitchingOnTheLights.exe: CMakeFiles/1-SwitchingOnTheLights.dir/linklibs.rsp
 1-SwitchingOnTheLights.exe: CMakeFiles/1-SwitchingOnTheLights.dir/objects1.rsp

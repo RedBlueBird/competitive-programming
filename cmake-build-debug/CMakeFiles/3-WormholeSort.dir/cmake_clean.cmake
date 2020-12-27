@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "3-WormholeSort.exe"
   "3-WormholeSort.exe.manifest"
   "3-WormholeSort.pdb"
-  "CMakeFiles/3-WormholeSort.dir/2020_Jan/Silver/3-WormholeSort.cpp.obj"
+  "CMakeFiles/3-WormholeSort.dir/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj"
   "lib3-WormholeSort.dll.a"
 )
 
