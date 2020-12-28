@@ -63,7 +63,7 @@ all: CMakeFiles/2-Meetings.dir/all
 all: CMakeFiles/1-BerryPicking.dir/all
 all: CMakeFiles/3-WormholeSort.dir/all
 all: CMakeFiles/2-Triangles.dir/all
-all: CMakeFiles/3-ClockTree.dir/all
+all: CMakeFiles/16-GridPaths.dir/all
 
 .PHONY : all
 
@@ -84,7 +84,7 @@ clean: CMakeFiles/2-Meetings.dir/clean
 clean: CMakeFiles/1-BerryPicking.dir/clean
 clean: CMakeFiles/3-WormholeSort.dir/clean
 clean: CMakeFiles/2-Triangles.dir/clean
-clean: CMakeFiles/3-ClockTree.dir/clean
+clean: CMakeFiles/16-GridPaths.dir/clean
 
 .PHONY : clean
 
@@ -122,7 +122,7 @@ CMakeFiles/1-SwitchingOnTheLights.dir/clean:
 CMakeFiles/2-LoadBalancing.dir/all:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/depend
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 2-LoadBalancing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-LoadBalancing"
 .PHONY : CMakeFiles/2-LoadBalancing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +149,7 @@ CMakeFiles/2-LoadBalancing.dir/clean:
 CMakeFiles/2-SnowBoots.dir/all:
 	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/depend
 	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2-SnowBoots"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-SnowBoots"
 .PHONY : CMakeFiles/2-SnowBoots.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +284,7 @@ CMakeFiles/1-SwapitySwapitySwap.dir/clean:
 CMakeFiles/2-Meetings.dir/all:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/depend
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-Meetings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2-Meetings"
 .PHONY : CMakeFiles/2-Meetings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +365,7 @@ CMakeFiles/3-WormholeSort.dir/clean:
 CMakeFiles/2-Triangles.dir/all:
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/depend
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-Triangles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 2-Triangles"
 .PHONY : CMakeFiles/2-Triangles.dir/all
 
 # Build rule for subdir invocation for target.
@@ -386,31 +386,31 @@ CMakeFiles/2-Triangles.dir/clean:
 .PHONY : CMakeFiles/2-Triangles.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3-ClockTree.dir
+# Target rules for target CMakeFiles/16-GridPaths.dir
 
 # All Build rule for target.
-CMakeFiles/3-ClockTree.dir/all:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/depend
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 3-ClockTree"
-.PHONY : CMakeFiles/3-ClockTree.dir/all
+CMakeFiles/16-GridPaths.dir/all:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/depend
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 16-GridPaths"
+.PHONY : CMakeFiles/16-GridPaths.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3-ClockTree.dir/rule: cmake_check_build_system
+CMakeFiles/16-GridPaths.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-ClockTree.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/16-GridPaths.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3-ClockTree.dir/rule
+.PHONY : CMakeFiles/16-GridPaths.dir/rule
 
 # Convenience name for target.
-3-ClockTree: CMakeFiles/3-ClockTree.dir/rule
+16-GridPaths: CMakeFiles/16-GridPaths.dir/rule
 
-.PHONY : 3-ClockTree
+.PHONY : 16-GridPaths
 
 # clean rule for target.
-CMakeFiles/3-ClockTree.dir/clean:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/clean
-.PHONY : CMakeFiles/3-ClockTree.dir/clean
+CMakeFiles/16-GridPaths.dir/clean:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/clean
+.PHONY : CMakeFiles/16-GridPaths.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

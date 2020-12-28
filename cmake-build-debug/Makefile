@@ -253,17 +253,44 @@ depend:
 .PHONY : 2-Triangles/fast
 
 #=============================================================================
-# Target rules for targets named 3-ClockTree
+# Target rules for targets named 16-GridPaths
 
 # Build rule for target.
-3-ClockTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-ClockTree
-.PHONY : 3-ClockTree
+16-GridPaths: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 16-GridPaths
+.PHONY : 16-GridPaths
 
 # fast build rule for target.
-3-ClockTree/fast:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/build
-.PHONY : 3-ClockTree/fast
+16-GridPaths/fast:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/build
+.PHONY : 16-GridPaths/fast
+
+CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
+
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.obj
+
+# target to build an object file
+CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
+
+CSES/1-IntroductoryProblems/16-GridPaths.i: CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
+
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.i
+
+# target to preprocess a source file
+CSES/1-IntroductoryProblems/16-GridPaths.cpp.i:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
+
+CSES/1-IntroductoryProblems/16-GridPaths.s: CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
+
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.s
+
+# target to generate assembly for a file
+CSES/1-IntroductoryProblems/16-GridPaths.cpp.s:
+	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
+.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
 
 USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
@@ -562,33 +589,6 @@ USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s:
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s
 .PHONY : USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s
 
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.obj: USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.obj
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.obj
-
-# target to build an object file
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.obj
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.obj
-
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.i: USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.i
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.i
-
-# target to preprocess a source file
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.i:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.i
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.i
-
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.s: USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.s
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.s
-
-# target to generate assembly for a file
-USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.s:
-	$(MAKE) -f CMakeFiles\3-ClockTree.dir\build.make CMakeFiles/3-ClockTree.dir/USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.s
-.PHONY : USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -606,9 +606,12 @@ help:
 	@echo ... 1-BerryPicking
 	@echo ... 3-WormholeSort
 	@echo ... 2-Triangles
-	@echo ... 3-ClockTree
+	@echo ... 16-GridPaths
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
+	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.i
+	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.s
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s
@@ -642,9 +645,6 @@ help:
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.obj
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.i
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.s
-	@echo ... USACO/2019-2020/3-Feb/Silver/3-ClockTree.obj
-	@echo ... USACO/2019-2020/3-Feb/Silver/3-ClockTree.i
-	@echo ... USACO/2019-2020/3-Feb/Silver/3-ClockTree.s
 .PHONY : help
 
 

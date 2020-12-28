@@ -3,6 +3,7 @@ project(competitive-programming)
 
 set(CMAKE_CXX_STANDARD 14)
 
+#USACO unfinished problems
 add_executable(1-SwitchingOnTheLights USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp)
 
 add_executable(2-LoadBalancing USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp)
@@ -21,4 +22,5 @@ add_executable(3-WormholeSort USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp)
 add_executable(1-SwapitySwapitySwap USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp)
 add_executable(2-Triangles USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp)
 
-add_executable(3-ClockTree USACO/2019-2020/3-Feb/Silver/3-ClockTree.cpp)
+#CSES unfinished problems
+add_executable(16-GridPaths CSES/1-IntroductoryProblems/16-GridPaths.cpp)
