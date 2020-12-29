@@ -136,6 +136,19 @@ depend:
 .PHONY : 2-LoadBalancing/fast
 
 #=============================================================================
+# Target rules for targets named 3-WormholeSort
+
+# Build rule for target.
+3-WormholeSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-WormholeSort
+.PHONY : 3-WormholeSort
+
+# fast build rule for target.
+3-WormholeSort/fast:
+	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/build
+.PHONY : 3-WormholeSort/fast
+
+#=============================================================================
 # Target rules for targets named 2-SnowBoots
 
 # Build rule for target.
@@ -214,32 +227,6 @@ depend:
 .PHONY : 2-Meetings/fast
 
 #=============================================================================
-# Target rules for targets named 1-BerryPicking
-
-# Build rule for target.
-1-BerryPicking: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-BerryPicking
-.PHONY : 1-BerryPicking
-
-# fast build rule for target.
-1-BerryPicking/fast:
-	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/build
-.PHONY : 1-BerryPicking/fast
-
-#=============================================================================
-# Target rules for targets named 3-WormholeSort
-
-# Build rule for target.
-3-WormholeSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-WormholeSort
-.PHONY : 3-WormholeSort
-
-# fast build rule for target.
-3-WormholeSort/fast:
-	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/build
-.PHONY : 3-WormholeSort/fast
-
-#=============================================================================
 # Target rules for targets named 2-Triangles
 
 # Build rule for target.
@@ -264,6 +251,32 @@ depend:
 16-GridPaths/fast:
 	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/build
 .PHONY : 16-GridPaths/fast
+
+#=============================================================================
+# Target rules for targets named 17-SumOfThreeValues
+
+# Build rule for target.
+17-SumOfThreeValues: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 17-SumOfThreeValues
+.PHONY : 17-SumOfThreeValues
+
+# fast build rule for target.
+17-SumOfThreeValues/fast:
+	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/build
+.PHONY : 17-SumOfThreeValues/fast
+
+#=============================================================================
+# Target rules for targets named 26-MovieFestival-II
+
+# Build rule for target.
+26-MovieFestival-II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 26-MovieFestival-II
+.PHONY : 26-MovieFestival-II
+
+# fast build rule for target.
+26-MovieFestival-II/fast:
+	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/build
+.PHONY : 26-MovieFestival-II/fast
 
 CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
 
@@ -291,6 +304,60 @@ CSES/1-IntroductoryProblems/16-GridPaths.s: CSES/1-IntroductoryProblems/16-GridP
 CSES/1-IntroductoryProblems/16-GridPaths.cpp.s:
 	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
 .PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
+
+CSES/2-SortingAndSearching/17-SumOfThreeValues.obj: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.obj
+
+# target to build an object file
+CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj:
+	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+
+CSES/2-SortingAndSearching/17-SumOfThreeValues.i: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
+
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.i
+
+# target to preprocess a source file
+CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i:
+	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
+
+CSES/2-SortingAndSearching/17-SumOfThreeValues.s: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
+
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.s
+
+# target to generate assembly for a file
+CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s:
+	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
+.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
+
+CSES/2-SortingAndSearching/26-MovieFestival-II.obj: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.obj
+
+# target to build an object file
+CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj:
+	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+
+CSES/2-SortingAndSearching/26-MovieFestival-II.i: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
+
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.i
+
+# target to preprocess a source file
+CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i:
+	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
+
+CSES/2-SortingAndSearching/26-MovieFestival-II.s: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
+
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.s
+
+# target to generate assembly for a file
+CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
+	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
+.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 
 USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
@@ -481,33 +548,6 @@ USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s:
 	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s
 .PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s
 
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.obj: USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.obj
-
-# target to build an object file
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.obj
-
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.i: USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.i
-
-# target to preprocess a source file
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i:
-	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.i
-
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.s: USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.s
-
-# target to generate assembly for a file
-USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s:
-	$(MAKE) -f CMakeFiles\1-BerryPicking.dir\build.make CMakeFiles/1-BerryPicking.dir/USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s
-.PHONY : USACO/2019-2020/2-Jan/Silver/1-BerryPicking.cpp.s
-
 USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj: USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj
 
 .PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj
@@ -597,21 +637,28 @@ help:
 	@echo ... depend
 	@echo ... 1-SwitchingOnTheLights
 	@echo ... 2-LoadBalancing
+	@echo ... 3-WormholeSort
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
 	@echo ... 3-MilkVisits
 	@echo ... 1-SwapitySwapitySwap
 	@echo ... 2-Meetings
-	@echo ... 1-BerryPicking
-	@echo ... 3-WormholeSort
 	@echo ... 2-Triangles
 	@echo ... 16-GridPaths
+	@echo ... 17-SumOfThreeValues
+	@echo ... 26-MovieFestival-II
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.s
+	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.obj
+	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.i
+	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.s
+	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
+	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
+	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s
@@ -633,9 +680,6 @@ help:
 	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.obj
 	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.i
 	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.s
-	@echo ... USACO/2019-2020/2-Jan/Silver/1-BerryPicking.obj
-	@echo ... USACO/2019-2020/2-Jan/Silver/1-BerryPicking.i
-	@echo ... USACO/2019-2020/2-Jan/Silver/1-BerryPicking.s
 	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj
 	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.i
 	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.s

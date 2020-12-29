@@ -18,6 +18,8 @@ int main() {
         cin >> houses[i];
     }
 
+    //Sort the applicants
+    //Assign them a house if possible greedily
     sort(apps.begin(),apps.end());
     sort(houses.begin(),houses.end());
     int c = 0;

@@ -28,7 +28,6 @@ int main() {
             nodeValue[curr] = c++;
             curr = shuffle[curr]-1;
         }
-        cout << curr << " ";
         if (visited[curr] == i){
             ans += c - nodeValue[curr];
         }
