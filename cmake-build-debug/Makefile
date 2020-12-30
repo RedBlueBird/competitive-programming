@@ -240,6 +240,32 @@ depend:
 .PHONY : 2-Triangles/fast
 
 #=============================================================================
+# Target rules for targets named 26-MovieFestival-II
+
+# Build rule for target.
+26-MovieFestival-II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 26-MovieFestival-II
+.PHONY : 26-MovieFestival-II
+
+# fast build rule for target.
+26-MovieFestival-II/fast:
+	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/build
+.PHONY : 26-MovieFestival-II/fast
+
+#=============================================================================
+# Target rules for targets named 2-HoofPaperScissors
+
+# Build rule for target.
+2-HoofPaperScissors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-HoofPaperScissors
+.PHONY : 2-HoofPaperScissors
+
+# fast build rule for target.
+2-HoofPaperScissors/fast:
+	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/build
+.PHONY : 2-HoofPaperScissors/fast
+
+#=============================================================================
 # Target rules for targets named 16-GridPaths
 
 # Build rule for target.
@@ -266,17 +292,17 @@ depend:
 .PHONY : 17-SumOfThreeValues/fast
 
 #=============================================================================
-# Target rules for targets named 26-MovieFestival-II
+# Target rules for targets named 7-BookShop
 
 # Build rule for target.
-26-MovieFestival-II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 26-MovieFestival-II
-.PHONY : 26-MovieFestival-II
+7-BookShop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 7-BookShop
+.PHONY : 7-BookShop
 
 # fast build rule for target.
-26-MovieFestival-II/fast:
-	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/build
-.PHONY : 26-MovieFestival-II/fast
+7-BookShop/fast:
+	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/build
+.PHONY : 7-BookShop/fast
 
 CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
 
@@ -359,6 +385,33 @@ CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
 	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 .PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 
+CSES/3-DynamicProgramming/7-BookShop.obj: CSES/3-DynamicProgramming/7-BookShop.cpp.obj
+
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.obj
+
+# target to build an object file
+CSES/3-DynamicProgramming/7-BookShop.cpp.obj:
+	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.obj
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.obj
+
+CSES/3-DynamicProgramming/7-BookShop.i: CSES/3-DynamicProgramming/7-BookShop.cpp.i
+
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.i
+
+# target to preprocess a source file
+CSES/3-DynamicProgramming/7-BookShop.cpp.i:
+	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.i
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.i
+
+CSES/3-DynamicProgramming/7-BookShop.s: CSES/3-DynamicProgramming/7-BookShop.cpp.s
+
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.s
+
+# target to generate assembly for a file
+CSES/3-DynamicProgramming/7-BookShop.cpp.s:
+	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.s
+.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.s
+
 USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
 .PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
@@ -412,6 +465,33 @@ USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s: USACO/2015-2016/3-Feb/Silver/2-L
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
 .PHONY : USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
+
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
+
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj
+
+# target to build an object file
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
+
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
+
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i
+
+# target to preprocess a source file
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i:
+	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
+
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
+
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s
+
+# target to generate assembly for a file
+USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s:
+	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
+.PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
 
 USACO/2017-2018/3-Feb/Silver/2-SnowBoots.obj: USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj
 
@@ -645,10 +725,12 @@ help:
 	@echo ... 1-SwapitySwapitySwap
 	@echo ... 2-Meetings
 	@echo ... 2-Triangles
+	@echo ... 26-MovieFestival-II
+	@echo ... 2-HoofPaperScissors
 	@echo ... 16-GridPaths
 	@echo ... 17-SumOfThreeValues
-	@echo ... 26-MovieFestival-II
 	@echo ... edit_cache
+	@echo ... 7-BookShop
 	@echo ... rebuild_cache
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.i
@@ -659,12 +741,18 @@ help:
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
+	@echo ... CSES/3-DynamicProgramming/7-BookShop.obj
+	@echo ... CSES/3-DynamicProgramming/7-BookShop.i
+	@echo ... CSES/3-DynamicProgramming/7-BookShop.s
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
+	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj
+	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i
+	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s
 	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.obj
 	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.i
 	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.s

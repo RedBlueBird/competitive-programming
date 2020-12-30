@@ -63,7 +63,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1-SwapitySwapitySwap.dir/DependInfo.cmake"
   "CMakeFiles/2-Meetings.dir/DependInfo.cmake"
   "CMakeFiles/2-Triangles.dir/DependInfo.cmake"
+  "CMakeFiles/26-MovieFestival-II.dir/DependInfo.cmake"
+  "CMakeFiles/2-HoofPaperScissors.dir/DependInfo.cmake"
   "CMakeFiles/16-GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/17-SumOfThreeValues.dir/DependInfo.cmake"
-  "CMakeFiles/26-MovieFestival-II.dir/DependInfo.cmake"
+  "CMakeFiles/7-BookShop.dir/DependInfo.cmake"
   )
