@@ -28,6 +28,9 @@ add_executable(2-HoofPaperScissors USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissor
 add_executable(16-GridPaths CSES/1-IntroductoryProblems/16-GridPaths.cpp)
 
 add_executable(17-SumOfThreeValues CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp)
+add_executable(24-SlidingMedian CSES/2-SortingAndSearching/24-SlidingMedian.cpp)
 add_executable(26-MovieFestival-II CSES/2-SortingAndSearching/26-MovieFestival-II.cpp)
 
-add_executable(7-BookShop CSES/3-DynamicProgramming/7-BookShop.cpp)
+add_executable(15-Projects CSES/3-DynamicProgramming/15-Projects.cpp)
+
+add_executable(2-Labyrinth CSES/4-GraphAlgorithms/2-Labyrinth.cpp)

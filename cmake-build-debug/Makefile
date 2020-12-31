@@ -292,17 +292,43 @@ depend:
 .PHONY : 17-SumOfThreeValues/fast
 
 #=============================================================================
-# Target rules for targets named 7-BookShop
+# Target rules for targets named 24-SlidingMedian
 
 # Build rule for target.
-7-BookShop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 7-BookShop
-.PHONY : 7-BookShop
+24-SlidingMedian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 24-SlidingMedian
+.PHONY : 24-SlidingMedian
 
 # fast build rule for target.
-7-BookShop/fast:
-	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/build
-.PHONY : 7-BookShop/fast
+24-SlidingMedian/fast:
+	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/build
+.PHONY : 24-SlidingMedian/fast
+
+#=============================================================================
+# Target rules for targets named 15-Projects
+
+# Build rule for target.
+15-Projects: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 15-Projects
+.PHONY : 15-Projects
+
+# fast build rule for target.
+15-Projects/fast:
+	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/build
+.PHONY : 15-Projects/fast
+
+#=============================================================================
+# Target rules for targets named 2-Labyrinth
+
+# Build rule for target.
+2-Labyrinth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Labyrinth
+.PHONY : 2-Labyrinth
+
+# fast build rule for target.
+2-Labyrinth/fast:
+	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/build
+.PHONY : 2-Labyrinth/fast
 
 CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
 
@@ -358,6 +384,33 @@ CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s:
 	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
 .PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
 
+CSES/2-SortingAndSearching/24-SlidingMedian.obj: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.obj
+
+# target to build an object file
+CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj:
+	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+
+CSES/2-SortingAndSearching/24-SlidingMedian.i: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
+
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.i
+
+# target to preprocess a source file
+CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i:
+	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
+
+CSES/2-SortingAndSearching/24-SlidingMedian.s: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
+
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.s
+
+# target to generate assembly for a file
+CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s:
+	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
+.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
+
 CSES/2-SortingAndSearching/26-MovieFestival-II.obj: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
 
 .PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.obj
@@ -385,32 +438,59 @@ CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
 	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 .PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 
-CSES/3-DynamicProgramming/7-BookShop.obj: CSES/3-DynamicProgramming/7-BookShop.cpp.obj
+CSES/3-DynamicProgramming/15-Projects.obj: CSES/3-DynamicProgramming/15-Projects.cpp.obj
 
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.obj
+.PHONY : CSES/3-DynamicProgramming/15-Projects.obj
 
 # target to build an object file
-CSES/3-DynamicProgramming/7-BookShop.cpp.obj:
-	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.obj
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.obj
+CSES/3-DynamicProgramming/15-Projects.cpp.obj:
+	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.obj
+.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.obj
 
-CSES/3-DynamicProgramming/7-BookShop.i: CSES/3-DynamicProgramming/7-BookShop.cpp.i
+CSES/3-DynamicProgramming/15-Projects.i: CSES/3-DynamicProgramming/15-Projects.cpp.i
 
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.i
+.PHONY : CSES/3-DynamicProgramming/15-Projects.i
 
 # target to preprocess a source file
-CSES/3-DynamicProgramming/7-BookShop.cpp.i:
-	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.i
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.i
+CSES/3-DynamicProgramming/15-Projects.cpp.i:
+	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.i
+.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.i
 
-CSES/3-DynamicProgramming/7-BookShop.s: CSES/3-DynamicProgramming/7-BookShop.cpp.s
+CSES/3-DynamicProgramming/15-Projects.s: CSES/3-DynamicProgramming/15-Projects.cpp.s
 
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.s
+.PHONY : CSES/3-DynamicProgramming/15-Projects.s
 
 # target to generate assembly for a file
-CSES/3-DynamicProgramming/7-BookShop.cpp.s:
-	$(MAKE) -f CMakeFiles\7-BookShop.dir\build.make CMakeFiles/7-BookShop.dir/CSES/3-DynamicProgramming/7-BookShop.cpp.s
-.PHONY : CSES/3-DynamicProgramming/7-BookShop.cpp.s
+CSES/3-DynamicProgramming/15-Projects.cpp.s:
+	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.s
+.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.s
+
+CSES/4-GraphAlgorithms/2-Labyrinth.obj: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
+
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.obj
+
+# target to build an object file
+CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
+
+CSES/4-GraphAlgorithms/2-Labyrinth.i: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
+
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.i
+
+# target to preprocess a source file
+CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i:
+	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
+
+CSES/4-GraphAlgorithms/2-Labyrinth.s: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
+
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.s
+
+# target to generate assembly for a file
+CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s:
+	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
+.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
 
 USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
 
@@ -729,8 +809,10 @@ help:
 	@echo ... 2-HoofPaperScissors
 	@echo ... 16-GridPaths
 	@echo ... 17-SumOfThreeValues
+	@echo ... 24-SlidingMedian
+	@echo ... 15-Projects
+	@echo ... 2-Labyrinth
 	@echo ... edit_cache
-	@echo ... 7-BookShop
 	@echo ... rebuild_cache
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.i
@@ -738,12 +820,18 @@ help:
 	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.obj
 	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.i
 	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.s
+	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.obj
+	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.i
+	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.s
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
-	@echo ... CSES/3-DynamicProgramming/7-BookShop.obj
-	@echo ... CSES/3-DynamicProgramming/7-BookShop.i
-	@echo ... CSES/3-DynamicProgramming/7-BookShop.s
+	@echo ... CSES/3-DynamicProgramming/15-Projects.obj
+	@echo ... CSES/3-DynamicProgramming/15-Projects.i
+	@echo ... CSES/3-DynamicProgramming/15-Projects.s
+	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.obj
+	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.i
+	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.s
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
 	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s

@@ -3,8 +3,8 @@ typedef long long ll;
 using namespace std;
 
 int main() {
-    freopen("../input.txt", "r", stdin);
-    freopen("../output.txt", "w", stdout);
+//    freopen("../input.txt", "r", stdin);
+//    freopen("../output.txt", "w", stdout);
 
     //Take inputs
     int n, k;
@@ -23,20 +23,13 @@ int main() {
         for (int j = 0; j <= k; j++){
             dp[i+1][j] = dp[i][j];
             if (j - cost[i] >= 0){
-                dp[i+1][j] = dp[i][j-cost[i]] + pages[i];
+                dp[i+1][j] = max(dp[i+1][j],dp[i][j-cost[i]] + pages[i]);
             }
         }
     }
     int ans = 0;
     for (int i = 1; i <= k; i++){
         ans = max(ans, dp[n][i]);
-    }
-
-    for (vector<int> i: dp){
-        for (int j: i){
-            cout << j << " ";
-        }
-        cout << " \n";
     }
 
     //Output
