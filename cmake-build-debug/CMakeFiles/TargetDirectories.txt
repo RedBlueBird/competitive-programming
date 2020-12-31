@@ -13,7 +13,6 @@ C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/16-GridPaths.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/17-SumOfThreeValues.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/24-SlidingMedian.dir
-C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/15-Projects.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-Labyrinth.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

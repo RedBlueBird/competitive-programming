@@ -68,6 +68,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/16-GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/17-SumOfThreeValues.dir/DependInfo.cmake"
   "CMakeFiles/24-SlidingMedian.dir/DependInfo.cmake"
-  "CMakeFiles/15-Projects.dir/DependInfo.cmake"
   "CMakeFiles/2-Labyrinth.dir/DependInfo.cmake"
   )

@@ -305,19 +305,6 @@ depend:
 .PHONY : 24-SlidingMedian/fast
 
 #=============================================================================
-# Target rules for targets named 15-Projects
-
-# Build rule for target.
-15-Projects: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 15-Projects
-.PHONY : 15-Projects
-
-# fast build rule for target.
-15-Projects/fast:
-	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/build
-.PHONY : 15-Projects/fast
-
-#=============================================================================
 # Target rules for targets named 2-Labyrinth
 
 # Build rule for target.
@@ -437,33 +424,6 @@ CSES/2-SortingAndSearching/26-MovieFestival-II.s: CSES/2-SortingAndSearching/26-
 CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
 	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 .PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
-
-CSES/3-DynamicProgramming/15-Projects.obj: CSES/3-DynamicProgramming/15-Projects.cpp.obj
-
-.PHONY : CSES/3-DynamicProgramming/15-Projects.obj
-
-# target to build an object file
-CSES/3-DynamicProgramming/15-Projects.cpp.obj:
-	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.obj
-.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.obj
-
-CSES/3-DynamicProgramming/15-Projects.i: CSES/3-DynamicProgramming/15-Projects.cpp.i
-
-.PHONY : CSES/3-DynamicProgramming/15-Projects.i
-
-# target to preprocess a source file
-CSES/3-DynamicProgramming/15-Projects.cpp.i:
-	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.i
-.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.i
-
-CSES/3-DynamicProgramming/15-Projects.s: CSES/3-DynamicProgramming/15-Projects.cpp.s
-
-.PHONY : CSES/3-DynamicProgramming/15-Projects.s
-
-# target to generate assembly for a file
-CSES/3-DynamicProgramming/15-Projects.cpp.s:
-	$(MAKE) -f CMakeFiles\15-Projects.dir\build.make CMakeFiles/15-Projects.dir/CSES/3-DynamicProgramming/15-Projects.cpp.s
-.PHONY : CSES/3-DynamicProgramming/15-Projects.cpp.s
 
 CSES/4-GraphAlgorithms/2-Labyrinth.obj: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
 
@@ -810,7 +770,6 @@ help:
 	@echo ... 16-GridPaths
 	@echo ... 17-SumOfThreeValues
 	@echo ... 24-SlidingMedian
-	@echo ... 15-Projects
 	@echo ... 2-Labyrinth
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -826,9 +785,6 @@ help:
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
-	@echo ... CSES/3-DynamicProgramming/15-Projects.obj
-	@echo ... CSES/3-DynamicProgramming/15-Projects.i
-	@echo ... CSES/3-DynamicProgramming/15-Projects.s
 	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.obj
 	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.i
 	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.s
