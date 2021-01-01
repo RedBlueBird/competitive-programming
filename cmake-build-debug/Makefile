@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1-SwitchingOnTheLights
-
-# Build rule for target.
-1-SwitchingOnTheLights: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-SwitchingOnTheLights
-.PHONY : 1-SwitchingOnTheLights
-
-# fast build rule for target.
-1-SwitchingOnTheLights/fast:
-	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/build
-.PHONY : 1-SwitchingOnTheLights/fast
-
-#=============================================================================
 # Target rules for targets named 2-LoadBalancing
 
 # Build rule for target.
@@ -134,19 +121,6 @@ depend:
 2-LoadBalancing/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
 .PHONY : 2-LoadBalancing/fast
-
-#=============================================================================
-# Target rules for targets named 3-WormholeSort
-
-# Build rule for target.
-3-WormholeSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-WormholeSort
-.PHONY : 3-WormholeSort
-
-# fast build rule for target.
-3-WormholeSort/fast:
-	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/build
-.PHONY : 3-WormholeSort/fast
 
 #=============================================================================
 # Target rules for targets named 2-SnowBoots
@@ -188,17 +162,17 @@ depend:
 .PHONY : 1-SleepyCowHerding/fast
 
 #=============================================================================
-# Target rules for targets named 3-MilkVisits
+# Target rules for targets named 2-Meetings
 
 # Build rule for target.
-3-MilkVisits: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-MilkVisits
-.PHONY : 3-MilkVisits
+2-Meetings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Meetings
+.PHONY : 2-Meetings
 
 # fast build rule for target.
-3-MilkVisits/fast:
-	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/build
-.PHONY : 3-MilkVisits/fast
+2-Meetings/fast:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
+.PHONY : 2-Meetings/fast
 
 #=============================================================================
 # Target rules for targets named 1-SwapitySwapitySwap
@@ -212,19 +186,6 @@ depend:
 1-SwapitySwapitySwap/fast:
 	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/build
 .PHONY : 1-SwapitySwapitySwap/fast
-
-#=============================================================================
-# Target rules for targets named 2-Meetings
-
-# Build rule for target.
-2-Meetings: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-Meetings
-.PHONY : 2-Meetings
-
-# fast build rule for target.
-2-Meetings/fast:
-	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
-.PHONY : 2-Meetings/fast
 
 #=============================================================================
 # Target rules for targets named 2-Triangles
@@ -266,6 +227,19 @@ depend:
 .PHONY : 2-HoofPaperScissors/fast
 
 #=============================================================================
+# Target rules for targets named 6-RoundTrip
+
+# Build rule for target.
+6-RoundTrip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 6-RoundTrip
+.PHONY : 6-RoundTrip
+
+# fast build rule for target.
+6-RoundTrip/fast:
+	$(MAKE) -f CMakeFiles\6-RoundTrip.dir\build.make CMakeFiles/6-RoundTrip.dir/build
+.PHONY : 6-RoundTrip/fast
+
+#=============================================================================
 # Target rules for targets named 16-GridPaths
 
 # Build rule for target.
@@ -303,19 +277,6 @@ depend:
 24-SlidingMedian/fast:
 	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/build
 .PHONY : 24-SlidingMedian/fast
-
-#=============================================================================
-# Target rules for targets named 2-Labyrinth
-
-# Build rule for target.
-2-Labyrinth: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-Labyrinth
-.PHONY : 2-Labyrinth
-
-# fast build rule for target.
-2-Labyrinth/fast:
-	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/build
-.PHONY : 2-Labyrinth/fast
 
 CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
 
@@ -425,59 +386,32 @@ CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
 	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 .PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
 
-CSES/4-GraphAlgorithms/2-Labyrinth.obj: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
+CSES/4-GraphAlgorithms/6-RoundTrip.obj: CSES/4-GraphAlgorithms/6-RoundTrip.cpp.obj
 
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.obj
-
-# target to build an object file
-CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.obj
-
-CSES/4-GraphAlgorithms/2-Labyrinth.i: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
-
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.i
-
-# target to preprocess a source file
-CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i:
-	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.i
-
-CSES/4-GraphAlgorithms/2-Labyrinth.s: CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
-
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.s
-
-# target to generate assembly for a file
-CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s:
-	$(MAKE) -f CMakeFiles\2-Labyrinth.dir\build.make CMakeFiles/2-Labyrinth.dir/CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
-.PHONY : CSES/4-GraphAlgorithms/2-Labyrinth.cpp.s
-
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
-
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.obj
 
 # target to build an object file
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.obj
+CSES/4-GraphAlgorithms/6-RoundTrip.cpp.obj:
+	$(MAKE) -f CMakeFiles\6-RoundTrip.dir\build.make CMakeFiles/6-RoundTrip.dir/CSES/4-GraphAlgorithms/6-RoundTrip.cpp.obj
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.cpp.obj
 
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i
+CSES/4-GraphAlgorithms/6-RoundTrip.i: CSES/4-GraphAlgorithms/6-RoundTrip.cpp.i
 
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.i
 
 # target to preprocess a source file
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i:
-	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.i
+CSES/4-GraphAlgorithms/6-RoundTrip.cpp.i:
+	$(MAKE) -f CMakeFiles\6-RoundTrip.dir\build.make CMakeFiles/6-RoundTrip.dir/CSES/4-GraphAlgorithms/6-RoundTrip.cpp.i
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.cpp.i
 
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s: USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s
+CSES/4-GraphAlgorithms/6-RoundTrip.s: CSES/4-GraphAlgorithms/6-RoundTrip.cpp.s
 
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.s
 
 # target to generate assembly for a file
-USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s:
-	$(MAKE) -f CMakeFiles\1-SwitchingOnTheLights.dir\build.make CMakeFiles/1-SwitchingOnTheLights.dir/USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s
-.PHONY : USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.cpp.s
+CSES/4-GraphAlgorithms/6-RoundTrip.cpp.s:
+	$(MAKE) -f CMakeFiles\6-RoundTrip.dir\build.make CMakeFiles/6-RoundTrip.dir/CSES/4-GraphAlgorithms/6-RoundTrip.cpp.s
+.PHONY : CSES/4-GraphAlgorithms/6-RoundTrip.cpp.s
 
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj: USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.obj
 
@@ -641,60 +575,6 @@ USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 .PHONY : USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.obj: USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj
-
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.obj
-
-# target to build an object file
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.obj
-
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.i: USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i
-
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.i
-
-# target to preprocess a source file
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i:
-	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.i
-
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.s: USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s
-
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.s
-
-# target to generate assembly for a file
-USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s:
-	$(MAKE) -f CMakeFiles\3-MilkVisits.dir\build.make CMakeFiles/3-MilkVisits.dir/USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s
-.PHONY : USACO/2019-2020/1-Dec/Silver/3-MilkVisits.cpp.s
-
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj: USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj
-
-# target to build an object file
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.obj
-
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.i: USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.i
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.i
-
-# target to preprocess a source file
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.i:
-	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.i
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.i
-
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.s: USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.s
-
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.s
-
-# target to generate assembly for a file
-USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.s:
-	$(MAKE) -f CMakeFiles\3-WormholeSort.dir\build.make CMakeFiles/3-WormholeSort.dir/USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.s
-.PHONY : USACO/2019-2020/2-Jan/Silver/3-WormholeSort.cpp.s
-
 USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj: USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.obj
 
 .PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj
@@ -755,22 +635,19 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 1-SwitchingOnTheLights
 	@echo ... 2-LoadBalancing
-	@echo ... 3-WormholeSort
 	@echo ... 2-SnowBoots
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
-	@echo ... 3-MilkVisits
-	@echo ... 1-SwapitySwapitySwap
 	@echo ... 2-Meetings
+	@echo ... 1-SwapitySwapitySwap
 	@echo ... 2-Triangles
 	@echo ... 26-MovieFestival-II
 	@echo ... 2-HoofPaperScissors
+	@echo ... 6-RoundTrip
 	@echo ... 16-GridPaths
 	@echo ... 17-SumOfThreeValues
 	@echo ... 24-SlidingMedian
-	@echo ... 2-Labyrinth
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
@@ -785,12 +662,9 @@ help:
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
 	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
-	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.obj
-	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.i
-	@echo ... CSES/4-GraphAlgorithms/2-Labyrinth.s
-	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.obj
-	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.i
-	@echo ... USACO/2015-2016/1-Dec/Silver/1-SwitchingOnTheLights.s
+	@echo ... CSES/4-GraphAlgorithms/6-RoundTrip.obj
+	@echo ... CSES/4-GraphAlgorithms/6-RoundTrip.i
+	@echo ... CSES/4-GraphAlgorithms/6-RoundTrip.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
@@ -809,12 +683,6 @@ help:
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.obj
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.i
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.s
-	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.obj
-	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.i
-	@echo ... USACO/2019-2020/1-Dec/Silver/3-MilkVisits.s
-	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.obj
-	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.i
-	@echo ... USACO/2019-2020/2-Jan/Silver/3-WormholeSort.s
 	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj
 	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.i
 	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.s

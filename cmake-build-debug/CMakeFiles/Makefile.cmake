@@ -53,20 +53,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/1-SwitchingOnTheLights.dir/DependInfo.cmake"
   "CMakeFiles/2-LoadBalancing.dir/DependInfo.cmake"
-  "CMakeFiles/3-WormholeSort.dir/DependInfo.cmake"
   "CMakeFiles/2-SnowBoots.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
   "CMakeFiles/1-SleepyCowHerding.dir/DependInfo.cmake"
-  "CMakeFiles/3-MilkVisits.dir/DependInfo.cmake"
-  "CMakeFiles/1-SwapitySwapitySwap.dir/DependInfo.cmake"
   "CMakeFiles/2-Meetings.dir/DependInfo.cmake"
+  "CMakeFiles/1-SwapitySwapitySwap.dir/DependInfo.cmake"
   "CMakeFiles/2-Triangles.dir/DependInfo.cmake"
   "CMakeFiles/26-MovieFestival-II.dir/DependInfo.cmake"
   "CMakeFiles/2-HoofPaperScissors.dir/DependInfo.cmake"
+  "CMakeFiles/6-RoundTrip.dir/DependInfo.cmake"
   "CMakeFiles/16-GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/17-SumOfThreeValues.dir/DependInfo.cmake"
   "CMakeFiles/24-SlidingMedian.dir/DependInfo.cmake"
-  "CMakeFiles/2-Labyrinth.dir/DependInfo.cmake"
   )

@@ -2,20 +2,24 @@
 typedef long long ll;
 using namespace std;
 
+int Dx[4] = {-1,1,0,0};
+int Dy[4] = {0,0,-1,1};
+string Dir = "UDLR";
+
 int main() {
 //    freopen("../input.txt", "r", stdin);
 //    freopen("../output.txt", "w", stdout);
 
-    //Take inputs
-    unsigned int n, m;
+    //Take inputs, mark the beginning and the end
+    int n, m;
     cin >> n >> m;
-    pair<unsigned int,unsigned int> start;
-    pair<unsigned int,unsigned int> goal;
+    pair<int,int> start;
+    pair<int,int> goal;
     vector<vector<bool>> map(n, vector<bool>(m,false));
-    for (unsigned int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++){
         string raw;
         cin >> raw;
-        for (unsigned int j = 0; j < m; j++){
+        for (int j = 0; j < m; j++){
             if (raw[j] == '#'){
                 map[i][j] = true;
             }
@@ -30,34 +34,45 @@ int main() {
         }
     }
 
-    //Initialize the search
-    vector<vector<bool>> visited(n, vector<bool>(m, false));
-    string ans = "";
-    queue<tuple<unsigned int,unsigned int,string>> bfs;
-    bfs.push(make_tuple(start.first, start.second, ""));
+    //Breath first search through the whole map until goal met or nothing left
+    //Use a second matrix with same dimension to track the correct path walked to the goal
+    vector<vector<pair<int,int>>> visited(n, vector<pair<int,int>>(m, {0,0}));
+    visited[start.first][start.second] = make_pair(-1,-1);
+    queue<pair<int,int>> bfs;
+    bfs.push(make_pair(start.first, start.second));
     while (!bfs.empty()){
-        unsigned int x,y; string path;
-        tie(x,y, path) = bfs.front(); bfs.pop();
-        if (x < 0 || x >= map.size() || y < 0 || y >= map[0].size()) continue;
-        if (map[x][y]) continue;
-        if (visited[x][y]) continue;
-        if (goal.first == x && goal.second == y){
-            ans = path;
-            break;
+        int x,y;
+        tie(x,y) = bfs.front(); bfs.pop();
+        for (int i = 0; i < 4; i++) {
+            int dx = Dx[i]+x, dy = Dy[i]+y;
+            if (dx < 0 || dx >= map.size() || dy < 0 || dy >= map[0].size()) continue;
+            if (map[dx][dy]) continue;
+            if (visited[dx][dy] != make_pair(0,0)) continue;
+            visited[dx][dy] = make_pair(Dx[i]*-1, Dy[i]*-1);
+            if (goal.first == dx && goal.second == dy) break;
+            bfs.push(make_pair(dx,dy));
         }
-        visited[x][y] = true;
-
-        bfs.push(make_tuple(x -1, y , path+"U"));
-        bfs.push(make_tuple(x +1, y , path+'D'));
-        bfs.push(make_tuple(x , y -1, path+'L'));
-        bfs.push(make_tuple(x , y +1, path+'R'));
     }
 
     //Output yes if path is found, otherwise no
-    if (ans != ""){
+    //Reverse the path tracking matrix and output the path
+    if (visited[goal.first][goal.second] != make_pair(0,0)){
         cout << "YES\n";
+        stack<char> ans;
+        pair<int,int> curr = goal;
+        while (curr != start){
+            pair<int,int> dir = visited[curr.first][curr.second];
+            curr.first += dir.first; curr.second += dir.second;
+            for (int i = 0; i < 4; i++){
+                if (dir.first*-1 == Dx[i] && dir.second*-1 == Dy[i])
+                    ans.push(Dir[i]);
+            }
+        }
         cout << ans.size() << "\n";
-        cout << ans;
+        while (!ans.empty()){
+            cout << ans.top();
+            ans.pop();
+        }
     }else{
         cout << "NO";
     }
