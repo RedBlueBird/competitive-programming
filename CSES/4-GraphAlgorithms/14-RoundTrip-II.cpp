@@ -33,7 +33,6 @@ int main() {
         int a,b;
         cin >> a >> b;
         graph[a].push_back(b);
-        graph[b].push_back(a);
     }
 
     //Dfs all the connected components, and find the cycle with minimum length
