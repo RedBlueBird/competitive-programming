@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/14-RoundTrip-II.dir/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/GraphAlgorithms/RoundTrip-II.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/14-RoundTrip-II.dir/CSES/GraphAlgorithms/RoundTrip-II.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

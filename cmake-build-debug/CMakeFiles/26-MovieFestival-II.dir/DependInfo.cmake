@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/SortingAndSearching/MovieFestival-II.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

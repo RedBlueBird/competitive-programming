@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "24-SlidingMedian.exe"
   "24-SlidingMedian.exe.manifest"
   "24-SlidingMedian.pdb"
-  "CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj"
+  "CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj"
   "lib24-SlidingMedian.dll.a"
 )
 

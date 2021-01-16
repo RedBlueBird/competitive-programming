@@ -56,27 +56,27 @@ include CMakeFiles/26-MovieFestival-II.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/26-MovieFestival-II.dir/flags.make
 
-CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj: CMakeFiles/26-MovieFestival-II.dir/flags.make
-CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj: ../CSES/2-SortingAndSearching/26-MovieFestival-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\26-MovieFestival-II.dir\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp
+CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj: CMakeFiles/26-MovieFestival-II.dir/flags.make
+CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj: ../CSES/SortingAndSearching/MovieFestival-II.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\26-MovieFestival-II.dir\CSES\SortingAndSearching\MovieFestival-II.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\MovieFestival-II.cpp
 
-CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp > CMakeFiles\26-MovieFestival-II.dir\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp.i
+CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\MovieFestival-II.cpp > CMakeFiles\26-MovieFestival-II.dir\CSES\SortingAndSearching\MovieFestival-II.cpp.i
 
-CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp -o CMakeFiles\26-MovieFestival-II.dir\CSES\2-SortingAndSearching\26-MovieFestival-II.cpp.s
+CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\MovieFestival-II.cpp -o CMakeFiles\26-MovieFestival-II.dir\CSES\SortingAndSearching\MovieFestival-II.cpp.s
 
 # Object files for target 26-MovieFestival-II
 26__MovieFestival__II_OBJECTS = \
-"CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj"
+"CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj"
 
 # External object files for target 26-MovieFestival-II
 26__MovieFestival__II_EXTERNAL_OBJECTS =
 
-26-MovieFestival-II.exe: CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+26-MovieFestival-II.exe: CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj
 26-MovieFestival-II.exe: CMakeFiles/26-MovieFestival-II.dir/build.make
 26-MovieFestival-II.exe: CMakeFiles/26-MovieFestival-II.dir/linklibs.rsp
 26-MovieFestival-II.exe: CMakeFiles/26-MovieFestival-II.dir/objects1.rsp

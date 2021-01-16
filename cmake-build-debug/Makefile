@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\competitive-programming\cmake-build-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,6 +110,123 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HoofPaperScissors
+
+# Build rule for target.
+HoofPaperScissors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 HoofPaperScissors
+.PHONY : HoofPaperScissors
+
+# fast build rule for target.
+HoofPaperScissors/fast:
+	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/build
+.PHONY : HoofPaperScissors/fast
+
+#=============================================================================
+# Target rules for targets named SlidingMedian
+
+# Build rule for target.
+SlidingMedian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SlidingMedian
+.PHONY : SlidingMedian
+
+# fast build rule for target.
+SlidingMedian/fast:
+	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/build
+.PHONY : SlidingMedian/fast
+
+#=============================================================================
+# Target rules for targets named GridPaths
+
+# Build rule for target.
+GridPaths: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GridPaths
+.PHONY : GridPaths
+
+# fast build rule for target.
+GridPaths/fast:
+	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/build
+.PHONY : GridPaths/fast
+
+#=============================================================================
+# Target rules for targets named SumOfThreeValues
+
+# Build rule for target.
+SumOfThreeValues: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SumOfThreeValues
+.PHONY : SumOfThreeValues
+
+# fast build rule for target.
+SumOfThreeValues/fast:
+	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/build
+.PHONY : SumOfThreeValues/fast
+
+#=============================================================================
+# Target rules for targets named RoundTrip-II
+
+# Build rule for target.
+RoundTrip-II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RoundTrip-II
+.PHONY : RoundTrip-II
+
+# fast build rule for target.
+RoundTrip-II/fast:
+	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/build
+.PHONY : RoundTrip-II/fast
+
+#=============================================================================
+# Target rules for targets named MovieFestival-II
+
+# Build rule for target.
+MovieFestival-II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MovieFestival-II
+.PHONY : MovieFestival-II
+
+# fast build rule for target.
+MovieFestival-II/fast:
+	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/build
+.PHONY : MovieFestival-II/fast
+
+#=============================================================================
+# Target rules for targets named 3-WheresBessie
+
+# Build rule for target.
+3-WheresBessie: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-WheresBessie
+.PHONY : 3-WheresBessie
+
+# fast build rule for target.
+3-WheresBessie/fast:
+	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/build
+.PHONY : 3-WheresBessie/fast
+
+#=============================================================================
+# Target rules for targets named NestedRangesCheck
+
+# Build rule for target.
+NestedRangesCheck: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 NestedRangesCheck
+.PHONY : NestedRangesCheck
+
+# fast build rule for target.
+NestedRangesCheck/fast:
+	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/build
+.PHONY : NestedRangesCheck/fast
+
+#=============================================================================
+# Target rules for targets named FlightDiscount
+
+# Build rule for target.
+FlightDiscount: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FlightDiscount
+.PHONY : FlightDiscount
+
+# fast build rule for target.
+FlightDiscount/fast:
+	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/build
+.PHONY : FlightDiscount/fast
+
+#=============================================================================
 # Target rules for targets named 2-LoadBalancing
 
 # Build rule for target.
@@ -121,32 +238,6 @@ depend:
 2-LoadBalancing/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
 .PHONY : 2-LoadBalancing/fast
-
-#=============================================================================
-# Target rules for targets named 2-SnowBoots
-
-# Build rule for target.
-2-SnowBoots: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-SnowBoots
-.PHONY : 2-SnowBoots
-
-# fast build rule for target.
-2-SnowBoots/fast:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/build
-.PHONY : 2-SnowBoots/fast
-
-#=============================================================================
-# Target rules for targets named 3-Teleportation
-
-# Build rule for target.
-3-Teleportation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-Teleportation
-.PHONY : 3-Teleportation
-
-# fast build rule for target.
-3-Teleportation/fast:
-	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-.PHONY : 3-Teleportation/fast
 
 #=============================================================================
 # Target rules for targets named 1-SleepyCowHerding
@@ -162,17 +253,17 @@ depend:
 .PHONY : 1-SleepyCowHerding/fast
 
 #=============================================================================
-# Target rules for targets named 2-Meetings
+# Target rules for targets named 3-Teleportation
 
 # Build rule for target.
-2-Meetings: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-Meetings
-.PHONY : 2-Meetings
+3-Teleportation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Teleportation
+.PHONY : 3-Teleportation
 
 # fast build rule for target.
-2-Meetings/fast:
-	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
-.PHONY : 2-Meetings/fast
+3-Teleportation/fast:
+	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
+.PHONY : 3-Teleportation/fast
 
 #=============================================================================
 # Target rules for targets named 1-SwapitySwapitySwap
@@ -188,6 +279,19 @@ depend:
 .PHONY : 1-SwapitySwapitySwap/fast
 
 #=============================================================================
+# Target rules for targets named 2-Meetings
+
+# Build rule for target.
+2-Meetings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Meetings
+.PHONY : 2-Meetings
+
+# fast build rule for target.
+2-Meetings/fast:
+	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
+.PHONY : 2-Meetings/fast
+
+#=============================================================================
 # Target rules for targets named 2-Triangles
 
 # Build rule for target.
@@ -201,257 +305,232 @@ depend:
 .PHONY : 2-Triangles/fast
 
 #=============================================================================
-# Target rules for targets named 26-MovieFestival-II
+# Target rules for targets named 1-FieldReduction
 
 # Build rule for target.
-26-MovieFestival-II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 26-MovieFestival-II
-.PHONY : 26-MovieFestival-II
+1-FieldReduction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-FieldReduction
+.PHONY : 1-FieldReduction
 
 # fast build rule for target.
-26-MovieFestival-II/fast:
-	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/build
-.PHONY : 26-MovieFestival-II/fast
+1-FieldReduction/fast:
+	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/build
+.PHONY : 1-FieldReduction/fast
 
 #=============================================================================
-# Target rules for targets named 2-HoofPaperScissors
+# Target rules for targets named 2-BovineGenomics
 
 # Build rule for target.
-2-HoofPaperScissors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-HoofPaperScissors
-.PHONY : 2-HoofPaperScissors
+2-BovineGenomics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-BovineGenomics
+.PHONY : 2-BovineGenomics
 
 # fast build rule for target.
-2-HoofPaperScissors/fast:
-	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/build
-.PHONY : 2-HoofPaperScissors/fast
+2-BovineGenomics/fast:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
+.PHONY : 2-BovineGenomics/fast
 
 #=============================================================================
-# Target rules for targets named 14-RoundTrip-II
+# Target rules for targets named 1-OutOfSorts
 
 # Build rule for target.
-14-RoundTrip-II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 14-RoundTrip-II
-.PHONY : 14-RoundTrip-II
+1-OutOfSorts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-OutOfSorts
+.PHONY : 1-OutOfSorts
 
 # fast build rule for target.
-14-RoundTrip-II/fast:
-	$(MAKE) -f CMakeFiles\14-RoundTrip-II.dir\build.make CMakeFiles/14-RoundTrip-II.dir/build
-.PHONY : 14-RoundTrip-II/fast
+1-OutOfSorts/fast:
+	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/build
+.PHONY : 1-OutOfSorts/fast
 
-#=============================================================================
-# Target rules for targets named 16-GridPaths
+CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
-# Build rule for target.
-16-GridPaths: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 16-GridPaths
-.PHONY : 16-GridPaths
-
-# fast build rule for target.
-16-GridPaths/fast:
-	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/build
-.PHONY : 16-GridPaths/fast
-
-#=============================================================================
-# Target rules for targets named 17-SumOfThreeValues
-
-# Build rule for target.
-17-SumOfThreeValues: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 17-SumOfThreeValues
-.PHONY : 17-SumOfThreeValues
-
-# fast build rule for target.
-17-SumOfThreeValues/fast:
-	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/build
-.PHONY : 17-SumOfThreeValues/fast
-
-#=============================================================================
-# Target rules for targets named 24-SlidingMedian
-
-# Build rule for target.
-24-SlidingMedian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 24-SlidingMedian
-.PHONY : 24-SlidingMedian
-
-# fast build rule for target.
-24-SlidingMedian/fast:
-	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/build
-.PHONY : 24-SlidingMedian/fast
-
-#=============================================================================
-# Target rules for targets named 11-FlightDiscount
-
-# Build rule for target.
-11-FlightDiscount: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 11-FlightDiscount
-.PHONY : 11-FlightDiscount
-
-# fast build rule for target.
-11-FlightDiscount/fast:
-	$(MAKE) -f CMakeFiles\11-FlightDiscount.dir\build.make CMakeFiles/11-FlightDiscount.dir/build
-.PHONY : 11-FlightDiscount/fast
-
-CSES/1-IntroductoryProblems/16-GridPaths.obj: CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
-
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.obj
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.obj
 
 # target to build an object file
-CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj:
-	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
+CSES/1-IntroductoryProblems/GridPaths.cpp.obj:
+	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/CSES/1-IntroductoryProblems/GridPaths.cpp.obj
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
-CSES/1-IntroductoryProblems/16-GridPaths.i: CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
+CSES/1-IntroductoryProblems/GridPaths.i: CSES/1-IntroductoryProblems/GridPaths.cpp.i
 
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.i
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.i
 
 # target to preprocess a source file
-CSES/1-IntroductoryProblems/16-GridPaths.cpp.i:
-	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.i
+CSES/1-IntroductoryProblems/GridPaths.cpp.i:
+	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/CSES/1-IntroductoryProblems/GridPaths.cpp.i
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.cpp.i
 
-CSES/1-IntroductoryProblems/16-GridPaths.s: CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
+CSES/1-IntroductoryProblems/GridPaths.s: CSES/1-IntroductoryProblems/GridPaths.cpp.s
 
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.s
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.s
 
 # target to generate assembly for a file
-CSES/1-IntroductoryProblems/16-GridPaths.cpp.s:
-	$(MAKE) -f CMakeFiles\16-GridPaths.dir\build.make CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
-.PHONY : CSES/1-IntroductoryProblems/16-GridPaths.cpp.s
+CSES/1-IntroductoryProblems/GridPaths.cpp.s:
+	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/CSES/1-IntroductoryProblems/GridPaths.cpp.s
+.PHONY : CSES/1-IntroductoryProblems/GridPaths.cpp.s
 
-CSES/2-SortingAndSearching/17-SumOfThreeValues.obj: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+CSES/2-SortingAndSearching/MovieFestival-II.obj: CSES/2-SortingAndSearching/MovieFestival-II.cpp.obj
 
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.obj
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.obj
 
 # target to build an object file
-CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj:
-	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+CSES/2-SortingAndSearching/MovieFestival-II.cpp.obj:
+	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/CSES/2-SortingAndSearching/MovieFestival-II.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.cpp.obj
 
-CSES/2-SortingAndSearching/17-SumOfThreeValues.i: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
+CSES/2-SortingAndSearching/MovieFestival-II.i: CSES/2-SortingAndSearching/MovieFestival-II.cpp.i
 
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.i
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.i
 
 # target to preprocess a source file
-CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i:
-	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i
+CSES/2-SortingAndSearching/MovieFestival-II.cpp.i:
+	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/CSES/2-SortingAndSearching/MovieFestival-II.cpp.i
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.cpp.i
 
-CSES/2-SortingAndSearching/17-SumOfThreeValues.s: CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
+CSES/2-SortingAndSearching/MovieFestival-II.s: CSES/2-SortingAndSearching/MovieFestival-II.cpp.s
 
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.s
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.s
 
 # target to generate assembly for a file
-CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s:
-	$(MAKE) -f CMakeFiles\17-SumOfThreeValues.dir\build.make CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
-.PHONY : CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s
+CSES/2-SortingAndSearching/MovieFestival-II.cpp.s:
+	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/CSES/2-SortingAndSearching/MovieFestival-II.cpp.s
+.PHONY : CSES/2-SortingAndSearching/MovieFestival-II.cpp.s
 
-CSES/2-SortingAndSearching/24-SlidingMedian.obj: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+CSES/2-SortingAndSearching/NestedRangesCheck.obj: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
 
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.obj
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.obj
 
 # target to build an object file
-CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj:
-	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj:
+	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
 
-CSES/2-SortingAndSearching/24-SlidingMedian.i: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
+CSES/2-SortingAndSearching/NestedRangesCheck.i: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
 
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.i
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.i
 
 # target to preprocess a source file
-CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i:
-	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i
+CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i:
+	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
 
-CSES/2-SortingAndSearching/24-SlidingMedian.s: CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
+CSES/2-SortingAndSearching/NestedRangesCheck.s: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
 
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.s
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.s
 
 # target to generate assembly for a file
-CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s:
-	$(MAKE) -f CMakeFiles\24-SlidingMedian.dir\build.make CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
-.PHONY : CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s
+CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s:
+	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
+.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
 
-CSES/2-SortingAndSearching/26-MovieFestival-II.obj: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+CSES/2-SortingAndSearching/SlidingMedian.obj: CSES/2-SortingAndSearching/SlidingMedian.cpp.obj
 
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.obj
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.obj
 
 # target to build an object file
-CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj:
-	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj
+CSES/2-SortingAndSearching/SlidingMedian.cpp.obj:
+	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/CSES/2-SortingAndSearching/SlidingMedian.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.cpp.obj
 
-CSES/2-SortingAndSearching/26-MovieFestival-II.i: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
+CSES/2-SortingAndSearching/SlidingMedian.i: CSES/2-SortingAndSearching/SlidingMedian.cpp.i
 
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.i
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.i
 
 # target to preprocess a source file
-CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i:
-	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.i
+CSES/2-SortingAndSearching/SlidingMedian.cpp.i:
+	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/CSES/2-SortingAndSearching/SlidingMedian.cpp.i
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.cpp.i
 
-CSES/2-SortingAndSearching/26-MovieFestival-II.s: CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
+CSES/2-SortingAndSearching/SlidingMedian.s: CSES/2-SortingAndSearching/SlidingMedian.cpp.s
 
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.s
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.s
 
 # target to generate assembly for a file
-CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s:
-	$(MAKE) -f CMakeFiles\26-MovieFestival-II.dir\build.make CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
-.PHONY : CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.s
+CSES/2-SortingAndSearching/SlidingMedian.cpp.s:
+	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/CSES/2-SortingAndSearching/SlidingMedian.cpp.s
+.PHONY : CSES/2-SortingAndSearching/SlidingMedian.cpp.s
 
-CSES/4-GraphAlgorithms/11-FlightDiscount.obj: CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj
+CSES/2-SortingAndSearching/SumOfThreeValues.obj: CSES/2-SortingAndSearching/SumOfThreeValues.cpp.obj
 
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.obj
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.obj
 
 # target to build an object file
-CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj:
-	$(MAKE) -f CMakeFiles\11-FlightDiscount.dir\build.make CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj
+CSES/2-SortingAndSearching/SumOfThreeValues.cpp.obj:
+	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/CSES/2-SortingAndSearching/SumOfThreeValues.cpp.obj
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.cpp.obj
 
-CSES/4-GraphAlgorithms/11-FlightDiscount.i: CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i
+CSES/2-SortingAndSearching/SumOfThreeValues.i: CSES/2-SortingAndSearching/SumOfThreeValues.cpp.i
 
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.i
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.i
 
 # target to preprocess a source file
-CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i:
-	$(MAKE) -f CMakeFiles\11-FlightDiscount.dir\build.make CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i
+CSES/2-SortingAndSearching/SumOfThreeValues.cpp.i:
+	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/CSES/2-SortingAndSearching/SumOfThreeValues.cpp.i
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.cpp.i
 
-CSES/4-GraphAlgorithms/11-FlightDiscount.s: CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s
+CSES/2-SortingAndSearching/SumOfThreeValues.s: CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s
 
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.s
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.s
 
 # target to generate assembly for a file
-CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s:
-	$(MAKE) -f CMakeFiles\11-FlightDiscount.dir\build.make CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s
-.PHONY : CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s
+CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s:
+	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s
+.PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s
 
-CSES/4-GraphAlgorithms/14-RoundTrip-II.obj: CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj
+CSES/4-GraphAlgorithms/FlightDiscount.obj: CSES/4-GraphAlgorithms/FlightDiscount.cpp.obj
 
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.obj
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.obj
 
 # target to build an object file
-CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj:
-	$(MAKE) -f CMakeFiles\14-RoundTrip-II.dir\build.make CMakeFiles/14-RoundTrip-II.dir/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj
+CSES/4-GraphAlgorithms/FlightDiscount.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/CSES/4-GraphAlgorithms/FlightDiscount.cpp.obj
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.cpp.obj
 
-CSES/4-GraphAlgorithms/14-RoundTrip-II.i: CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.i
+CSES/4-GraphAlgorithms/FlightDiscount.i: CSES/4-GraphAlgorithms/FlightDiscount.cpp.i
 
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.i
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.i
 
 # target to preprocess a source file
-CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.i:
-	$(MAKE) -f CMakeFiles\14-RoundTrip-II.dir\build.make CMakeFiles/14-RoundTrip-II.dir/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.i
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.i
+CSES/4-GraphAlgorithms/FlightDiscount.cpp.i:
+	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/CSES/4-GraphAlgorithms/FlightDiscount.cpp.i
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.cpp.i
 
-CSES/4-GraphAlgorithms/14-RoundTrip-II.s: CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.s
+CSES/4-GraphAlgorithms/FlightDiscount.s: CSES/4-GraphAlgorithms/FlightDiscount.cpp.s
 
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.s
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.s
 
 # target to generate assembly for a file
-CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.s:
-	$(MAKE) -f CMakeFiles\14-RoundTrip-II.dir\build.make CMakeFiles/14-RoundTrip-II.dir/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.s
-.PHONY : CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.s
+CSES/4-GraphAlgorithms/FlightDiscount.cpp.s:
+	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/CSES/4-GraphAlgorithms/FlightDiscount.cpp.s
+.PHONY : CSES/4-GraphAlgorithms/FlightDiscount.cpp.s
+
+CSES/4-GraphAlgorithms/RoundTrip-II.obj: CSES/4-GraphAlgorithms/RoundTrip-II.cpp.obj
+
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.obj
+
+# target to build an object file
+CSES/4-GraphAlgorithms/RoundTrip-II.cpp.obj:
+	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/CSES/4-GraphAlgorithms/RoundTrip-II.cpp.obj
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.cpp.obj
+
+CSES/4-GraphAlgorithms/RoundTrip-II.i: CSES/4-GraphAlgorithms/RoundTrip-II.cpp.i
+
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.i
+
+# target to preprocess a source file
+CSES/4-GraphAlgorithms/RoundTrip-II.cpp.i:
+	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/CSES/4-GraphAlgorithms/RoundTrip-II.cpp.i
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.cpp.i
+
+CSES/4-GraphAlgorithms/RoundTrip-II.s: CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
+
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.s
+
+# target to generate assembly for a file
+CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s:
+	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
+.PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
 
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj: USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.obj
 
@@ -480,13 +559,40 @@ USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
 .PHONY : USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
 
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj: USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.obj
+
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
+
+# target to build an object file
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.obj
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.obj
+
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i: USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.i
+
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
+
+# target to preprocess a source file
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.i:
+	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.i
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.i
+
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s: USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
+
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
+
+# target to generate assembly for a file
+USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s:
+	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
+.PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
+
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
 
 .PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj
 
 # target to build an object file
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
+	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
 .PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.obj
 
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
@@ -495,7 +601,7 @@ USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i: USACO/2016-2017/2-Jan/Gold/2-H
 
 # target to preprocess a source file
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i:
-	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
+	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
 .PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.i
 
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s: USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
@@ -504,35 +610,62 @@ USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s: USACO/2016-2017/2-Jan/Gold/2-H
 
 # target to generate assembly for a file
 USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s:
-	$(MAKE) -f CMakeFiles\2-HoofPaperScissors.dir\build.make CMakeFiles/2-HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
+	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
 .PHONY : USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp.s
 
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.obj: USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj: USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj
 
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.obj
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj
 
 # target to build an object file
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.obj
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj
 
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.i: USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.i: USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.i
 
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.i
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.i
 
 # target to preprocess a source file
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.i
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.i:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.i
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.i
 
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.s: USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.s: USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.s
 
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.s
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.s
 
 # target to generate assembly for a file
-USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s:
-	$(MAKE) -f CMakeFiles\2-SnowBoots.dir\build.make CMakeFiles/2-SnowBoots.dir/USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s
-.PHONY : USACO/2017-2018/3-Feb/Silver/2-SnowBoots.cpp.s
+USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.s:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.s
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.s
+
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.obj: USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.obj
+
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.obj
+
+# target to build an object file
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.obj
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.obj
+
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.i: USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.i
+
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.i
+
+# target to preprocess a source file
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.i:
+	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.i
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.i
+
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.s: USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.s
+
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.s
+
+# target to generate assembly for a file
+USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.s:
+	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.s
+.PHONY : USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp.s
 
 USACO/2017-2018/3-Feb/Silver/3-Teleportation.obj: USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp.obj
 
@@ -560,6 +693,33 @@ USACO/2017-2018/3-Feb/Silver/3-Teleportation.s: USACO/2017-2018/3-Feb/Silver/3-T
 USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp.s:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp.s
 .PHONY : USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp.s
+
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.obj: USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.obj
+
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.obj
+
+# target to build an object file
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.obj
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.obj
+
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.i: USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.i
+
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.i
+
+# target to preprocess a source file
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.i:
+	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.i
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.i
+
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.s: USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.s
+
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.s
+
+# target to generate assembly for a file
+USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.s:
+	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.s
+.PHONY : USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp.s
 
 USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.obj: USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj
 
@@ -675,52 +835,68 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 2-LoadBalancing
-	@echo ... 2-SnowBoots
-	@echo ... 3-Teleportation
-	@echo ... 1-SleepyCowHerding
-	@echo ... 2-Meetings
-	@echo ... 1-SwapitySwapitySwap
-	@echo ... 2-Triangles
-	@echo ... 26-MovieFestival-II
-	@echo ... 2-HoofPaperScissors
-	@echo ... 14-RoundTrip-II
-	@echo ... 16-GridPaths
-	@echo ... 17-SumOfThreeValues
-	@echo ... 24-SlidingMedian
-	@echo ... 11-FlightDiscount
-	@echo ... edit_cache
+	@echo ... HoofPaperScissors
+	@echo ... SlidingMedian
+	@echo ... GridPaths
 	@echo ... rebuild_cache
-	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.obj
-	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.i
-	@echo ... CSES/1-IntroductoryProblems/16-GridPaths.s
-	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.obj
-	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.i
-	@echo ... CSES/2-SortingAndSearching/17-SumOfThreeValues.s
-	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.obj
-	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.i
-	@echo ... CSES/2-SortingAndSearching/24-SlidingMedian.s
-	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.obj
-	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.i
-	@echo ... CSES/2-SortingAndSearching/26-MovieFestival-II.s
-	@echo ... CSES/4-GraphAlgorithms/11-FlightDiscount.obj
-	@echo ... CSES/4-GraphAlgorithms/11-FlightDiscount.i
-	@echo ... CSES/4-GraphAlgorithms/11-FlightDiscount.s
-	@echo ... CSES/4-GraphAlgorithms/14-RoundTrip-II.obj
-	@echo ... CSES/4-GraphAlgorithms/14-RoundTrip-II.i
-	@echo ... CSES/4-GraphAlgorithms/14-RoundTrip-II.s
+	@echo ... SumOfThreeValues
+	@echo ... RoundTrip-II
+	@echo ... MovieFestival-II
+	@echo ... 3-WheresBessie
+	@echo ... NestedRangesCheck
+	@echo ... FlightDiscount
+	@echo ... 2-LoadBalancing
+	@echo ... 1-SleepyCowHerding
+	@echo ... 3-Teleportation
+	@echo ... 1-SwapitySwapitySwap
+	@echo ... 2-Meetings
+	@echo ... 2-Triangles
+	@echo ... 1-FieldReduction
+	@echo ... edit_cache
+	@echo ... 2-BovineGenomics
+	@echo ... 1-OutOfSorts
+	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
+	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
+	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
+	@echo ... CSES/2-SortingAndSearching/MovieFestival-II.obj
+	@echo ... CSES/2-SortingAndSearching/MovieFestival-II.i
+	@echo ... CSES/2-SortingAndSearching/MovieFestival-II.s
+	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.obj
+	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.i
+	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.s
+	@echo ... CSES/2-SortingAndSearching/SlidingMedian.obj
+	@echo ... CSES/2-SortingAndSearching/SlidingMedian.i
+	@echo ... CSES/2-SortingAndSearching/SlidingMedian.s
+	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.obj
+	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.i
+	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.s
+	@echo ... CSES/4-GraphAlgorithms/FlightDiscount.obj
+	@echo ... CSES/4-GraphAlgorithms/FlightDiscount.i
+	@echo ... CSES/4-GraphAlgorithms/FlightDiscount.s
+	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.obj
+	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.i
+	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
+	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
+	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
+	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
 	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.obj
 	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.i
 	@echo ... USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.s
-	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.obj
-	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.i
-	@echo ... USACO/2017-2018/3-Feb/Silver/2-SnowBoots.s
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.i
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.s
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.obj
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.i
+	@echo ... USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.s
 	@echo ... USACO/2017-2018/3-Feb/Silver/3-Teleportation.obj
 	@echo ... USACO/2017-2018/3-Feb/Silver/3-Teleportation.i
 	@echo ... USACO/2017-2018/3-Feb/Silver/3-Teleportation.s
+	@echo ... USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.obj
+	@echo ... USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.i
+	@echo ... USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.s
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.obj
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.i
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.s

@@ -56,27 +56,27 @@ include CMakeFiles/24-SlidingMedian.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/24-SlidingMedian.dir/flags.make
 
-CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj: CMakeFiles/24-SlidingMedian.dir/flags.make
-CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj: ../CSES/2-SortingAndSearching/24-SlidingMedian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\24-SlidingMedian.dir\CSES\2-SortingAndSearching\24-SlidingMedian.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\24-SlidingMedian.cpp
+CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj: CMakeFiles/24-SlidingMedian.dir/flags.make
+CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj: ../CSES/SortingAndSearching/SlidingMedian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\24-SlidingMedian.dir\CSES\SortingAndSearching\SlidingMedian.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SlidingMedian.cpp
 
-CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\24-SlidingMedian.cpp > CMakeFiles\24-SlidingMedian.dir\CSES\2-SortingAndSearching\24-SlidingMedian.cpp.i
+CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SlidingMedian.cpp > CMakeFiles\24-SlidingMedian.dir\CSES\SortingAndSearching\SlidingMedian.cpp.i
 
-CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\24-SlidingMedian.cpp -o CMakeFiles\24-SlidingMedian.dir\CSES\2-SortingAndSearching\24-SlidingMedian.cpp.s
+CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SlidingMedian.cpp -o CMakeFiles\24-SlidingMedian.dir\CSES\SortingAndSearching\SlidingMedian.cpp.s
 
 # Object files for target 24-SlidingMedian
 24__SlidingMedian_OBJECTS = \
-"CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj"
+"CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj"
 
 # External object files for target 24-SlidingMedian
 24__SlidingMedian_EXTERNAL_OBJECTS =
 
-24-SlidingMedian.exe: CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj
+24-SlidingMedian.exe: CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj
 24-SlidingMedian.exe: CMakeFiles/24-SlidingMedian.dir/build.make
 24-SlidingMedian.exe: CMakeFiles/24-SlidingMedian.dir/linklibs.rsp
 24-SlidingMedian.exe: CMakeFiles/24-SlidingMedian.dir/objects1.rsp

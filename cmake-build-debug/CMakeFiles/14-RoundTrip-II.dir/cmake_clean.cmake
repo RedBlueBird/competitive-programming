@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "14-RoundTrip-II.exe"
   "14-RoundTrip-II.exe.manifest"
   "14-RoundTrip-II.pdb"
-  "CMakeFiles/14-RoundTrip-II.dir/CSES/4-GraphAlgorithms/14-RoundTrip-II.cpp.obj"
+  "CMakeFiles/14-RoundTrip-II.dir/CSES/GraphAlgorithms/RoundTrip-II.cpp.obj"
   "lib14-RoundTrip-II.dll.a"
 )
 

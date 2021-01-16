@@ -56,27 +56,27 @@ include CMakeFiles/11-FlightDiscount.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/11-FlightDiscount.dir/flags.make
 
-CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj: CMakeFiles/11-FlightDiscount.dir/flags.make
-CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj: ../CSES/4-GraphAlgorithms/11-FlightDiscount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\11-FlightDiscount.dir\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp
+CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj: CMakeFiles/11-FlightDiscount.dir/flags.make
+CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj: ../CSES/GraphAlgorithms/FlightDiscount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\11-FlightDiscount.dir\CSES\GraphAlgorithms\FlightDiscount.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\GraphAlgorithms\FlightDiscount.cpp
 
-CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp > CMakeFiles\11-FlightDiscount.dir\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp.i
+CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\GraphAlgorithms\FlightDiscount.cpp > CMakeFiles\11-FlightDiscount.dir\CSES\GraphAlgorithms\FlightDiscount.cpp.i
 
-CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp -o CMakeFiles\11-FlightDiscount.dir\CSES\4-GraphAlgorithms\11-FlightDiscount.cpp.s
+CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\GraphAlgorithms\FlightDiscount.cpp -o CMakeFiles\11-FlightDiscount.dir\CSES\GraphAlgorithms\FlightDiscount.cpp.s
 
 # Object files for target 11-FlightDiscount
 11__FlightDiscount_OBJECTS = \
-"CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj"
+"CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj"
 
 # External object files for target 11-FlightDiscount
 11__FlightDiscount_EXTERNAL_OBJECTS =
 
-11-FlightDiscount.exe: CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj
+11-FlightDiscount.exe: CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj
 11-FlightDiscount.exe: CMakeFiles/11-FlightDiscount.dir/build.make
 11-FlightDiscount.exe: CMakeFiles/11-FlightDiscount.dir/linklibs.rsp
 11-FlightDiscount.exe: CMakeFiles/11-FlightDiscount.dir/objects1.rsp

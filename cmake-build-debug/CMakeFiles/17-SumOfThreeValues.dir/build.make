@@ -56,27 +56,27 @@ include CMakeFiles/17-SumOfThreeValues.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/17-SumOfThreeValues.dir/flags.make
 
-CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj: CMakeFiles/17-SumOfThreeValues.dir/flags.make
-CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj: ../CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\17-SumOfThreeValues.dir\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp
+CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj: CMakeFiles/17-SumOfThreeValues.dir/flags.make
+CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj: ../CSES/SortingAndSearching/SumOfThreeValues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\17-SumOfThreeValues.dir\CSES\SortingAndSearching\SumOfThreeValues.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SumOfThreeValues.cpp
 
-CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp > CMakeFiles\17-SumOfThreeValues.dir\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp.i
+CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SumOfThreeValues.cpp > CMakeFiles\17-SumOfThreeValues.dir\CSES\SortingAndSearching\SumOfThreeValues.cpp.i
 
-CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp -o CMakeFiles\17-SumOfThreeValues.dir\CSES\2-SortingAndSearching\17-SumOfThreeValues.cpp.s
+CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\SortingAndSearching\SumOfThreeValues.cpp -o CMakeFiles\17-SumOfThreeValues.dir\CSES\SortingAndSearching\SumOfThreeValues.cpp.s
 
 # Object files for target 17-SumOfThreeValues
 17__SumOfThreeValues_OBJECTS = \
-"CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj"
+"CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj"
 
 # External object files for target 17-SumOfThreeValues
 17__SumOfThreeValues_EXTERNAL_OBJECTS =
 
-17-SumOfThreeValues.exe: CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj
+17-SumOfThreeValues.exe: CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj
 17-SumOfThreeValues.exe: CMakeFiles/17-SumOfThreeValues.dir/build.make
 17-SumOfThreeValues.exe: CMakeFiles/17-SumOfThreeValues.dir/linklibs.rsp
 17-SumOfThreeValues.exe: CMakeFiles/17-SumOfThreeValues.dir/objects1.rsp

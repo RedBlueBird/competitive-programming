@@ -13,7 +13,7 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> projects[i][0] >> projects[i][1] >> projects[i][2];
 
-    //More generalized problem of SortingAndSearching | 6-MovieFestival
+    //More generalized problem of 2-SortingAndSearching | 6-MovieFestival
     //We can scan from left to right sort by ending time with negative upper bound or
     //scan right to left sort by starting time with positive upper bound
     //dp[i,j] represents time i to infinity have a maximum possible reward of j

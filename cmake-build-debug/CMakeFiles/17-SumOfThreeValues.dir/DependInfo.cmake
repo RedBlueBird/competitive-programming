@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/SortingAndSearching/SumOfThreeValues.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

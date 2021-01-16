@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/2-SortingAndSearching/24-SlidingMedian.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/24-SlidingMedian.dir/CSES/2-SortingAndSearching/24-SlidingMedian.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/SortingAndSearching/SlidingMedian.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/24-SlidingMedian.dir/CSES/SortingAndSearching/SlidingMedian.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

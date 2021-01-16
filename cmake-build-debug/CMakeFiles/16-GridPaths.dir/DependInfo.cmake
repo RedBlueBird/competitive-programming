@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/1-IntroductoryProblems/16-GridPaths.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/IntroductoryProblems/GridPaths.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

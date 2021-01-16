@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaon/Documents/competitive-programming/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj"
+  "C:/Users/xiaon/Documents/competitive-programming/CSES/GraphAlgorithms/FlightDiscount.cpp" "C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

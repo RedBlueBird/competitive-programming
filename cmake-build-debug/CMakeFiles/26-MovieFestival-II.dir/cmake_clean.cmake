@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "26-MovieFestival-II.exe"
   "26-MovieFestival-II.exe.manifest"
   "26-MovieFestival-II.pdb"
-  "CMakeFiles/26-MovieFestival-II.dir/CSES/2-SortingAndSearching/26-MovieFestival-II.cpp.obj"
+  "CMakeFiles/26-MovieFestival-II.dir/CSES/SortingAndSearching/MovieFestival-II.cpp.obj"
   "lib26-MovieFestival-II.dll.a"
 )
 

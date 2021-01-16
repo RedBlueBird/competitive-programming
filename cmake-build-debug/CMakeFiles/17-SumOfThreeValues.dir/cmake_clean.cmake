@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "17-SumOfThreeValues.exe"
   "17-SumOfThreeValues.exe.manifest"
   "17-SumOfThreeValues.pdb"
-  "CMakeFiles/17-SumOfThreeValues.dir/CSES/2-SortingAndSearching/17-SumOfThreeValues.cpp.obj"
+  "CMakeFiles/17-SumOfThreeValues.dir/CSES/SortingAndSearching/SumOfThreeValues.cpp.obj"
   "lib17-SumOfThreeValues.dll.a"
 )
 

@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "16-GridPaths.exe"
   "16-GridPaths.exe.manifest"
   "16-GridPaths.pdb"
-  "CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj"
+  "CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj"
   "lib16-GridPaths.dll.a"
 )
 

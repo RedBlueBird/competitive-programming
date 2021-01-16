@@ -56,27 +56,27 @@ include CMakeFiles/16-GridPaths.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/16-GridPaths.dir/flags.make
 
-CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj: CMakeFiles/16-GridPaths.dir/flags.make
-CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj: ../CSES/1-IntroductoryProblems/16-GridPaths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\16-GridPaths.dir\CSES\1-IntroductoryProblems\16-GridPaths.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\1-IntroductoryProblems\16-GridPaths.cpp
+CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj: CMakeFiles/16-GridPaths.dir/flags.make
+CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj: ../CSES/IntroductoryProblems/GridPaths.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\16-GridPaths.dir\CSES\IntroductoryProblems\GridPaths.cpp.obj -c C:\Users\xiaon\Documents\competitive-programming\CSES\IntroductoryProblems\GridPaths.cpp
 
-CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\1-IntroductoryProblems\16-GridPaths.cpp > CMakeFiles\16-GridPaths.dir\CSES\1-IntroductoryProblems\16-GridPaths.cpp.i
+CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\xiaon\Documents\competitive-programming\CSES\IntroductoryProblems\GridPaths.cpp > CMakeFiles\16-GridPaths.dir\CSES\IntroductoryProblems\GridPaths.cpp.i
 
-CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\1-IntroductoryProblems\16-GridPaths.cpp -o CMakeFiles\16-GridPaths.dir\CSES\1-IntroductoryProblems\16-GridPaths.cpp.s
+CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\xiaon\Documents\competitive-programming\CSES\IntroductoryProblems\GridPaths.cpp -o CMakeFiles\16-GridPaths.dir\CSES\IntroductoryProblems\GridPaths.cpp.s
 
 # Object files for target 16-GridPaths
 16__GridPaths_OBJECTS = \
-"CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj"
+"CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj"
 
 # External object files for target 16-GridPaths
 16__GridPaths_EXTERNAL_OBJECTS =
 
-16-GridPaths.exe: CMakeFiles/16-GridPaths.dir/CSES/1-IntroductoryProblems/16-GridPaths.cpp.obj
+16-GridPaths.exe: CMakeFiles/16-GridPaths.dir/CSES/IntroductoryProblems/GridPaths.cpp.obj
 16-GridPaths.exe: CMakeFiles/16-GridPaths.dir/build.make
 16-GridPaths.exe: CMakeFiles/16-GridPaths.dir/linklibs.rsp
 16-GridPaths.exe: CMakeFiles/16-GridPaths.dir/objects1.rsp

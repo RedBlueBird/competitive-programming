@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "11-FlightDiscount.exe"
   "11-FlightDiscount.exe.manifest"
   "11-FlightDiscount.pdb"
-  "CMakeFiles/11-FlightDiscount.dir/CSES/4-GraphAlgorithms/11-FlightDiscount.cpp.obj"
+  "CMakeFiles/11-FlightDiscount.dir/CSES/GraphAlgorithms/FlightDiscount.cpp.obj"
   "lib11-FlightDiscount.dll.a"
 )
 
