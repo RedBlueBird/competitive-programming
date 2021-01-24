@@ -54,14 +54,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/HoofPaperScissors.dir/DependInfo.cmake"
-  "CMakeFiles/SlidingMedian.dir/DependInfo.cmake"
+  "CMakeFiles/3-MultiplayerMoo.dir/DependInfo.cmake"
+  "CMakeFiles/1-AngryCows.dir/DependInfo.cmake"
   "CMakeFiles/GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/SumOfThreeValues.dir/DependInfo.cmake"
   "CMakeFiles/RoundTrip-II.dir/DependInfo.cmake"
-  "CMakeFiles/MovieFestival-II.dir/DependInfo.cmake"
   "CMakeFiles/3-WheresBessie.dir/DependInfo.cmake"
   "CMakeFiles/NestedRangesCheck.dir/DependInfo.cmake"
   "CMakeFiles/FlightDiscount.dir/DependInfo.cmake"
+  "CMakeFiles/SlidingCost.dir/DependInfo.cmake"
   "CMakeFiles/2-LoadBalancing.dir/DependInfo.cmake"
   "CMakeFiles/1-SleepyCowHerding.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
@@ -70,5 +71,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/2-Triangles.dir/DependInfo.cmake"
   "CMakeFiles/1-FieldReduction.dir/DependInfo.cmake"
   "CMakeFiles/2-BovineGenomics.dir/DependInfo.cmake"
-  "CMakeFiles/1-OutOfSorts.dir/DependInfo.cmake"
   )

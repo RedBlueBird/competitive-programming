@@ -53,14 +53,15 @@ CMAKE_BINARY_DIR = C:\Users\xiaon\Documents\competitive-programming\cmake-build-
 
 # The main recursive "all" target.
 all: CMakeFiles/HoofPaperScissors.dir/all
-all: CMakeFiles/SlidingMedian.dir/all
+all: CMakeFiles/3-MultiplayerMoo.dir/all
+all: CMakeFiles/1-AngryCows.dir/all
 all: CMakeFiles/GridPaths.dir/all
 all: CMakeFiles/SumOfThreeValues.dir/all
 all: CMakeFiles/RoundTrip-II.dir/all
-all: CMakeFiles/MovieFestival-II.dir/all
 all: CMakeFiles/3-WheresBessie.dir/all
 all: CMakeFiles/NestedRangesCheck.dir/all
 all: CMakeFiles/FlightDiscount.dir/all
+all: CMakeFiles/SlidingCost.dir/all
 all: CMakeFiles/2-LoadBalancing.dir/all
 all: CMakeFiles/1-SleepyCowHerding.dir/all
 all: CMakeFiles/3-Teleportation.dir/all
@@ -69,7 +70,6 @@ all: CMakeFiles/2-Meetings.dir/all
 all: CMakeFiles/2-Triangles.dir/all
 all: CMakeFiles/1-FieldReduction.dir/all
 all: CMakeFiles/2-BovineGenomics.dir/all
-all: CMakeFiles/1-OutOfSorts.dir/all
 
 .PHONY : all
 
@@ -80,14 +80,15 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/HoofPaperScissors.dir/clean
-clean: CMakeFiles/SlidingMedian.dir/clean
+clean: CMakeFiles/3-MultiplayerMoo.dir/clean
+clean: CMakeFiles/1-AngryCows.dir/clean
 clean: CMakeFiles/GridPaths.dir/clean
 clean: CMakeFiles/SumOfThreeValues.dir/clean
 clean: CMakeFiles/RoundTrip-II.dir/clean
-clean: CMakeFiles/MovieFestival-II.dir/clean
 clean: CMakeFiles/3-WheresBessie.dir/clean
 clean: CMakeFiles/NestedRangesCheck.dir/clean
 clean: CMakeFiles/FlightDiscount.dir/clean
+clean: CMakeFiles/SlidingCost.dir/clean
 clean: CMakeFiles/2-LoadBalancing.dir/clean
 clean: CMakeFiles/1-SleepyCowHerding.dir/clean
 clean: CMakeFiles/3-Teleportation.dir/clean
@@ -96,7 +97,6 @@ clean: CMakeFiles/2-Meetings.dir/clean
 clean: CMakeFiles/2-Triangles.dir/clean
 clean: CMakeFiles/1-FieldReduction.dir/clean
 clean: CMakeFiles/2-BovineGenomics.dir/clean
-clean: CMakeFiles/1-OutOfSorts.dir/clean
 
 .PHONY : clean
 
@@ -107,7 +107,7 @@ clean: CMakeFiles/1-OutOfSorts.dir/clean
 CMakeFiles/HoofPaperScissors.dir/all:
 	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/depend
 	$(MAKE) -f CMakeFiles\HoofPaperScissors.dir\build.make CMakeFiles/HoofPaperScissors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target HoofPaperScissors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target HoofPaperScissors"
 .PHONY : CMakeFiles/HoofPaperScissors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -128,31 +128,58 @@ CMakeFiles/HoofPaperScissors.dir/clean:
 .PHONY : CMakeFiles/HoofPaperScissors.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SlidingMedian.dir
+# Target rules for target CMakeFiles/3-MultiplayerMoo.dir
 
 # All Build rule for target.
-CMakeFiles/SlidingMedian.dir/all:
-	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/depend
-	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target SlidingMedian"
-.PHONY : CMakeFiles/SlidingMedian.dir/all
+CMakeFiles/3-MultiplayerMoo.dir/all:
+	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/depend
+	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 3-MultiplayerMoo"
+.PHONY : CMakeFiles/3-MultiplayerMoo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SlidingMedian.dir/rule: cmake_check_build_system
+CMakeFiles/3-MultiplayerMoo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SlidingMedian.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-MultiplayerMoo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SlidingMedian.dir/rule
+.PHONY : CMakeFiles/3-MultiplayerMoo.dir/rule
 
 # Convenience name for target.
-SlidingMedian: CMakeFiles/SlidingMedian.dir/rule
+3-MultiplayerMoo: CMakeFiles/3-MultiplayerMoo.dir/rule
 
-.PHONY : SlidingMedian
+.PHONY : 3-MultiplayerMoo
 
 # clean rule for target.
-CMakeFiles/SlidingMedian.dir/clean:
-	$(MAKE) -f CMakeFiles\SlidingMedian.dir\build.make CMakeFiles/SlidingMedian.dir/clean
-.PHONY : CMakeFiles/SlidingMedian.dir/clean
+CMakeFiles/3-MultiplayerMoo.dir/clean:
+	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/clean
+.PHONY : CMakeFiles/3-MultiplayerMoo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-AngryCows.dir
+
+# All Build rule for target.
+CMakeFiles/1-AngryCows.dir/all:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/depend
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1-AngryCows"
+.PHONY : CMakeFiles/1-AngryCows.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-AngryCows.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-AngryCows.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1-AngryCows.dir/rule
+
+# Convenience name for target.
+1-AngryCows: CMakeFiles/1-AngryCows.dir/rule
+
+.PHONY : 1-AngryCows
+
+# clean rule for target.
+CMakeFiles/1-AngryCows.dir/clean:
+	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/clean
+.PHONY : CMakeFiles/1-AngryCows.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/GridPaths.dir
@@ -161,7 +188,7 @@ CMakeFiles/SlidingMedian.dir/clean:
 CMakeFiles/GridPaths.dir/all:
 	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/depend
 	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target GridPaths"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target GridPaths"
 .PHONY : CMakeFiles/GridPaths.dir/all
 
 # Build rule for subdir invocation for target.
@@ -236,40 +263,13 @@ CMakeFiles/RoundTrip-II.dir/clean:
 .PHONY : CMakeFiles/RoundTrip-II.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MovieFestival-II.dir
-
-# All Build rule for target.
-CMakeFiles/MovieFestival-II.dir/all:
-	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/depend
-	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target MovieFestival-II"
-.PHONY : CMakeFiles/MovieFestival-II.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/MovieFestival-II.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/MovieFestival-II.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/MovieFestival-II.dir/rule
-
-# Convenience name for target.
-MovieFestival-II: CMakeFiles/MovieFestival-II.dir/rule
-
-.PHONY : MovieFestival-II
-
-# clean rule for target.
-CMakeFiles/MovieFestival-II.dir/clean:
-	$(MAKE) -f CMakeFiles\MovieFestival-II.dir\build.make CMakeFiles/MovieFestival-II.dir/clean
-.PHONY : CMakeFiles/MovieFestival-II.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/3-WheresBessie.dir
 
 # All Build rule for target.
 CMakeFiles/3-WheresBessie.dir/all:
 	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/depend
 	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 3-WheresBessie"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 3-WheresBessie"
 .PHONY : CMakeFiles/3-WheresBessie.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,7 +323,7 @@ CMakeFiles/NestedRangesCheck.dir/clean:
 CMakeFiles/FlightDiscount.dir/all:
 	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/depend
 	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target FlightDiscount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target FlightDiscount"
 .PHONY : CMakeFiles/FlightDiscount.dir/all
 
 # Build rule for subdir invocation for target.
@@ -342,6 +342,33 @@ FlightDiscount: CMakeFiles/FlightDiscount.dir/rule
 CMakeFiles/FlightDiscount.dir/clean:
 	$(MAKE) -f CMakeFiles\FlightDiscount.dir\build.make CMakeFiles/FlightDiscount.dir/clean
 .PHONY : CMakeFiles/FlightDiscount.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SlidingCost.dir
+
+# All Build rule for target.
+CMakeFiles/SlidingCost.dir/all:
+	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/depend
+	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target SlidingCost"
+.PHONY : CMakeFiles/SlidingCost.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SlidingCost.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SlidingCost.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SlidingCost.dir/rule
+
+# Convenience name for target.
+SlidingCost: CMakeFiles/SlidingCost.dir/rule
+
+.PHONY : SlidingCost
+
+# clean rule for target.
+CMakeFiles/SlidingCost.dir/clean:
+	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/clean
+.PHONY : CMakeFiles/SlidingCost.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/2-LoadBalancing.dir
@@ -404,7 +431,7 @@ CMakeFiles/1-SleepyCowHerding.dir/clean:
 CMakeFiles/3-Teleportation.dir/all:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/depend
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 3-Teleportation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 3-Teleportation"
 .PHONY : CMakeFiles/3-Teleportation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -512,7 +539,7 @@ CMakeFiles/2-Triangles.dir/clean:
 CMakeFiles/1-FieldReduction.dir/all:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/depend
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1-FieldReduction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 1-FieldReduction"
 .PHONY : CMakeFiles/1-FieldReduction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -558,33 +585,6 @@ CMakeFiles/2-BovineGenomics.dir/rule: cmake_check_build_system
 CMakeFiles/2-BovineGenomics.dir/clean:
 	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/clean
 .PHONY : CMakeFiles/2-BovineGenomics.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1-OutOfSorts.dir
-
-# All Build rule for target.
-CMakeFiles/1-OutOfSorts.dir/all:
-	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/depend
-	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 1-OutOfSorts"
-.PHONY : CMakeFiles/1-OutOfSorts.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1-OutOfSorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-OutOfSorts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/1-OutOfSorts.dir/rule
-
-# Convenience name for target.
-1-OutOfSorts: CMakeFiles/1-OutOfSorts.dir/rule
-
-.PHONY : 1-OutOfSorts
-
-# clean rule for target.
-CMakeFiles/1-OutOfSorts.dir/clean:
-	$(MAKE) -f CMakeFiles\1-OutOfSorts.dir\build.make CMakeFiles/1-OutOfSorts.dir/clean
-.PHONY : CMakeFiles/1-OutOfSorts.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

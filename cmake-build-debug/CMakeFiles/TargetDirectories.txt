@@ -1,13 +1,14 @@
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/HoofPaperScissors.dir
-C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SlidingMedian.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-MultiplayerMoo.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-AngryCows.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/GridPaths.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SumOfThreeValues.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/RoundTrip-II.dir
-C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/MovieFestival-II.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-WheresBessie.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/NestedRangesCheck.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/FlightDiscount.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SlidingCost.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-LoadBalancing.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-SleepyCowHerding.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-Teleportation.dir
@@ -17,4 +18,3 @@ C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-FieldReduction.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-BovineGenomics.dir
-C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-OutOfSorts.dir

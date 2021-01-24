@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\17-SumOfThreeValues.dir/objects.a
-C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\17-SumOfThreeValues.dir/objects.a @CMakeFiles\17-SumOfThreeValues.dir\objects1.rsp
-C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\17-SumOfThreeValues.dir/objects.a -Wl,--no-whole-archive  -o 17-SumOfThreeValues.exe -Wl,--out-implib,lib17-SumOfThreeValues.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\17-SumOfThreeValues.dir\linklibs.rsp

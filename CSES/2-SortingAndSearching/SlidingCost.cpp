@@ -13,11 +13,10 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> nums[i];
 
-    //Keep track of two ordered sets
-    //One contains all the numbers in a window of k numbers <= median
-    //One contains all the numbers in a window of k numbers >= median
     multiset<int> first;
     multiset<int> second;
+    ll ans = 0;
+    ll median;
     for (int i = 0; i < n; i++){
         if (first.empty() || *(--first.end()) >= nums[i]){
             first.insert(nums[i]);
@@ -47,8 +46,10 @@ int main() {
                 }
             }
         }
+        median = *(--first.end());
+        ans += abs(nums[i]-median);
         if (i +1 >= k)
-            cout << *(--first.end()) << " ";
+            cout << ans << " ";
     }
 
     return 0;

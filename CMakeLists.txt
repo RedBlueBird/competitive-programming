@@ -6,12 +6,13 @@ set(CMAKE_CXX_STANDARD 14)
 #USACO Gold unfinished problems
 add_executable(HoofPaperScissors USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp)
 
+add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
+
 #CSES unfinished problems
 add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
 
 add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
-add_executable(SlidingMedian CSES/2-SortingAndSearching/SlidingMedian.cpp)
-add_executable(MovieFestival-II CSES/2-SortingAndSearching/MovieFestival-II.cpp)
+add_executable(SlidingCost CSES/2-SortingAndSearching/SlidingCost.cpp)
 add_executable(NestedRangesCheck CSES/2-SortingAndSearching/NestedRangesCheck.cpp)
 
 add_executable(FlightDiscount CSES/4-GraphAlgorithms/FlightDiscount.cpp)
@@ -34,4 +35,4 @@ add_executable(1-FieldReduction USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction
 add_executable(2-BovineGenomics USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp)
 add_executable(3-WheresBessie USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp)
 
-add_executable(1-OutOfSorts USACO/2017-2018/4-UsOpen/Silver/1-OutOfSorts.cpp)
+add_executable(3-MultiplayerMoo USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.cpp)
