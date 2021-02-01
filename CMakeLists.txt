@@ -3,22 +3,7 @@ project(competitive-programming)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#USACO Gold unfinished problems
-add_executable(HoofPaperScissors USACO/2016-2017/2-Jan/Gold/2-HoofPaperScissors.cpp)
-
-add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
-
-#CSES unfinished problems
-add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
-
-add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
-add_executable(SlidingCost CSES/2-SortingAndSearching/SlidingCost.cpp)
-add_executable(NestedRangesCheck CSES/2-SortingAndSearching/NestedRangesCheck.cpp)
-
-add_executable(FlightDiscount CSES/4-GraphAlgorithms/FlightDiscount.cpp)
-add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
-
-#USACO Silver unfinished problems
+#USACO Silver unfinished problems #12
 add_executable(2-LoadBalancing USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp)
 
 add_executable(3-Teleportation USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp)
@@ -36,3 +21,20 @@ add_executable(2-BovineGenomics USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics
 add_executable(3-WheresBessie USACO/2016-2017/4-UsOpen/Silver/3-WheresBessie.cpp)
 
 add_executable(3-MultiplayerMoo USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.cpp)
+
+add_executable(1-LeftOut USACO/2018-2019/4-UsOpen/Silver/1-LeftOut.cpp)
+add_executable(2-CowSteepleChase-II USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp)
+
+#CSES unfinished problems
+add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
+
+add_executable(JosephusProblem-II CSES/2-SortingAndSearching/JosephusProblem-II.cpp)
+add_executable(NestedRangesCheck CSES/2-SortingAndSearching/NestedRangesCheck.cpp)
+add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
+add_executable(SlidingCost CSES/2-SortingAndSearching/SlidingCost.cpp)
+
+add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
+add_executable(PlanetsQueries CSES/4-GraphAlgorithms/PlanetsQueries.cpp)
+
+#USACO Gold unfinished problems
+add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
