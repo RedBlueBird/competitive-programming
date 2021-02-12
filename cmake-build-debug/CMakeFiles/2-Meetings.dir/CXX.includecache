@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/xiaon/Documents/competitive-programming/USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp
+bits/stdc++.h
+-
+
