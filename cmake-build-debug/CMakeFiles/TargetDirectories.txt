@@ -20,3 +20,6 @@ C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/Ro
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SumOfThreeValues.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SlidingCost.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/PlanetsQueries.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-Moocast.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-CowChecklist.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/3-FencedIn.dir

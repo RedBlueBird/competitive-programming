@@ -73,4 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SumOfThreeValues.dir/DependInfo.cmake"
   "CMakeFiles/SlidingCost.dir/DependInfo.cmake"
   "CMakeFiles/PlanetsQueries.dir/DependInfo.cmake"
+  "CMakeFiles/1-Moocast.dir/DependInfo.cmake"
+  "CMakeFiles/2-CowChecklist.dir/DependInfo.cmake"
+  "CMakeFiles/3-FencedIn.dir/DependInfo.cmake"
   )

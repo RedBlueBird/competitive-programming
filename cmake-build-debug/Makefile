@@ -369,6 +369,45 @@ PlanetsQueries/fast:
 	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/build
 .PHONY : PlanetsQueries/fast
 
+#=============================================================================
+# Target rules for targets named 1-Moocast
+
+# Build rule for target.
+1-Moocast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-Moocast
+.PHONY : 1-Moocast
+
+# fast build rule for target.
+1-Moocast/fast:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/build
+.PHONY : 1-Moocast/fast
+
+#=============================================================================
+# Target rules for targets named 2-CowChecklist
+
+# Build rule for target.
+2-CowChecklist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
+.PHONY : 2-CowChecklist
+
+# fast build rule for target.
+2-CowChecklist/fast:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
+.PHONY : 2-CowChecklist/fast
+
+#=============================================================================
+# Target rules for targets named 3-FencedIn
+
+# Build rule for target.
+3-FencedIn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-FencedIn
+.PHONY : 3-FencedIn
+
+# fast build rule for target.
+3-FencedIn/fast:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/build
+.PHONY : 3-FencedIn/fast
+
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
 .PHONY : CSES/1-IntroductoryProblems/GridPaths.obj
@@ -585,6 +624,33 @@ USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
 .PHONY : USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
 
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
+
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj
+
+# target to build an object file
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
+
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.i: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
+
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.i
+
+# target to preprocess a source file
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
+
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.s: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
+
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.s
+
+# target to generate assembly for a file
+USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
+.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
+
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj: USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.obj
 
 .PHONY : USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
@@ -638,6 +704,60 @@ USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s: USACO/2015-2016/4-UsOpen/Sil
 USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
 .PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
+
+USACO/2016-2017/1-Dec/Gold/1-Moocast.obj: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.obj
+
+# target to build an object file
+USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
+
+USACO/2016-2017/1-Dec/Gold/1-Moocast.i: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.i
+
+# target to preprocess a source file
+USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
+
+USACO/2016-2017/1-Dec/Gold/1-Moocast.s: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.s
+
+# target to generate assembly for a file
+USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
+.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
+
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj
+
+# target to build an object file
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
+
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i
+
+# target to preprocess a source file
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
+
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
+
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s
+
+# target to generate assembly for a file
+USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
+.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
 
 USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj: USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj
 
@@ -937,6 +1057,9 @@ help:
 	@echo ... SumOfThreeValues
 	@echo ... SlidingCost
 	@echo ... PlanetsQueries
+	@echo ... 1-Moocast
+	@echo ... 2-CowChecklist
+	@echo ... 3-FencedIn
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
@@ -961,12 +1084,21 @@ help:
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
+	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj
+	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.i
+	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
+	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.obj
+	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.i
+	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.s
+	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj
+	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i
+	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.i
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.s

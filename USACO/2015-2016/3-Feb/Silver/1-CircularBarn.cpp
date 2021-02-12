@@ -8,10 +8,10 @@ int n2(int n){
 }
 
 int main() {
-//    ofstream fout("cbarn.out");
-//    ifstream fin("cbarn.in");
-    ofstream fout("../output.txt");
-    ifstream fin("../input.txt");
+    ofstream fout("cbarn.out");
+    ifstream fin("cbarn.in");
+//    ofstream fout("../output.txt");
+//    ifstream fin("../input.txt");
 
     //Take inputs
     //Determine which room have the most cows,

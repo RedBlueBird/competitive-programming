@@ -72,6 +72,9 @@ all: CMakeFiles/RoundTrip-II.dir/all
 all: CMakeFiles/SumOfThreeValues.dir/all
 all: CMakeFiles/SlidingCost.dir/all
 all: CMakeFiles/PlanetsQueries.dir/all
+all: CMakeFiles/1-Moocast.dir/all
+all: CMakeFiles/2-CowChecklist.dir/all
+all: CMakeFiles/3-FencedIn.dir/all
 
 .PHONY : all
 
@@ -101,6 +104,9 @@ clean: CMakeFiles/RoundTrip-II.dir/clean
 clean: CMakeFiles/SumOfThreeValues.dir/clean
 clean: CMakeFiles/SlidingCost.dir/clean
 clean: CMakeFiles/PlanetsQueries.dir/clean
+clean: CMakeFiles/1-Moocast.dir/clean
+clean: CMakeFiles/2-CowChecklist.dir/clean
+clean: CMakeFiles/3-FencedIn.dir/clean
 
 .PHONY : clean
 
@@ -111,7 +117,7 @@ clean: CMakeFiles/PlanetsQueries.dir/clean
 CMakeFiles/2-LoadBalancing.dir/all:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/depend
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-LoadBalancing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 2-LoadBalancing"
 .PHONY : CMakeFiles/2-LoadBalancing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,7 +144,7 @@ CMakeFiles/2-LoadBalancing.dir/clean:
 CMakeFiles/3-Teleportation.dir/all:
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/depend
 	$(MAKE) -f CMakeFiles\3-Teleportation.dir\build.make CMakeFiles/3-Teleportation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 3-Teleportation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 3-Teleportation"
 .PHONY : CMakeFiles/3-Teleportation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +171,7 @@ CMakeFiles/3-Teleportation.dir/clean:
 CMakeFiles/1-SleepyCowHerding.dir/all:
 	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/depend
 	$(MAKE) -f CMakeFiles\1-SleepyCowHerding.dir\build.make CMakeFiles/1-SleepyCowHerding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 1-SleepyCowHerding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 1-SleepyCowHerding"
 .PHONY : CMakeFiles/1-SleepyCowHerding.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,7 +198,7 @@ CMakeFiles/1-SleepyCowHerding.dir/clean:
 CMakeFiles/JosephusProblem-II.dir/all:
 	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/depend
 	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target JosephusProblem-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target JosephusProblem-II"
 .PHONY : CMakeFiles/JosephusProblem-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -219,7 +225,7 @@ CMakeFiles/JosephusProblem-II.dir/clean:
 CMakeFiles/2-CowSteepleChase-II.dir/all:
 	$(MAKE) -f CMakeFiles\2-CowSteepleChase-II.dir\build.make CMakeFiles/2-CowSteepleChase-II.dir/depend
 	$(MAKE) -f CMakeFiles\2-CowSteepleChase-II.dir\build.make CMakeFiles/2-CowSteepleChase-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2-CowSteepleChase-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 2-CowSteepleChase-II"
 .PHONY : CMakeFiles/2-CowSteepleChase-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +252,7 @@ CMakeFiles/2-CowSteepleChase-II.dir/clean:
 CMakeFiles/2-Meetings.dir/all:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/depend
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 2-Meetings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 2-Meetings"
 .PHONY : CMakeFiles/2-Meetings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -273,7 +279,7 @@ CMakeFiles/2-Meetings.dir/clean:
 CMakeFiles/1-SwapitySwapitySwap.dir/all:
 	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/depend
 	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 1-SwapitySwapitySwap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 1-SwapitySwapitySwap"
 .PHONY : CMakeFiles/1-SwapitySwapitySwap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -300,7 +306,7 @@ CMakeFiles/1-SwapitySwapitySwap.dir/clean:
 CMakeFiles/2-Triangles.dir/all:
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/depend
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 2-Triangles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 2-Triangles"
 .PHONY : CMakeFiles/2-Triangles.dir/all
 
 # Build rule for subdir invocation for target.
@@ -354,7 +360,7 @@ CMakeFiles/1-FieldReduction.dir/clean:
 CMakeFiles/2-BovineGenomics.dir/all:
 	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/depend
 	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-BovineGenomics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2-BovineGenomics"
 .PHONY : CMakeFiles/2-BovineGenomics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -381,7 +387,7 @@ CMakeFiles/2-BovineGenomics.dir/clean:
 CMakeFiles/NestedRangesCheck.dir/all:
 	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/depend
 	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target NestedRangesCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target NestedRangesCheck"
 .PHONY : CMakeFiles/NestedRangesCheck.dir/all
 
 # Build rule for subdir invocation for target.
@@ -408,7 +414,7 @@ CMakeFiles/NestedRangesCheck.dir/clean:
 CMakeFiles/3-WheresBessie.dir/all:
 	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/depend
 	$(MAKE) -f CMakeFiles\3-WheresBessie.dir\build.make CMakeFiles/3-WheresBessie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 3-WheresBessie"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target 3-WheresBessie"
 .PHONY : CMakeFiles/3-WheresBessie.dir/all
 
 # Build rule for subdir invocation for target.
@@ -462,7 +468,7 @@ CMakeFiles/1-AngryCows.dir/clean:
 CMakeFiles/3-MultiplayerMoo.dir/all:
 	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/depend
 	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 3-MultiplayerMoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 3-MultiplayerMoo"
 .PHONY : CMakeFiles/3-MultiplayerMoo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -516,7 +522,7 @@ CMakeFiles/1-LeftOut.dir/clean:
 CMakeFiles/GridPaths.dir/all:
 	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/depend
 	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target GridPaths"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target GridPaths"
 .PHONY : CMakeFiles/GridPaths.dir/all
 
 # Build rule for subdir invocation for target.
@@ -543,7 +549,7 @@ CMakeFiles/GridPaths.dir/clean:
 CMakeFiles/RoundTrip-II.dir/all:
 	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/depend
 	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target RoundTrip-II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target RoundTrip-II"
 .PHONY : CMakeFiles/RoundTrip-II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -570,7 +576,7 @@ CMakeFiles/RoundTrip-II.dir/clean:
 CMakeFiles/SumOfThreeValues.dir/all:
 	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/depend
 	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target SumOfThreeValues"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target SumOfThreeValues"
 .PHONY : CMakeFiles/SumOfThreeValues.dir/all
 
 # Build rule for subdir invocation for target.
@@ -597,7 +603,7 @@ CMakeFiles/SumOfThreeValues.dir/clean:
 CMakeFiles/SlidingCost.dir/all:
 	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/depend
 	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target SlidingCost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target SlidingCost"
 .PHONY : CMakeFiles/SlidingCost.dir/all
 
 # Build rule for subdir invocation for target.
@@ -624,7 +630,7 @@ CMakeFiles/SlidingCost.dir/clean:
 CMakeFiles/PlanetsQueries.dir/all:
 	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/depend
 	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target PlanetsQueries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target PlanetsQueries"
 .PHONY : CMakeFiles/PlanetsQueries.dir/all
 
 # Build rule for subdir invocation for target.
@@ -643,6 +649,87 @@ PlanetsQueries: CMakeFiles/PlanetsQueries.dir/rule
 CMakeFiles/PlanetsQueries.dir/clean:
 	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/clean
 .PHONY : CMakeFiles/PlanetsQueries.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-Moocast.dir
+
+# All Build rule for target.
+CMakeFiles/1-Moocast.dir/all:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/depend
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 1-Moocast"
+.PHONY : CMakeFiles/1-Moocast.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-Moocast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1-Moocast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1-Moocast.dir/rule
+
+# Convenience name for target.
+1-Moocast: CMakeFiles/1-Moocast.dir/rule
+
+.PHONY : 1-Moocast
+
+# clean rule for target.
+CMakeFiles/1-Moocast.dir/clean:
+	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/clean
+.PHONY : CMakeFiles/1-Moocast.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-CowChecklist.dir
+
+# All Build rule for target.
+CMakeFiles/2-CowChecklist.dir/all:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/depend
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-CowChecklist"
+.PHONY : CMakeFiles/2-CowChecklist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-CowChecklist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-CowChecklist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-CowChecklist.dir/rule
+
+# Convenience name for target.
+2-CowChecklist: CMakeFiles/2-CowChecklist.dir/rule
+
+.PHONY : 2-CowChecklist
+
+# clean rule for target.
+CMakeFiles/2-CowChecklist.dir/clean:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/clean
+.PHONY : CMakeFiles/2-CowChecklist.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3-FencedIn.dir
+
+# All Build rule for target.
+CMakeFiles/3-FencedIn.dir/all:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/depend
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 3-FencedIn"
+.PHONY : CMakeFiles/3-FencedIn.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3-FencedIn.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3-FencedIn.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3-FencedIn.dir/rule
+
+# Convenience name for target.
+3-FencedIn: CMakeFiles/3-FencedIn.dir/rule
+
+.PHONY : 3-FencedIn
+
+# clean rule for target.
+CMakeFiles/3-FencedIn.dir/clean:
+	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/clean
+.PHONY : CMakeFiles/3-FencedIn.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

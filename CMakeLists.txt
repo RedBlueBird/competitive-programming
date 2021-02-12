@@ -38,3 +38,8 @@ add_executable(PlanetsQueries CSES/4-GraphAlgorithms/PlanetsQueries.cpp)
 
 #USACO Gold unfinished problems
 add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
+
+add_executable(1-Moocast USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp)
+add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
+
+add_executable(3-FencedIn USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp)

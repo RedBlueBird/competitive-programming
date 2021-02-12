@@ -3,10 +3,10 @@ typedef long long ll;
 using namespace std;
 
 int main() {
-//    ofstream fout("balancing.out");
-//    ifstream fin("balancing.in");
-    ofstream fout("../output.txt");
-    ifstream fin("../input.txt");
+    ofstream fout("balancing.out");
+    ifstream fin("balancing.in");
+//    ofstream fout("../output.txt");
+//    ifstream fin("../input.txt");
 
     //Take inputs
     int n;
