@@ -5,27 +5,34 @@ typedef pair<int,int> pii;
 #define ff first
 #define ss second
 
-pii find(pii grid, vector<vector<pii>>& link){
-    if (link[grid.ff][grid.ss] == grid) return grid;
-    return link[grid.ff][grid.ss] = find(link[grid.ff][grid.ss], link);
+//Find the ancestor node of the current node
+pii find(pii target, vector<vector<pii>>& top){
+    return target == top[target.ff][target.ss] ? target : target = find(top[target.ff][target.ss], top);
 }
 
-void unions(pii grid1, pii grid2, vector<vector<pii>>& link, vector<vector<int>>& size){
-    grid1 = find(grid1, link);
-    grid2 = find(grid2, link);
-    if (grid1 == grid2) return;
-    if (size[grid1.ff][grid1.ss] < size[grid2.ff][grid2.ss]) swap(grid1,grid2);
-    link[grid2.ff][grid2.ss] = grid1;
-    size[grid1.ff][grid1.ss] += size[grid2.ff][grid2.ss];
+//Merge two trees together with union-find data-structure
+//Two trees are merged if their root are different
+bool merge(pii a, pii b, vector<vector<pii>>& top, vector<vector<int>>& size){
+    a = find(a, top);
+    b = find(b, top);
+    if (a == b) return false;
+    if (size[a.ff][a.ss] < size[b.ff][b.ss])
+        swap(a,b);
+    top[b.ff][b.ss] = a;
+    size[a.ff][a.ss] += size[b.ff][b.ss];
+    return true;
 }
 
 int main() {
-//    ofstream fout("fencedin.out");
-//    ifstream fin("fencedin.in");
-    ofstream fout("../output.txt");
-    ifstream fin("../input.txt");
+    ofstream fout("fencedin.out");
+    ifstream fin("fencedin.in");
+//    ofstream fout("../output.txt");
+//    ifstream fin("../input.txt");
 
     //Take inputs
+    //Sort the positions of the horizontal and vertical fences
+    //Extract the difference between two consecutive fences
+    //Sort those distances
     int xlimit, ylimit, n, m;
     fin >> xlimit >> ylimit >> n >> m;
     vector<int> vert(n+1);
@@ -36,42 +43,45 @@ int main() {
     for (int i = 1; i <= m; i++){
         fin >> horz[i];
     }
-    vert.push_back(xlimit);
-    horz.push_back(ylimit);
+    sort(vert.begin(), vert.end());
+    sort(horz.begin(), horz.end());
+    for (int i = 0; i < n; i++){
+        vert[i] = vert[i+1]-vert[i];
+    }
+    for (int i = 0; i < m; i++){
+        horz[i] = horz[i+1]-horz[i];
+    }
+    vert[n] = xlimit - vert[n];
+    horz[m] = ylimit - horz[m];
     sort(vert.begin(), vert.end());
     sort(horz.begin(), horz.end());
 
+    //Set up 2D Union-Find data-structure for minimum spanning tree
+    //Start merging grids from the shortest fence to the longest fence
+    vector<vector<int>> size(n+1, vector<int>(m+1,1));
+    vector<vector<pii>> top(n+1, vector<pii>(m+1, make_pair(0,0)));
     ll ans = 0;
-    vector<tuple<int, pii, pii>> edges;
-    vector<vector<pii>> link(n+1,vector<pii>(m+1));
-    vector<vector<int>> size(n+1, vector<int>(m+1, 1));
     for (int i = 0; i <= n; i++){
         for (int j = 0; j <= m; j++){
-            link[i][j] = make_pair(i,j);
-            int ylen = vert[i+1] - vert[i];
-            int xlen = horz[j+1] - horz[j];
-            if (j != 0)
-                edges.push_back(make_tuple(ylen, make_pair(i,j), make_pair(i,j-1)));
-            if (j != m)
-                edges.push_back(make_tuple(ylen, make_pair(i,j), make_pair(i,j+1)));
-            if (i != 0)
-                edges.push_back(make_tuple(xlen, make_pair(i,j), make_pair(i-1,j)));
-            if (i != n)
-                edges.push_back(make_tuple(xlen, make_pair(i,j), make_pair(i+1,j)));
+            top[i][j] = make_pair(i,j);
         }
     }
-    sort(edges.begin(), edges.end());
-    for (tuple<int, pii, pii> i: edges){
-        pii grid1 = get<1>(i);
-        pii grid2 = get<2>(i);
-        ll weight = get<0>(i);
-//        cout << weight << " (" << grid1.ff << " " << grid1.ss << ") (" << grid2.ff << " " << grid2.ss << ") ";
-        if (!(find(grid1, link) == find(grid2, link))){
-            ans += weight;
-            unions(grid1, grid2, link, size);
-//            cout << "-";
+    for (int vi = 0, hi = 0; vi <= n || hi <= m;){
+        if (vi <= n && vert[vi] < horz[hi] || hi > m){
+            for (int j = 0; j < m; j++){
+                if (merge(make_pair(vi,j), make_pair(vi,j+1), top, size)){
+                    ans += vert[vi];
+                }
+            }
+            vi++;
+        }else{
+            for (int j = 0; j < n; j++){
+                if (merge(make_pair(j,hi), make_pair(j+1,hi), top, size)){
+                    ans += horz[hi];
+                }
+            }
+            hi++;
         }
-//        cout << "\n";
     }
 
     //Output

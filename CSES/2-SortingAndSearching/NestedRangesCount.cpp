@@ -6,11 +6,6 @@ typedef tuple<int,int,int> tiii;
 #define ff first
 #define ss second
 
-//<comment>
-//This is a simpler version of the NestedRangesCount
-//I copied code from that problem to this one
-//</comment>
-
 //If the first value is the same, sort the second value in decreasing order
 //Otherwise sort the first value in increasing order
 bool reverseSort(tiii a, tiii b){
@@ -96,17 +91,11 @@ int main() {
 
     //Output
     for (int i: smaller){
-        if (i)
-            cout << 1 << " ";
-        else
-            cout << 0 << " ";
+        cout << i << " ";
     }
     cout << "\n";
     for (int i: larger){
-        if (i)
-            cout << 1 << " ";
-        else
-            cout << 0 << " ";
+        cout << i << " ";
     }
 
     return 0;

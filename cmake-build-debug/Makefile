@@ -240,19 +240,6 @@ JosephusProblem-II/fast:
 .PHONY : 2-BovineGenomics/fast
 
 #=============================================================================
-# Target rules for targets named NestedRangesCheck
-
-# Build rule for target.
-NestedRangesCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NestedRangesCheck
-.PHONY : NestedRangesCheck
-
-# fast build rule for target.
-NestedRangesCheck/fast:
-	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/build
-.PHONY : NestedRangesCheck/fast
-
-#=============================================================================
 # Target rules for targets named 3-WheresBessie
 
 # Build rule for target.
@@ -303,6 +290,19 @@ NestedRangesCheck/fast:
 1-LeftOut/fast:
 	$(MAKE) -f CMakeFiles\1-LeftOut.dir\build.make CMakeFiles/1-LeftOut.dir/build
 .PHONY : 1-LeftOut/fast
+
+#=============================================================================
+# Target rules for targets named 2-CowChecklist
+
+# Build rule for target.
+2-CowChecklist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
+.PHONY : 2-CowChecklist
+
+# fast build rule for target.
+2-CowChecklist/fast:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
+.PHONY : 2-CowChecklist/fast
 
 #=============================================================================
 # Target rules for targets named GridPaths
@@ -357,6 +357,19 @@ SlidingCost/fast:
 .PHONY : SlidingCost/fast
 
 #=============================================================================
+# Target rules for targets named SalaryQueries
+
+# Build rule for target.
+SalaryQueries: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SalaryQueries
+.PHONY : SalaryQueries
+
+# fast build rule for target.
+SalaryQueries/fast:
+	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/build
+.PHONY : SalaryQueries/fast
+
+#=============================================================================
 # Target rules for targets named PlanetsQueries
 
 # Build rule for target.
@@ -368,45 +381,6 @@ PlanetsQueries: cmake_check_build_system
 PlanetsQueries/fast:
 	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/build
 .PHONY : PlanetsQueries/fast
-
-#=============================================================================
-# Target rules for targets named 1-Moocast
-
-# Build rule for target.
-1-Moocast: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-Moocast
-.PHONY : 1-Moocast
-
-# fast build rule for target.
-1-Moocast/fast:
-	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/build
-.PHONY : 1-Moocast/fast
-
-#=============================================================================
-# Target rules for targets named 2-CowChecklist
-
-# Build rule for target.
-2-CowChecklist: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
-.PHONY : 2-CowChecklist
-
-# fast build rule for target.
-2-CowChecklist/fast:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
-.PHONY : 2-CowChecklist/fast
-
-#=============================================================================
-# Target rules for targets named 3-FencedIn
-
-# Build rule for target.
-3-FencedIn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-FencedIn
-.PHONY : 3-FencedIn
-
-# fast build rule for target.
-3-FencedIn/fast:
-	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/build
-.PHONY : 3-FencedIn/fast
 
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
@@ -461,33 +435,6 @@ CSES/2-SortingAndSearching/JosephusProblem-II.s: CSES/2-SortingAndSearching/Jose
 CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s:
 	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s
 .PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s
-
-CSES/2-SortingAndSearching/NestedRangesCheck.obj: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
-
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.obj
-
-# target to build an object file
-CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj:
-	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.obj
-
-CSES/2-SortingAndSearching/NestedRangesCheck.i: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
-
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.i
-
-# target to preprocess a source file
-CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i:
-	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.i
-
-CSES/2-SortingAndSearching/NestedRangesCheck.s: CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
-
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.s
-
-# target to generate assembly for a file
-CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s:
-	$(MAKE) -f CMakeFiles\NestedRangesCheck.dir\build.make CMakeFiles/NestedRangesCheck.dir/CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
-.PHONY : CSES/2-SortingAndSearching/NestedRangesCheck.cpp.s
 
 CSES/2-SortingAndSearching/SlidingCost.obj: CSES/2-SortingAndSearching/SlidingCost.cpp.obj
 
@@ -597,6 +544,33 @@ CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s:
 	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
 .PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
 
+CSES/5-RangeQueries/SalaryQueries.obj: CSES/5-RangeQueries/SalaryQueries.cpp.obj
+
+.PHONY : CSES/5-RangeQueries/SalaryQueries.obj
+
+# target to build an object file
+CSES/5-RangeQueries/SalaryQueries.cpp.obj:
+	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.obj
+.PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.obj
+
+CSES/5-RangeQueries/SalaryQueries.i: CSES/5-RangeQueries/SalaryQueries.cpp.i
+
+.PHONY : CSES/5-RangeQueries/SalaryQueries.i
+
+# target to preprocess a source file
+CSES/5-RangeQueries/SalaryQueries.cpp.i:
+	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.i
+.PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.i
+
+CSES/5-RangeQueries/SalaryQueries.s: CSES/5-RangeQueries/SalaryQueries.cpp.s
+
+.PHONY : CSES/5-RangeQueries/SalaryQueries.s
+
+# target to generate assembly for a file
+CSES/5-RangeQueries/SalaryQueries.cpp.s:
+	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.s
+.PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.s
+
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj: USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.obj
 
 .PHONY : USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
@@ -623,33 +597,6 @@ USACO/2015-2016/2-Jan/Gold/1-AngryCows.s: USACO/2015-2016/2-Jan/Gold/1-AngryCows
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
 .PHONY : USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
-
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
-
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj
-
-# target to build an object file
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj:
-	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.obj
-
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.i: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
-
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.i
-
-# target to preprocess a source file
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i:
-	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.i
-
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.s: USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
-
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.s
-
-# target to generate assembly for a file
-USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s:
-	$(MAKE) -f CMakeFiles\3-FencedIn.dir\build.make CMakeFiles/3-FencedIn.dir/USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
-.PHONY : USACO/2015-2016/3-Feb/Gold/3-FencedIn.cpp.s
 
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj: USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.obj
 
@@ -704,33 +651,6 @@ USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s: USACO/2015-2016/4-UsOpen/Sil
 USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
 .PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
-
-USACO/2016-2017/1-Dec/Gold/1-Moocast.obj: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.obj
-
-# target to build an object file
-USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.obj
-
-USACO/2016-2017/1-Dec/Gold/1-Moocast.i: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.i
-
-# target to preprocess a source file
-USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i:
-	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.i
-
-USACO/2016-2017/1-Dec/Gold/1-Moocast.s: USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.s
-
-# target to generate assembly for a file
-USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s:
-	$(MAKE) -f CMakeFiles\1-Moocast.dir\build.make CMakeFiles/1-Moocast.dir/USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
-.PHONY : USACO/2016-2017/1-Dec/Gold/1-Moocast.cpp.s
 
 USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
 
@@ -1046,29 +966,24 @@ help:
 	@echo ... 1-FieldReduction
 	@echo ... edit_cache
 	@echo ... 2-BovineGenomics
-	@echo ... NestedRangesCheck
 	@echo ... 3-WheresBessie
 	@echo ... 1-AngryCows
 	@echo ... 3-MultiplayerMoo
 	@echo ... 1-LeftOut
+	@echo ... 2-CowChecklist
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
 	@echo ... SumOfThreeValues
 	@echo ... SlidingCost
+	@echo ... SalaryQueries
 	@echo ... PlanetsQueries
-	@echo ... 1-Moocast
-	@echo ... 2-CowChecklist
-	@echo ... 3-FencedIn
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.obj
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.i
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.s
-	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.obj
-	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.i
-	@echo ... CSES/2-SortingAndSearching/NestedRangesCheck.s
 	@echo ... CSES/2-SortingAndSearching/SlidingCost.obj
 	@echo ... CSES/2-SortingAndSearching/SlidingCost.i
 	@echo ... CSES/2-SortingAndSearching/SlidingCost.s
@@ -1081,21 +996,18 @@ help:
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.obj
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.i
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.s
+	@echo ... CSES/5-RangeQueries/SalaryQueries.obj
+	@echo ... CSES/5-RangeQueries/SalaryQueries.i
+	@echo ... CSES/5-RangeQueries/SalaryQueries.s
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
-	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.obj
-	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.i
-	@echo ... USACO/2015-2016/3-Feb/Gold/3-FencedIn.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
-	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.obj
-	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.i
-	@echo ... USACO/2016-2017/1-Dec/Gold/1-Moocast.s
 	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj
 	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i
 	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s
