@@ -53,13 +53,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/3-LoadBalancing.dir/DependInfo.cmake"
+  "CMakeFiles/debug.dir/DependInfo.cmake"
   "CMakeFiles/2-LoadBalancing.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
   "CMakeFiles/1-SleepyCowHerding.dir/DependInfo.cmake"
   "CMakeFiles/JosephusProblem-II.dir/DependInfo.cmake"
   "CMakeFiles/2-CowSteepleChase-II.dir/DependInfo.cmake"
   "CMakeFiles/2-Meetings.dir/DependInfo.cmake"
-  "CMakeFiles/1-SwapitySwapitySwap.dir/DependInfo.cmake"
   "CMakeFiles/2-Triangles.dir/DependInfo.cmake"
   "CMakeFiles/1-FieldReduction.dir/DependInfo.cmake"
   "CMakeFiles/2-BovineGenomics.dir/DependInfo.cmake"
@@ -68,10 +69,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/3-MultiplayerMoo.dir/DependInfo.cmake"
   "CMakeFiles/1-LeftOut.dir/DependInfo.cmake"
   "CMakeFiles/2-CowChecklist.dir/DependInfo.cmake"
+  "CMakeFiles/2-FavoriateColors.dir/DependInfo.cmake"
   "CMakeFiles/GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/RoundTrip-II.dir/DependInfo.cmake"
   "CMakeFiles/SumOfThreeValues.dir/DependInfo.cmake"
   "CMakeFiles/SlidingCost.dir/DependInfo.cmake"
   "CMakeFiles/SalaryQueries.dir/DependInfo.cmake"
-  "CMakeFiles/PlanetsQueries.dir/DependInfo.cmake"
+  "CMakeFiles/NewFlightRoutes.dir/DependInfo.cmake"
   )

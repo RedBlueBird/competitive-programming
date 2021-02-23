@@ -110,6 +110,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 3-LoadBalancing
+
+# Build rule for target.
+3-LoadBalancing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-LoadBalancing
+.PHONY : 3-LoadBalancing
+
+# fast build rule for target.
+3-LoadBalancing/fast:
+	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/build
+.PHONY : 3-LoadBalancing/fast
+
+#=============================================================================
+# Target rules for targets named debug
+
+# Build rule for target.
+debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 debug
+.PHONY : debug
+
+# fast build rule for target.
+debug/fast:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
+.PHONY : debug/fast
+
+#=============================================================================
 # Target rules for targets named 2-LoadBalancing
 
 # Build rule for target.
@@ -186,19 +212,6 @@ JosephusProblem-II/fast:
 2-Meetings/fast:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/build
 .PHONY : 2-Meetings/fast
-
-#=============================================================================
-# Target rules for targets named 1-SwapitySwapitySwap
-
-# Build rule for target.
-1-SwapitySwapitySwap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1-SwapitySwapitySwap
-.PHONY : 1-SwapitySwapitySwap
-
-# fast build rule for target.
-1-SwapitySwapitySwap/fast:
-	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/build
-.PHONY : 1-SwapitySwapitySwap/fast
 
 #=============================================================================
 # Target rules for targets named 2-Triangles
@@ -305,6 +318,19 @@ JosephusProblem-II/fast:
 .PHONY : 2-CowChecklist/fast
 
 #=============================================================================
+# Target rules for targets named 2-FavoriateColors
+
+# Build rule for target.
+2-FavoriateColors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-FavoriateColors
+.PHONY : 2-FavoriateColors
+
+# fast build rule for target.
+2-FavoriateColors/fast:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
+.PHONY : 2-FavoriateColors/fast
+
+#=============================================================================
 # Target rules for targets named GridPaths
 
 # Build rule for target.
@@ -370,17 +396,17 @@ SalaryQueries/fast:
 .PHONY : SalaryQueries/fast
 
 #=============================================================================
-# Target rules for targets named PlanetsQueries
+# Target rules for targets named NewFlightRoutes
 
 # Build rule for target.
-PlanetsQueries: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 PlanetsQueries
-.PHONY : PlanetsQueries
+NewFlightRoutes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 NewFlightRoutes
+.PHONY : NewFlightRoutes
 
 # fast build rule for target.
-PlanetsQueries/fast:
-	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/build
-.PHONY : PlanetsQueries/fast
+NewFlightRoutes/fast:
+	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/build
+.PHONY : NewFlightRoutes/fast
 
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
@@ -408,6 +434,33 @@ CSES/1-IntroductoryProblems/GridPaths.s: CSES/1-IntroductoryProblems/GridPaths.c
 CSES/1-IntroductoryProblems/GridPaths.cpp.s:
 	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/CSES/1-IntroductoryProblems/GridPaths.cpp.s
 .PHONY : CSES/1-IntroductoryProblems/GridPaths.cpp.s
+
+CSES/11-AdditionalProblems/NewFlightRoutes.obj: CSES/11-AdditionalProblems/NewFlightRoutes.cpp.obj
+
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.obj
+
+# target to build an object file
+CSES/11-AdditionalProblems/NewFlightRoutes.cpp.obj:
+	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/CSES/11-AdditionalProblems/NewFlightRoutes.cpp.obj
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.cpp.obj
+
+CSES/11-AdditionalProblems/NewFlightRoutes.i: CSES/11-AdditionalProblems/NewFlightRoutes.cpp.i
+
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.i
+
+# target to preprocess a source file
+CSES/11-AdditionalProblems/NewFlightRoutes.cpp.i:
+	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/CSES/11-AdditionalProblems/NewFlightRoutes.cpp.i
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.cpp.i
+
+CSES/11-AdditionalProblems/NewFlightRoutes.s: CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s
+
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.s
+
+# target to generate assembly for a file
+CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s:
+	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s
+.PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s
 
 CSES/2-SortingAndSearching/JosephusProblem-II.obj: CSES/2-SortingAndSearching/JosephusProblem-II.cpp.obj
 
@@ -490,33 +543,6 @@ CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s:
 	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s
 .PHONY : CSES/2-SortingAndSearching/SumOfThreeValues.cpp.s
 
-CSES/4-GraphAlgorithms/PlanetsQueries.obj: CSES/4-GraphAlgorithms/PlanetsQueries.cpp.obj
-
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.obj
-
-# target to build an object file
-CSES/4-GraphAlgorithms/PlanetsQueries.cpp.obj:
-	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/CSES/4-GraphAlgorithms/PlanetsQueries.cpp.obj
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.cpp.obj
-
-CSES/4-GraphAlgorithms/PlanetsQueries.i: CSES/4-GraphAlgorithms/PlanetsQueries.cpp.i
-
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.i
-
-# target to preprocess a source file
-CSES/4-GraphAlgorithms/PlanetsQueries.cpp.i:
-	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/CSES/4-GraphAlgorithms/PlanetsQueries.cpp.i
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.cpp.i
-
-CSES/4-GraphAlgorithms/PlanetsQueries.s: CSES/4-GraphAlgorithms/PlanetsQueries.cpp.s
-
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.s
-
-# target to generate assembly for a file
-CSES/4-GraphAlgorithms/PlanetsQueries.cpp.s:
-	$(MAKE) -f CMakeFiles\PlanetsQueries.dir\build.make CMakeFiles/PlanetsQueries.dir/CSES/4-GraphAlgorithms/PlanetsQueries.cpp.s
-.PHONY : CSES/4-GraphAlgorithms/PlanetsQueries.cpp.s
-
 CSES/4-GraphAlgorithms/RoundTrip-II.obj: CSES/4-GraphAlgorithms/RoundTrip-II.cpp.obj
 
 .PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.obj
@@ -597,6 +623,33 @@ USACO/2015-2016/2-Jan/Gold/1-AngryCows.s: USACO/2015-2016/2-Jan/Gold/1-AngryCows
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s:
 	$(MAKE) -f CMakeFiles\1-AngryCows.dir\build.make CMakeFiles/1-AngryCows.dir/USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
 .PHONY : USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.s
+
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.obj: USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.obj
+
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.obj
+
+# target to build an object file
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.obj
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.obj
+
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.i: USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.i
+
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.i
+
+# target to preprocess a source file
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.i:
+	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.i
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.i
+
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.s: USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.s
+
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.s
+
+# target to generate assembly for a file
+USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.s:
+	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.s
+.PHONY : USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp.s
 
 USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj: USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.obj
 
@@ -895,33 +948,6 @@ USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 .PHONY : USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj: USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.obj
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj
-
-# target to build an object file
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.obj:
-	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.obj
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.obj
-
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.i: USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.i
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.i
-
-# target to preprocess a source file
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.i:
-	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.i
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.i
-
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.s: USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.s
-
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.s
-
-# target to generate assembly for a file
-USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.s:
-	$(MAKE) -f CMakeFiles\1-SwapitySwapitySwap.dir\build.make CMakeFiles/1-SwapitySwapitySwap.dir/USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.s
-.PHONY : USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp.s
-
 USACO/2019-2020/3-Feb/Silver/2-Triangles.obj: USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj
 
 .PHONY : USACO/2019-2020/3-Feb/Silver/2-Triangles.obj
@@ -949,19 +975,74 @@ USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s:
 	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s
 .PHONY : USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.s
 
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.obj: USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.obj
+
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.obj
+
+# target to build an object file
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.obj
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.obj
+
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.i: USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.i
+
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.i
+
+# target to preprocess a source file
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.i:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.i
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.i
+
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.s: USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s
+
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.s
+
+# target to generate assembly for a file
+USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s
+.PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s
+
+debug.obj: debug.cpp.obj
+
+.PHONY : debug.obj
+
+# target to build an object file
+debug.cpp.obj:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.obj
+.PHONY : debug.cpp.obj
+
+debug.i: debug.cpp.i
+
+.PHONY : debug.i
+
+# target to preprocess a source file
+debug.cpp.i:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.i
+.PHONY : debug.cpp.i
+
+debug.s: debug.cpp.s
+
+.PHONY : debug.s
+
+# target to generate assembly for a file
+debug.cpp.s:
+	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/debug.cpp.s
+.PHONY : debug.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... 3-LoadBalancing
+	@echo ... debug
 	@echo ... 2-LoadBalancing
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
 	@echo ... JosephusProblem-II
 	@echo ... 2-CowSteepleChase-II
 	@echo ... 2-Meetings
-	@echo ... 1-SwapitySwapitySwap
 	@echo ... 2-Triangles
 	@echo ... 1-FieldReduction
 	@echo ... edit_cache
@@ -971,16 +1052,20 @@ help:
 	@echo ... 3-MultiplayerMoo
 	@echo ... 1-LeftOut
 	@echo ... 2-CowChecklist
+	@echo ... 2-FavoriateColors
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
 	@echo ... SumOfThreeValues
 	@echo ... SlidingCost
 	@echo ... SalaryQueries
-	@echo ... PlanetsQueries
+	@echo ... NewFlightRoutes
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
+	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.obj
+	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.i
+	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.s
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.obj
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.i
 	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.s
@@ -990,9 +1075,6 @@ help:
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.obj
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.i
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.s
-	@echo ... CSES/4-GraphAlgorithms/PlanetsQueries.obj
-	@echo ... CSES/4-GraphAlgorithms/PlanetsQueries.i
-	@echo ... CSES/4-GraphAlgorithms/PlanetsQueries.s
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.obj
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.i
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.s
@@ -1002,6 +1084,9 @@ help:
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
+	@echo ... USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.obj
+	@echo ... USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.i
+	@echo ... USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.s
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
@@ -1035,12 +1120,15 @@ help:
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.obj
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.i
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.s
-	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.obj
-	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.i
-	@echo ... USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.s
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.obj
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.i
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.s
+	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.obj
+	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.i
+	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.s
+	@echo ... debug.obj
+	@echo ... debug.i
+	@echo ... debug.s
 .PHONY : help
 
 

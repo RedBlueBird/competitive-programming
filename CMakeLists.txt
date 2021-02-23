@@ -3,7 +3,12 @@ project(competitive-programming)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#USACO Silver unfinished problems #12
+add_executable(debug debug.cpp)
+
+#USACO Bronze unfinished problems
+add_executable(3-LoadBalancing USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp)
+
+#USACO Silver unfinished problems #11
 add_executable(2-LoadBalancing USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp)
 
 add_executable(3-Teleportation USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp)
@@ -12,7 +17,6 @@ add_executable(1-SleepyCowHerding USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerdin
 
 add_executable(2-Meetings USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp)
 
-add_executable(1-SwapitySwapitySwap USACO/2019-2020/3-Feb/Silver/1-SwapitySwapitySwap.cpp)
 add_executable(2-Triangles USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp)
 
 add_executable(1-FieldReduction USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp)
@@ -30,6 +34,8 @@ add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
 
 add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
 
+add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp)
+
 #CSES unfinished problems
 add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
 
@@ -37,7 +43,9 @@ add_executable(JosephusProblem-II CSES/2-SortingAndSearching/JosephusProblem-II.
 add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
 add_executable(SlidingCost CSES/2-SortingAndSearching/SlidingCost.cpp)
 
+add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
+
 add_executable(SalaryQueries CSES/5-RangeQueries/SalaryQueries.cpp)
 
-add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
-add_executable(PlanetsQueries CSES/4-GraphAlgorithms/PlanetsQueries.cpp)
+add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)
+

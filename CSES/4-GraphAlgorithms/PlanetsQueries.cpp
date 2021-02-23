@@ -2,6 +2,14 @@
 typedef long long ll;
 using namespace std;
 
+//Find the k-th successor in logN time with computed data
+int find(vector<vector<int>>& succ, int x, int k){
+    for (int i = 0; i < 30; i++)
+        if (k & (1<<i))
+            x = succ[i][x];
+    return x;
+}
+
 int main() {
 //    freopen("../input.txt", "r", stdin);
 //    freopen("../output.txt", "w", stdout);
@@ -9,44 +17,23 @@ int main() {
     //Take inputs
     int n, q;
     cin >> n >> q;
-    vector<int> graph(n+1);
+    vector<vector<int>> succ(30, vector<int>(n+1));
     for (int i = 1; i <= n; i++){
-        cin >> graph[i];
+        cin >> succ[0][i];
     }
 
-    vector<vector<int>> succ(31, vector<int>(n+1));
-    for (int i = 0; i <= 30; i++){
+    //Precompute the 2^k-th successor using binary lifting
+    for (int i = 1; i < 30; i++){
         for (int j = 1; j <= n; j++){
-            if (i == 0){
-                succ[i][j] = j;
-            }else if (i == 1){
-                succ[i][j] = graph[j];
-            }else{
-                succ[i][j] = succ[i-1][succ[i-1][j]];
-            }
+            succ[i][j] = succ[i-1][succ[i-1][j]];
         }
     }
-//    for (int i = 0; i <= 30; i++){
-//        for (int j = 1; j <= n; j++){
-//            cout << succ[i][j] << " ";
-//        }
-//        cout << " \n";
-//    }
+
+    //Output
     for (int i = 0; i < q; i++){
         int a,b;
         cin >> a >> b;
-        int node = a;
-        int jump = b;
-        while (jump){
-            int gap = int(log2(jump));
-            node = succ[gap][node];
-            jump -= gap;
-            if (jump == 1){
-                node = graph[node];
-                break;
-            }
-        }
-        cout << node << "\n";
+        cout << find(succ,a,b) << "\n";
     }
 
     return 0;
