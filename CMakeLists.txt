@@ -29,13 +29,6 @@ add_executable(3-MultiplayerMoo USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo
 add_executable(1-LeftOut USACO/2018-2019/4-UsOpen/Silver/1-LeftOut.cpp)
 add_executable(2-CowSteepleChase-II USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp)
 
-#USACO Gold unfinished problems
-add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
-
-add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
-
-add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp)
-
 #CSES unfinished problems
 add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
 
@@ -49,3 +42,9 @@ add_executable(SalaryQueries CSES/5-RangeQueries/SalaryQueries.cpp)
 
 add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)
 
+#USACO Gold unfinished problems
+add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
+
+add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
+
+add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp)

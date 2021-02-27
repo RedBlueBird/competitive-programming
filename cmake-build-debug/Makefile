@@ -305,32 +305,6 @@ JosephusProblem-II/fast:
 .PHONY : 1-LeftOut/fast
 
 #=============================================================================
-# Target rules for targets named 2-CowChecklist
-
-# Build rule for target.
-2-CowChecklist: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
-.PHONY : 2-CowChecklist
-
-# fast build rule for target.
-2-CowChecklist/fast:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
-.PHONY : 2-CowChecklist/fast
-
-#=============================================================================
-# Target rules for targets named 2-FavoriateColors
-
-# Build rule for target.
-2-FavoriateColors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-FavoriateColors
-.PHONY : 2-FavoriateColors
-
-# fast build rule for target.
-2-FavoriateColors/fast:
-	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
-.PHONY : 2-FavoriateColors/fast
-
-#=============================================================================
 # Target rules for targets named GridPaths
 
 # Build rule for target.
@@ -407,6 +381,32 @@ NewFlightRoutes: cmake_check_build_system
 NewFlightRoutes/fast:
 	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/build
 .PHONY : NewFlightRoutes/fast
+
+#=============================================================================
+# Target rules for targets named 2-CowChecklist
+
+# Build rule for target.
+2-CowChecklist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
+.PHONY : 2-CowChecklist
+
+# fast build rule for target.
+2-CowChecklist/fast:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
+.PHONY : 2-CowChecklist/fast
+
+#=============================================================================
+# Target rules for targets named 2-FavoriateColors
+
+# Build rule for target.
+2-FavoriateColors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-FavoriateColors
+.PHONY : 2-FavoriateColors
+
+# fast build rule for target.
+2-FavoriateColors/fast:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
+.PHONY : 2-FavoriateColors/fast
 
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
@@ -1051,8 +1051,6 @@ help:
 	@echo ... 1-AngryCows
 	@echo ... 3-MultiplayerMoo
 	@echo ... 1-LeftOut
-	@echo ... 2-CowChecklist
-	@echo ... 2-FavoriateColors
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
@@ -1060,6 +1058,8 @@ help:
 	@echo ... SlidingCost
 	@echo ... SalaryQueries
 	@echo ... NewFlightRoutes
+	@echo ... 2-CowChecklist
+	@echo ... 2-FavoriateColors
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s

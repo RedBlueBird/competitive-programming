@@ -67,14 +67,14 @@ all: CMakeFiles/3-WheresBessie.dir/all
 all: CMakeFiles/1-AngryCows.dir/all
 all: CMakeFiles/3-MultiplayerMoo.dir/all
 all: CMakeFiles/1-LeftOut.dir/all
-all: CMakeFiles/2-CowChecklist.dir/all
-all: CMakeFiles/2-FavoriateColors.dir/all
 all: CMakeFiles/GridPaths.dir/all
 all: CMakeFiles/RoundTrip-II.dir/all
 all: CMakeFiles/SumOfThreeValues.dir/all
 all: CMakeFiles/SlidingCost.dir/all
 all: CMakeFiles/SalaryQueries.dir/all
 all: CMakeFiles/NewFlightRoutes.dir/all
+all: CMakeFiles/2-CowChecklist.dir/all
+all: CMakeFiles/2-FavoriateColors.dir/all
 
 .PHONY : all
 
@@ -99,14 +99,14 @@ clean: CMakeFiles/3-WheresBessie.dir/clean
 clean: CMakeFiles/1-AngryCows.dir/clean
 clean: CMakeFiles/3-MultiplayerMoo.dir/clean
 clean: CMakeFiles/1-LeftOut.dir/clean
-clean: CMakeFiles/2-CowChecklist.dir/clean
-clean: CMakeFiles/2-FavoriateColors.dir/clean
 clean: CMakeFiles/GridPaths.dir/clean
 clean: CMakeFiles/RoundTrip-II.dir/clean
 clean: CMakeFiles/SumOfThreeValues.dir/clean
 clean: CMakeFiles/SlidingCost.dir/clean
 clean: CMakeFiles/SalaryQueries.dir/clean
 clean: CMakeFiles/NewFlightRoutes.dir/clean
+clean: CMakeFiles/2-CowChecklist.dir/clean
+clean: CMakeFiles/2-FavoriateColors.dir/clean
 
 .PHONY : clean
 
@@ -516,60 +516,6 @@ CMakeFiles/1-LeftOut.dir/clean:
 .PHONY : CMakeFiles/1-LeftOut.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/2-CowChecklist.dir
-
-# All Build rule for target.
-CMakeFiles/2-CowChecklist.dir/all:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/depend
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-CowChecklist"
-.PHONY : CMakeFiles/2-CowChecklist.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-CowChecklist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-CowChecklist.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/2-CowChecklist.dir/rule
-
-# Convenience name for target.
-2-CowChecklist: CMakeFiles/2-CowChecklist.dir/rule
-
-.PHONY : 2-CowChecklist
-
-# clean rule for target.
-CMakeFiles/2-CowChecklist.dir/clean:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/clean
-.PHONY : CMakeFiles/2-CowChecklist.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-FavoriateColors.dir
-
-# All Build rule for target.
-CMakeFiles/2-FavoriateColors.dir/all:
-	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/depend
-	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-FavoriateColors"
-.PHONY : CMakeFiles/2-FavoriateColors.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-FavoriateColors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-FavoriateColors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/2-FavoriateColors.dir/rule
-
-# Convenience name for target.
-2-FavoriateColors: CMakeFiles/2-FavoriateColors.dir/rule
-
-.PHONY : 2-FavoriateColors
-
-# clean rule for target.
-CMakeFiles/2-FavoriateColors.dir/clean:
-	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/clean
-.PHONY : CMakeFiles/2-FavoriateColors.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/GridPaths.dir
 
 # All Build rule for target.
@@ -730,6 +676,60 @@ NewFlightRoutes: CMakeFiles/NewFlightRoutes.dir/rule
 CMakeFiles/NewFlightRoutes.dir/clean:
 	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/clean
 .PHONY : CMakeFiles/NewFlightRoutes.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-CowChecklist.dir
+
+# All Build rule for target.
+CMakeFiles/2-CowChecklist.dir/all:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/depend
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2-CowChecklist"
+.PHONY : CMakeFiles/2-CowChecklist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-CowChecklist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-CowChecklist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-CowChecklist.dir/rule
+
+# Convenience name for target.
+2-CowChecklist: CMakeFiles/2-CowChecklist.dir/rule
+
+.PHONY : 2-CowChecklist
+
+# clean rule for target.
+CMakeFiles/2-CowChecklist.dir/clean:
+	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/clean
+.PHONY : CMakeFiles/2-CowChecklist.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-FavoriateColors.dir
+
+# All Build rule for target.
+CMakeFiles/2-FavoriateColors.dir/all:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/depend
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2-FavoriateColors"
+.PHONY : CMakeFiles/2-FavoriateColors.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-FavoriateColors.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2-FavoriateColors.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xiaon\Documents\competitive-programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2-FavoriateColors.dir/rule
+
+# Convenience name for target.
+2-FavoriateColors: CMakeFiles/2-FavoriateColors.dir/rule
+
+.PHONY : 2-FavoriateColors
+
+# clean rule for target.
+CMakeFiles/2-FavoriateColors.dir/clean:
+	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/clean
+.PHONY : CMakeFiles/2-FavoriateColors.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
