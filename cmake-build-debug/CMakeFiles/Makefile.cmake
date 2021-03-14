@@ -55,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/3-LoadBalancing.dir/DependInfo.cmake"
   "CMakeFiles/debug.dir/DependInfo.cmake"
+  "CMakeFiles/3-CountTheCows.dir/DependInfo.cmake"
   "CMakeFiles/2-LoadBalancing.dir/DependInfo.cmake"
   "CMakeFiles/3-Teleportation.dir/DependInfo.cmake"
   "CMakeFiles/1-SleepyCowHerding.dir/DependInfo.cmake"
@@ -68,6 +69,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1-AngryCows.dir/DependInfo.cmake"
   "CMakeFiles/3-MultiplayerMoo.dir/DependInfo.cmake"
   "CMakeFiles/1-LeftOut.dir/DependInfo.cmake"
+  "CMakeFiles/1-ComfortableCows.dir/DependInfo.cmake"
+  "CMakeFiles/3-JustGreenEnough.dir/DependInfo.cmake"
   "CMakeFiles/GridPaths.dir/DependInfo.cmake"
   "CMakeFiles/RoundTrip-II.dir/DependInfo.cmake"
   "CMakeFiles/SumOfThreeValues.dir/DependInfo.cmake"
@@ -76,4 +79,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/NewFlightRoutes.dir/DependInfo.cmake"
   "CMakeFiles/2-CowChecklist.dir/DependInfo.cmake"
   "CMakeFiles/2-FavoriateColors.dir/DependInfo.cmake"
+  "CMakeFiles/1-StoneGame.dir/DependInfo.cmake"
   )

@@ -136,6 +136,19 @@ debug/fast:
 .PHONY : debug/fast
 
 #=============================================================================
+# Target rules for targets named 3-CountTheCows
+
+# Build rule for target.
+3-CountTheCows: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-CountTheCows
+.PHONY : 3-CountTheCows
+
+# fast build rule for target.
+3-CountTheCows/fast:
+	$(MAKE) -f CMakeFiles\3-CountTheCows.dir\build.make CMakeFiles/3-CountTheCows.dir/build
+.PHONY : 3-CountTheCows/fast
+
+#=============================================================================
 # Target rules for targets named 2-LoadBalancing
 
 # Build rule for target.
@@ -305,6 +318,32 @@ JosephusProblem-II/fast:
 .PHONY : 1-LeftOut/fast
 
 #=============================================================================
+# Target rules for targets named 1-ComfortableCows
+
+# Build rule for target.
+1-ComfortableCows: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-ComfortableCows
+.PHONY : 1-ComfortableCows
+
+# fast build rule for target.
+1-ComfortableCows/fast:
+	$(MAKE) -f CMakeFiles\1-ComfortableCows.dir\build.make CMakeFiles/1-ComfortableCows.dir/build
+.PHONY : 1-ComfortableCows/fast
+
+#=============================================================================
+# Target rules for targets named 3-JustGreenEnough
+
+# Build rule for target.
+3-JustGreenEnough: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-JustGreenEnough
+.PHONY : 3-JustGreenEnough
+
+# fast build rule for target.
+3-JustGreenEnough/fast:
+	$(MAKE) -f CMakeFiles\3-JustGreenEnough.dir\build.make CMakeFiles/3-JustGreenEnough.dir/build
+.PHONY : 3-JustGreenEnough/fast
+
+#=============================================================================
 # Target rules for targets named GridPaths
 
 # Build rule for target.
@@ -407,6 +446,19 @@ NewFlightRoutes/fast:
 2-FavoriateColors/fast:
 	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/build
 .PHONY : 2-FavoriateColors/fast
+
+#=============================================================================
+# Target rules for targets named 1-StoneGame
+
+# Build rule for target.
+1-StoneGame: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-StoneGame
+.PHONY : 1-StoneGame
+
+# fast build rule for target.
+1-StoneGame/fast:
+	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/build
+.PHONY : 1-StoneGame/fast
 
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
@@ -1002,6 +1054,114 @@ USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s:
 	$(MAKE) -f CMakeFiles\2-FavoriateColors.dir\build.make CMakeFiles/2-FavoriateColors.dir/USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s
 .PHONY : USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp.s
 
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.obj: USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.obj
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.obj
+
+# target to build an object file
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.obj
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.obj
+
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.i: USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.i
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.i
+
+# target to preprocess a source file
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.i:
+	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.i
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.i
+
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.s: USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.s
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.s
+
+# target to generate assembly for a file
+USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.s:
+	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.s
+.PHONY : USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp.s
+
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.obj: USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.obj
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.obj
+
+# target to build an object file
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-CountTheCows.dir\build.make CMakeFiles/3-CountTheCows.dir/USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.obj
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.obj
+
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.i: USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.i
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.i
+
+# target to preprocess a source file
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.i:
+	$(MAKE) -f CMakeFiles\3-CountTheCows.dir\build.make CMakeFiles/3-CountTheCows.dir/USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.i
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.i
+
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.s: USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.s
+
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.s
+
+# target to generate assembly for a file
+USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.s:
+	$(MAKE) -f CMakeFiles\3-CountTheCows.dir\build.make CMakeFiles/3-CountTheCows.dir/USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.s
+.PHONY : USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp.s
+
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.obj: USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.obj
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.obj
+
+# target to build an object file
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-ComfortableCows.dir\build.make CMakeFiles/1-ComfortableCows.dir/USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.obj
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.obj
+
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.i: USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.i
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.i
+
+# target to preprocess a source file
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.i:
+	$(MAKE) -f CMakeFiles\1-ComfortableCows.dir\build.make CMakeFiles/1-ComfortableCows.dir/USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.i
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.i
+
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.s: USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.s
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.s
+
+# target to generate assembly for a file
+USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.s:
+	$(MAKE) -f CMakeFiles\1-ComfortableCows.dir\build.make CMakeFiles/1-ComfortableCows.dir/USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.s
+.PHONY : USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp.s
+
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.obj: USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.obj
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.obj
+
+# target to build an object file
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-JustGreenEnough.dir\build.make CMakeFiles/3-JustGreenEnough.dir/USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.obj
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.obj
+
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.i: USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.i
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.i
+
+# target to preprocess a source file
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.i:
+	$(MAKE) -f CMakeFiles\3-JustGreenEnough.dir\build.make CMakeFiles/3-JustGreenEnough.dir/USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.i
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.i
+
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.s: USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s
+
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.s
+
+# target to generate assembly for a file
+USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s:
+	$(MAKE) -f CMakeFiles\3-JustGreenEnough.dir\build.make CMakeFiles/3-JustGreenEnough.dir/USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s
+.PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s
+
 debug.obj: debug.cpp.obj
 
 .PHONY : debug.obj
@@ -1037,6 +1197,7 @@ help:
 	@echo ... depend
 	@echo ... 3-LoadBalancing
 	@echo ... debug
+	@echo ... 3-CountTheCows
 	@echo ... 2-LoadBalancing
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
@@ -1051,6 +1212,8 @@ help:
 	@echo ... 1-AngryCows
 	@echo ... 3-MultiplayerMoo
 	@echo ... 1-LeftOut
+	@echo ... 1-ComfortableCows
+	@echo ... 3-JustGreenEnough
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
@@ -1060,6 +1223,7 @@ help:
 	@echo ... NewFlightRoutes
 	@echo ... 2-CowChecklist
 	@echo ... 2-FavoriateColors
+	@echo ... 1-StoneGame
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
@@ -1126,6 +1290,18 @@ help:
 	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.obj
 	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.i
 	@echo ... USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.s
+	@echo ... USACO/2020-2021/3-Feb/Gold/1-StoneGame.obj
+	@echo ... USACO/2020-2021/3-Feb/Gold/1-StoneGame.i
+	@echo ... USACO/2020-2021/3-Feb/Gold/1-StoneGame.s
+	@echo ... USACO/2020-2021/3-Feb/Gold/3-CountTheCows.obj
+	@echo ... USACO/2020-2021/3-Feb/Gold/3-CountTheCows.i
+	@echo ... USACO/2020-2021/3-Feb/Gold/3-CountTheCows.s
+	@echo ... USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.obj
+	@echo ... USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.i
+	@echo ... USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.s
+	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.obj
+	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.i
+	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.s
 	@echo ... debug.obj
 	@echo ... debug.i
 	@echo ... debug.s

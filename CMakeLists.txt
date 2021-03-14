@@ -8,7 +8,7 @@ add_executable(debug debug.cpp)
 #USACO Bronze unfinished problems
 add_executable(3-LoadBalancing USACO/2015-2016/3-Feb/Bronze/3-LoadBalancing.cpp)
 
-#USACO Silver unfinished problems #11
+#USACO Silver unfinished problems #14
 add_executable(2-LoadBalancing USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp)
 
 add_executable(3-Teleportation USACO/2017-2018/3-Feb/Silver/3-Teleportation.cpp)
@@ -29,6 +29,9 @@ add_executable(3-MultiplayerMoo USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo
 add_executable(1-LeftOut USACO/2018-2019/4-UsOpen/Silver/1-LeftOut.cpp)
 add_executable(2-CowSteepleChase-II USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp)
 
+add_executable(1-ComfortableCows USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp)
+add_executable(3-JustGreenEnough USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp)
+
 #CSES unfinished problems
 add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
 
@@ -48,3 +51,7 @@ add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
 add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
 
 add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp)
+
+add_executable(3-CountTheCows USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp)
+add_executable(1-StoneGame USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp)
+
