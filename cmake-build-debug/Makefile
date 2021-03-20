@@ -422,6 +422,19 @@ NewFlightRoutes/fast:
 .PHONY : NewFlightRoutes/fast
 
 #=============================================================================
+# Target rules for targets named 2-Dishwashing
+
+# Build rule for target.
+2-Dishwashing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Dishwashing
+.PHONY : 2-Dishwashing
+
+# fast build rule for target.
+2-Dishwashing/fast:
+	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/build
+.PHONY : 2-Dishwashing/fast
+
+#=============================================================================
 # Target rules for targets named 2-CowChecklist
 
 # Build rule for target.
@@ -892,6 +905,33 @@ USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.cpp.s:
 	$(MAKE) -f CMakeFiles\3-MultiplayerMoo.dir\build.make CMakeFiles/3-MultiplayerMoo.dir/USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.cpp.s
 .PHONY : USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.cpp.s
 
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.obj: USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.obj
+
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.obj
+
+# target to build an object file
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.obj
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.obj
+
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.i: USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.i
+
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.i
+
+# target to preprocess a source file
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.i:
+	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.i
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.i
+
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.s: USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.s
+
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.s
+
+# target to generate assembly for a file
+USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.s:
+	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.s
+.PHONY : USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp.s
+
 USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.obj: USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.cpp.obj
 
 .PHONY : USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.obj
@@ -1221,6 +1261,7 @@ help:
 	@echo ... SlidingCost
 	@echo ... SalaryQueries
 	@echo ... NewFlightRoutes
+	@echo ... 2-Dishwashing
 	@echo ... 2-CowChecklist
 	@echo ... 2-FavoriateColors
 	@echo ... 1-StoneGame
@@ -1272,6 +1313,9 @@ help:
 	@echo ... USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.obj
 	@echo ... USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.i
 	@echo ... USACO/2017-2018/4-UsOpen/Silver/3-MultiplayerMoo.s
+	@echo ... USACO/2018-2019/3-Feb/Gold/2-Dishwashing.obj
+	@echo ... USACO/2018-2019/3-Feb/Gold/2-Dishwashing.i
+	@echo ... USACO/2018-2019/3-Feb/Gold/2-Dishwashing.s
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.obj
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.i
 	@echo ... USACO/2018-2019/3-Feb/Silver/1-SleepyCowHerding.s

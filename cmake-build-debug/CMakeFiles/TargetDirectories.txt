@@ -24,6 +24,7 @@ C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/Su
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SlidingCost.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/SalaryQueries.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/NewFlightRoutes.dir
+C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-Dishwashing.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-CowChecklist.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/2-FavoriateColors.dir
 C:/Users/xiaon/Documents/competitive-programming/cmake-build-debug/CMakeFiles/1-StoneGame.dir

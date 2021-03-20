@@ -55,3 +55,4 @@ add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors
 add_executable(3-CountTheCows USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp)
 add_executable(1-StoneGame USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp)
 
+add_executable(2-Dishwashing USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp)

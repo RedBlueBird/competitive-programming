@@ -77,6 +77,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SlidingCost.dir/DependInfo.cmake"
   "CMakeFiles/SalaryQueries.dir/DependInfo.cmake"
   "CMakeFiles/NewFlightRoutes.dir/DependInfo.cmake"
+  "CMakeFiles/2-Dishwashing.dir/DependInfo.cmake"
   "CMakeFiles/2-CowChecklist.dir/DependInfo.cmake"
   "CMakeFiles/2-FavoriateColors.dir/DependInfo.cmake"
   "CMakeFiles/1-StoneGame.dir/DependInfo.cmake"
