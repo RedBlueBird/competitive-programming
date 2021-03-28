@@ -188,19 +188,6 @@ debug/fast:
 .PHONY : 1-SleepyCowHerding/fast
 
 #=============================================================================
-# Target rules for targets named JosephusProblem-II
-
-# Build rule for target.
-JosephusProblem-II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 JosephusProblem-II
-.PHONY : JosephusProblem-II
-
-# fast build rule for target.
-JosephusProblem-II/fast:
-	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/build
-.PHONY : JosephusProblem-II/fast
-
-#=============================================================================
 # Target rules for targets named 2-CowSteepleChase-II
 
 # Build rule for target.
@@ -344,84 +331,6 @@ JosephusProblem-II/fast:
 .PHONY : 3-JustGreenEnough/fast
 
 #=============================================================================
-# Target rules for targets named GridPaths
-
-# Build rule for target.
-GridPaths: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 GridPaths
-.PHONY : GridPaths
-
-# fast build rule for target.
-GridPaths/fast:
-	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/build
-.PHONY : GridPaths/fast
-
-#=============================================================================
-# Target rules for targets named RoundTrip-II
-
-# Build rule for target.
-RoundTrip-II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 RoundTrip-II
-.PHONY : RoundTrip-II
-
-# fast build rule for target.
-RoundTrip-II/fast:
-	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/build
-.PHONY : RoundTrip-II/fast
-
-#=============================================================================
-# Target rules for targets named SumOfThreeValues
-
-# Build rule for target.
-SumOfThreeValues: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 SumOfThreeValues
-.PHONY : SumOfThreeValues
-
-# fast build rule for target.
-SumOfThreeValues/fast:
-	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/build
-.PHONY : SumOfThreeValues/fast
-
-#=============================================================================
-# Target rules for targets named SlidingCost
-
-# Build rule for target.
-SlidingCost: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 SlidingCost
-.PHONY : SlidingCost
-
-# fast build rule for target.
-SlidingCost/fast:
-	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/build
-.PHONY : SlidingCost/fast
-
-#=============================================================================
-# Target rules for targets named SalaryQueries
-
-# Build rule for target.
-SalaryQueries: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 SalaryQueries
-.PHONY : SalaryQueries
-
-# fast build rule for target.
-SalaryQueries/fast:
-	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/build
-.PHONY : SalaryQueries/fast
-
-#=============================================================================
-# Target rules for targets named NewFlightRoutes
-
-# Build rule for target.
-NewFlightRoutes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NewFlightRoutes
-.PHONY : NewFlightRoutes
-
-# fast build rule for target.
-NewFlightRoutes/fast:
-	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/build
-.PHONY : NewFlightRoutes/fast
-
-#=============================================================================
 # Target rules for targets named 2-Dishwashing
 
 # Build rule for target.
@@ -472,6 +381,97 @@ NewFlightRoutes/fast:
 1-StoneGame/fast:
 	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/build
 .PHONY : 1-StoneGame/fast
+
+#=============================================================================
+# Target rules for targets named 2-MilkVisits
+
+# Build rule for target.
+2-MilkVisits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-MilkVisits
+.PHONY : 2-MilkVisits
+
+# fast build rule for target.
+2-MilkVisits/fast:
+	$(MAKE) -f CMakeFiles\2-MilkVisits.dir\build.make CMakeFiles/2-MilkVisits.dir/build
+.PHONY : 2-MilkVisits/fast
+
+#=============================================================================
+# Target rules for targets named GridPaths
+
+# Build rule for target.
+GridPaths: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GridPaths
+.PHONY : GridPaths
+
+# fast build rule for target.
+GridPaths/fast:
+	$(MAKE) -f CMakeFiles\GridPaths.dir\build.make CMakeFiles/GridPaths.dir/build
+.PHONY : GridPaths/fast
+
+#=============================================================================
+# Target rules for targets named RoundTrip-II
+
+# Build rule for target.
+RoundTrip-II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RoundTrip-II
+.PHONY : RoundTrip-II
+
+# fast build rule for target.
+RoundTrip-II/fast:
+	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/build
+.PHONY : RoundTrip-II/fast
+
+#=============================================================================
+# Target rules for targets named SumOfThreeValues
+
+# Build rule for target.
+SumOfThreeValues: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SumOfThreeValues
+.PHONY : SumOfThreeValues
+
+# fast build rule for target.
+SumOfThreeValues/fast:
+	$(MAKE) -f CMakeFiles\SumOfThreeValues.dir\build.make CMakeFiles/SumOfThreeValues.dir/build
+.PHONY : SumOfThreeValues/fast
+
+#=============================================================================
+# Target rules for targets named SalaryQueries
+
+# Build rule for target.
+SalaryQueries: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SalaryQueries
+.PHONY : SalaryQueries
+
+# fast build rule for target.
+SalaryQueries/fast:
+	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/build
+.PHONY : SalaryQueries/fast
+
+#=============================================================================
+# Target rules for targets named DistinctColors
+
+# Build rule for target.
+DistinctColors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DistinctColors
+.PHONY : DistinctColors
+
+# fast build rule for target.
+DistinctColors/fast:
+	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/build
+.PHONY : DistinctColors/fast
+
+#=============================================================================
+# Target rules for targets named NewFlightRoutes
+
+# Build rule for target.
+NewFlightRoutes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 NewFlightRoutes
+.PHONY : NewFlightRoutes
+
+# fast build rule for target.
+NewFlightRoutes/fast:
+	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/build
+.PHONY : NewFlightRoutes/fast
 
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
@@ -526,60 +526,6 @@ CSES/11-AdditionalProblems/NewFlightRoutes.s: CSES/11-AdditionalProblems/NewFlig
 CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s:
 	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s
 .PHONY : CSES/11-AdditionalProblems/NewFlightRoutes.cpp.s
-
-CSES/2-SortingAndSearching/JosephusProblem-II.obj: CSES/2-SortingAndSearching/JosephusProblem-II.cpp.obj
-
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.obj
-
-# target to build an object file
-CSES/2-SortingAndSearching/JosephusProblem-II.cpp.obj:
-	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/CSES/2-SortingAndSearching/JosephusProblem-II.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.cpp.obj
-
-CSES/2-SortingAndSearching/JosephusProblem-II.i: CSES/2-SortingAndSearching/JosephusProblem-II.cpp.i
-
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.i
-
-# target to preprocess a source file
-CSES/2-SortingAndSearching/JosephusProblem-II.cpp.i:
-	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/CSES/2-SortingAndSearching/JosephusProblem-II.cpp.i
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.cpp.i
-
-CSES/2-SortingAndSearching/JosephusProblem-II.s: CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s
-
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.s
-
-# target to generate assembly for a file
-CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s:
-	$(MAKE) -f CMakeFiles\JosephusProblem-II.dir\build.make CMakeFiles/JosephusProblem-II.dir/CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s
-.PHONY : CSES/2-SortingAndSearching/JosephusProblem-II.cpp.s
-
-CSES/2-SortingAndSearching/SlidingCost.obj: CSES/2-SortingAndSearching/SlidingCost.cpp.obj
-
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.obj
-
-# target to build an object file
-CSES/2-SortingAndSearching/SlidingCost.cpp.obj:
-	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/CSES/2-SortingAndSearching/SlidingCost.cpp.obj
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.cpp.obj
-
-CSES/2-SortingAndSearching/SlidingCost.i: CSES/2-SortingAndSearching/SlidingCost.cpp.i
-
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.i
-
-# target to preprocess a source file
-CSES/2-SortingAndSearching/SlidingCost.cpp.i:
-	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/CSES/2-SortingAndSearching/SlidingCost.cpp.i
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.cpp.i
-
-CSES/2-SortingAndSearching/SlidingCost.s: CSES/2-SortingAndSearching/SlidingCost.cpp.s
-
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.s
-
-# target to generate assembly for a file
-CSES/2-SortingAndSearching/SlidingCost.cpp.s:
-	$(MAKE) -f CMakeFiles\SlidingCost.dir\build.make CMakeFiles/SlidingCost.dir/CSES/2-SortingAndSearching/SlidingCost.cpp.s
-.PHONY : CSES/2-SortingAndSearching/SlidingCost.cpp.s
 
 CSES/2-SortingAndSearching/SumOfThreeValues.obj: CSES/2-SortingAndSearching/SumOfThreeValues.cpp.obj
 
@@ -661,6 +607,33 @@ CSES/5-RangeQueries/SalaryQueries.s: CSES/5-RangeQueries/SalaryQueries.cpp.s
 CSES/5-RangeQueries/SalaryQueries.cpp.s:
 	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.s
 .PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.s
+
+CSES/6-TreeAlgorithms/DistinctColors.obj: CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
+
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.obj
+
+# target to build an object file
+CSES/6-TreeAlgorithms/DistinctColors.cpp.obj:
+	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
+
+CSES/6-TreeAlgorithms/DistinctColors.i: CSES/6-TreeAlgorithms/DistinctColors.cpp.i
+
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.i
+
+# target to preprocess a source file
+CSES/6-TreeAlgorithms/DistinctColors.cpp.i:
+	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.i
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.i
+
+CSES/6-TreeAlgorithms/DistinctColors.s: CSES/6-TreeAlgorithms/DistinctColors.cpp.s
+
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.s
+
+# target to generate assembly for a file
+CSES/6-TreeAlgorithms/DistinctColors.cpp.s:
+	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.s
+.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.s
 
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj: USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.obj
 
@@ -1013,6 +986,33 @@ USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp.s:
 	$(MAKE) -f CMakeFiles\2-CowSteepleChase-II.dir\build.make CMakeFiles/2-CowSteepleChase-II.dir/USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp.s
 .PHONY : USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.cpp.s
 
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.obj: USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.obj
+
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.obj
+
+# target to build an object file
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-MilkVisits.dir\build.make CMakeFiles/2-MilkVisits.dir/USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.obj
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.obj
+
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.i: USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.i
+
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.i
+
+# target to preprocess a source file
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.i:
+	$(MAKE) -f CMakeFiles\2-MilkVisits.dir\build.make CMakeFiles/2-MilkVisits.dir/USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.i
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.i
+
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.s: USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.s
+
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.s
+
+# target to generate assembly for a file
+USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.s:
+	$(MAKE) -f CMakeFiles\2-MilkVisits.dir\build.make CMakeFiles/2-MilkVisits.dir/USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.s
+.PHONY : USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp.s
+
 USACO/2019-2020/1-Dec/Silver/2-Meetings.obj: USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.obj
 
 .PHONY : USACO/2019-2020/1-Dec/Silver/2-Meetings.obj
@@ -1241,7 +1241,6 @@ help:
 	@echo ... 2-LoadBalancing
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
-	@echo ... JosephusProblem-II
 	@echo ... 2-CowSteepleChase-II
 	@echo ... 2-Meetings
 	@echo ... 2-Triangles
@@ -1254,29 +1253,24 @@ help:
 	@echo ... 1-LeftOut
 	@echo ... 1-ComfortableCows
 	@echo ... 3-JustGreenEnough
-	@echo ... GridPaths
-	@echo ... rebuild_cache
-	@echo ... RoundTrip-II
-	@echo ... SumOfThreeValues
-	@echo ... SlidingCost
-	@echo ... SalaryQueries
-	@echo ... NewFlightRoutes
 	@echo ... 2-Dishwashing
 	@echo ... 2-CowChecklist
 	@echo ... 2-FavoriateColors
 	@echo ... 1-StoneGame
+	@echo ... 2-MilkVisits
+	@echo ... GridPaths
+	@echo ... rebuild_cache
+	@echo ... RoundTrip-II
+	@echo ... SumOfThreeValues
+	@echo ... SalaryQueries
+	@echo ... DistinctColors
+	@echo ... NewFlightRoutes
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
 	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.obj
 	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.i
 	@echo ... CSES/11-AdditionalProblems/NewFlightRoutes.s
-	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.obj
-	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.i
-	@echo ... CSES/2-SortingAndSearching/JosephusProblem-II.s
-	@echo ... CSES/2-SortingAndSearching/SlidingCost.obj
-	@echo ... CSES/2-SortingAndSearching/SlidingCost.i
-	@echo ... CSES/2-SortingAndSearching/SlidingCost.s
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.obj
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.i
 	@echo ... CSES/2-SortingAndSearching/SumOfThreeValues.s
@@ -1286,6 +1280,9 @@ help:
 	@echo ... CSES/5-RangeQueries/SalaryQueries.obj
 	@echo ... CSES/5-RangeQueries/SalaryQueries.i
 	@echo ... CSES/5-RangeQueries/SalaryQueries.s
+	@echo ... CSES/6-TreeAlgorithms/DistinctColors.obj
+	@echo ... CSES/6-TreeAlgorithms/DistinctColors.i
+	@echo ... CSES/6-TreeAlgorithms/DistinctColors.s
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
@@ -1325,6 +1322,9 @@ help:
 	@echo ... USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.obj
 	@echo ... USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.i
 	@echo ... USACO/2018-2019/4-UsOpen/Silver/2-CowSteepleChase-II.s
+	@echo ... USACO/2019-2020/1-Dec/Gold/2-MilkVisits.obj
+	@echo ... USACO/2019-2020/1-Dec/Gold/2-MilkVisits.i
+	@echo ... USACO/2019-2020/1-Dec/Gold/2-MilkVisits.s
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.obj
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.i
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.s

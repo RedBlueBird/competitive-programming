@@ -17,6 +17,7 @@ int main() {
     int n;
     fin >> n;
 
+
     return 0;
 }
 

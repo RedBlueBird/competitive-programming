@@ -32,19 +32,6 @@ add_executable(2-CowSteepleChase-II USACO/2018-2019/4-UsOpen/Silver/2-CowSteeple
 add_executable(1-ComfortableCows USACO/2020-2021/3-Feb/Silver/1-ComfortableCows.cpp)
 add_executable(3-JustGreenEnough USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp)
 
-#CSES unfinished problems
-add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
-
-add_executable(JosephusProblem-II CSES/2-SortingAndSearching/JosephusProblem-II.cpp)
-add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
-add_executable(SlidingCost CSES/2-SortingAndSearching/SlidingCost.cpp)
-
-add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
-
-add_executable(SalaryQueries CSES/5-RangeQueries/SalaryQueries.cpp)
-
-add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)
-
 #USACO Gold unfinished problems
 add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
 
@@ -56,3 +43,18 @@ add_executable(3-CountTheCows USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp)
 add_executable(1-StoneGame USACO/2020-2021/3-Feb/Gold/1-StoneGame.cpp)
 
 add_executable(2-Dishwashing USACO/2018-2019/3-Feb/Gold/2-Dishwashing.cpp)
+
+add_executable(2-MilkVisits USACO/2019-2020/1-Dec/Gold/2-MilkVisits.cpp)
+
+#CSES unfinished problems
+add_executable(GridPaths CSES/1-IntroductoryProblems/GridPaths.cpp)
+
+add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
+
+add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
+
+add_executable(SalaryQueries CSES/5-RangeQueries/SalaryQueries.cpp)
+
+add_executable(DistinctColors CSES/6-TreeAlgorithms/DistinctColors.cpp)
+
+add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)

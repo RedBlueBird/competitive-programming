@@ -14,9 +14,6 @@ int main() {
     ifstream fin("../input.txt");
 
     //Take inputs
-    int n, d;
-    fin >> n >> d;
-
 
     return 0;
 }
