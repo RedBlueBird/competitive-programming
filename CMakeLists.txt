@@ -35,8 +35,6 @@ add_executable(3-JustGreenEnough USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.
 #USACO Gold unfinished problems
 add_executable(1-AngryCows USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp)
 
-add_executable(2-CowChecklist USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp)
-
 add_executable(2-FavoriateColors USACO/2019-2020/4-UsOpen/Gold/2-FavoriateColors.cpp)
 
 add_executable(3-CountTheCows USACO/2020-2021/3-Feb/Gold/3-CountTheCows.cpp)
@@ -54,7 +52,6 @@ add_executable(SumOfThreeValues CSES/2-SortingAndSearching/SumOfThreeValues.cpp)
 add_executable(RoundTrip-II CSES/4-GraphAlgorithms/RoundTrip-II.cpp)
 
 add_executable(SalaryQueries CSES/5-RangeQueries/SalaryQueries.cpp)
-
-add_executable(DistinctColors CSES/6-TreeAlgorithms/DistinctColors.cpp)
+add_executable(IncreasingArrayQueries CSES/5-RangeQueries/IncreasingArrayQueries.cpp)
 
 add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)

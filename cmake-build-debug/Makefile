@@ -331,32 +331,6 @@ debug/fast:
 .PHONY : 3-JustGreenEnough/fast
 
 #=============================================================================
-# Target rules for targets named 2-Dishwashing
-
-# Build rule for target.
-2-Dishwashing: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-Dishwashing
-.PHONY : 2-Dishwashing
-
-# fast build rule for target.
-2-Dishwashing/fast:
-	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/build
-.PHONY : 2-Dishwashing/fast
-
-#=============================================================================
-# Target rules for targets named 2-CowChecklist
-
-# Build rule for target.
-2-CowChecklist: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-CowChecklist
-.PHONY : 2-CowChecklist
-
-# fast build rule for target.
-2-CowChecklist/fast:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/build
-.PHONY : 2-CowChecklist/fast
-
-#=============================================================================
 # Target rules for targets named 2-FavoriateColors
 
 # Build rule for target.
@@ -381,6 +355,19 @@ debug/fast:
 1-StoneGame/fast:
 	$(MAKE) -f CMakeFiles\1-StoneGame.dir\build.make CMakeFiles/1-StoneGame.dir/build
 .PHONY : 1-StoneGame/fast
+
+#=============================================================================
+# Target rules for targets named 2-Dishwashing
+
+# Build rule for target.
+2-Dishwashing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Dishwashing
+.PHONY : 2-Dishwashing
+
+# fast build rule for target.
+2-Dishwashing/fast:
+	$(MAKE) -f CMakeFiles\2-Dishwashing.dir\build.make CMakeFiles/2-Dishwashing.dir/build
+.PHONY : 2-Dishwashing/fast
 
 #=============================================================================
 # Target rules for targets named 2-MilkVisits
@@ -448,17 +435,17 @@ SalaryQueries/fast:
 .PHONY : SalaryQueries/fast
 
 #=============================================================================
-# Target rules for targets named DistinctColors
+# Target rules for targets named IncreasingArrayQueries
 
 # Build rule for target.
-DistinctColors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 DistinctColors
-.PHONY : DistinctColors
+IncreasingArrayQueries: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 IncreasingArrayQueries
+.PHONY : IncreasingArrayQueries
 
 # fast build rule for target.
-DistinctColors/fast:
-	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/build
-.PHONY : DistinctColors/fast
+IncreasingArrayQueries/fast:
+	$(MAKE) -f CMakeFiles\IncreasingArrayQueries.dir\build.make CMakeFiles/IncreasingArrayQueries.dir/build
+.PHONY : IncreasingArrayQueries/fast
 
 #=============================================================================
 # Target rules for targets named NewFlightRoutes
@@ -581,6 +568,33 @@ CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s:
 	$(MAKE) -f CMakeFiles\RoundTrip-II.dir\build.make CMakeFiles/RoundTrip-II.dir/CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
 .PHONY : CSES/4-GraphAlgorithms/RoundTrip-II.cpp.s
 
+CSES/5-RangeQueries/IncreasingArrayQueries.obj: CSES/5-RangeQueries/IncreasingArrayQueries.cpp.obj
+
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.obj
+
+# target to build an object file
+CSES/5-RangeQueries/IncreasingArrayQueries.cpp.obj:
+	$(MAKE) -f CMakeFiles\IncreasingArrayQueries.dir\build.make CMakeFiles/IncreasingArrayQueries.dir/CSES/5-RangeQueries/IncreasingArrayQueries.cpp.obj
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.cpp.obj
+
+CSES/5-RangeQueries/IncreasingArrayQueries.i: CSES/5-RangeQueries/IncreasingArrayQueries.cpp.i
+
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.i
+
+# target to preprocess a source file
+CSES/5-RangeQueries/IncreasingArrayQueries.cpp.i:
+	$(MAKE) -f CMakeFiles\IncreasingArrayQueries.dir\build.make CMakeFiles/IncreasingArrayQueries.dir/CSES/5-RangeQueries/IncreasingArrayQueries.cpp.i
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.cpp.i
+
+CSES/5-RangeQueries/IncreasingArrayQueries.s: CSES/5-RangeQueries/IncreasingArrayQueries.cpp.s
+
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.s
+
+# target to generate assembly for a file
+CSES/5-RangeQueries/IncreasingArrayQueries.cpp.s:
+	$(MAKE) -f CMakeFiles\IncreasingArrayQueries.dir\build.make CMakeFiles/IncreasingArrayQueries.dir/CSES/5-RangeQueries/IncreasingArrayQueries.cpp.s
+.PHONY : CSES/5-RangeQueries/IncreasingArrayQueries.cpp.s
+
 CSES/5-RangeQueries/SalaryQueries.obj: CSES/5-RangeQueries/SalaryQueries.cpp.obj
 
 .PHONY : CSES/5-RangeQueries/SalaryQueries.obj
@@ -607,33 +621,6 @@ CSES/5-RangeQueries/SalaryQueries.s: CSES/5-RangeQueries/SalaryQueries.cpp.s
 CSES/5-RangeQueries/SalaryQueries.cpp.s:
 	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.s
 .PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.s
-
-CSES/6-TreeAlgorithms/DistinctColors.obj: CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
-
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.obj
-
-# target to build an object file
-CSES/6-TreeAlgorithms/DistinctColors.cpp.obj:
-	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.obj
-
-CSES/6-TreeAlgorithms/DistinctColors.i: CSES/6-TreeAlgorithms/DistinctColors.cpp.i
-
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.i
-
-# target to preprocess a source file
-CSES/6-TreeAlgorithms/DistinctColors.cpp.i:
-	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.i
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.i
-
-CSES/6-TreeAlgorithms/DistinctColors.s: CSES/6-TreeAlgorithms/DistinctColors.cpp.s
-
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.s
-
-# target to generate assembly for a file
-CSES/6-TreeAlgorithms/DistinctColors.cpp.s:
-	$(MAKE) -f CMakeFiles\DistinctColors.dir\build.make CMakeFiles/DistinctColors.dir/CSES/6-TreeAlgorithms/DistinctColors.cpp.s
-.PHONY : CSES/6-TreeAlgorithms/DistinctColors.cpp.s
 
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj: USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.obj
 
@@ -742,33 +729,6 @@ USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s: USACO/2015-2016/4-UsOpen/Sil
 USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
 .PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.s
-
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj
-
-# target to build an object file
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.obj
-
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i
-
-# target to preprocess a source file
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.i
-
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s: USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
-
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s
-
-# target to generate assembly for a file
-USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s:
-	$(MAKE) -f CMakeFiles\2-CowChecklist.dir\build.make CMakeFiles/2-CowChecklist.dir/USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
-.PHONY : USACO/2016-2017/1-Dec/Gold/2-CowChecklist.cpp.s
 
 USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj: USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.cpp.obj
 
@@ -1253,17 +1213,16 @@ help:
 	@echo ... 1-LeftOut
 	@echo ... 1-ComfortableCows
 	@echo ... 3-JustGreenEnough
-	@echo ... 2-Dishwashing
-	@echo ... 2-CowChecklist
 	@echo ... 2-FavoriateColors
 	@echo ... 1-StoneGame
+	@echo ... 2-Dishwashing
 	@echo ... 2-MilkVisits
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
 	@echo ... SumOfThreeValues
 	@echo ... SalaryQueries
-	@echo ... DistinctColors
+	@echo ... IncreasingArrayQueries
 	@echo ... NewFlightRoutes
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
@@ -1277,12 +1236,12 @@ help:
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.obj
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.i
 	@echo ... CSES/4-GraphAlgorithms/RoundTrip-II.s
+	@echo ... CSES/5-RangeQueries/IncreasingArrayQueries.obj
+	@echo ... CSES/5-RangeQueries/IncreasingArrayQueries.i
+	@echo ... CSES/5-RangeQueries/IncreasingArrayQueries.s
 	@echo ... CSES/5-RangeQueries/SalaryQueries.obj
 	@echo ... CSES/5-RangeQueries/SalaryQueries.i
 	@echo ... CSES/5-RangeQueries/SalaryQueries.s
-	@echo ... CSES/6-TreeAlgorithms/DistinctColors.obj
-	@echo ... CSES/6-TreeAlgorithms/DistinctColors.i
-	@echo ... CSES/6-TreeAlgorithms/DistinctColors.s
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
@@ -1295,9 +1254,6 @@ help:
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
-	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.obj
-	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.i
-	@echo ... USACO/2016-2017/1-Dec/Gold/2-CowChecklist.s
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.obj
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.i
 	@echo ... USACO/2016-2017/4-UsOpen/Silver/2-BovineGenomics.s

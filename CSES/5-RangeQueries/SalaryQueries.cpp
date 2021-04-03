@@ -23,8 +23,9 @@ void update(vector<int>& bitree, int k, int x){
 }
 
 int main() {
-//    freopen("../input.txt", "r", stdin);
-//    freopen("../output.txt", "w", stdout);
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    freopen("../input.txt", "r", stdin);
+    freopen("../output.txt", "w", stdout);
 
     //Take inputs
     int n, q;
@@ -46,7 +47,7 @@ int main() {
         query.push_back(make_tuple((type == '!'? 1:0), a, b));
     }
     sort(compress.begin(), compress.end());
-    map<int,int> convert;
+    unordered_map<int,int> convert;
     int c = 0;
     for (int i = 0; i < compress.size(); i++){
         if (!convert.count(compress[i]))
