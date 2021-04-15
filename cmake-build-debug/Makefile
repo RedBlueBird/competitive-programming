@@ -110,17 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3-LoadBalancing
+# Target rules for targets named 2-BovineGenomics
 
 # Build rule for target.
-3-LoadBalancing: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-LoadBalancing
-.PHONY : 3-LoadBalancing
+2-BovineGenomics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-BovineGenomics
+.PHONY : 2-BovineGenomics
 
 # fast build rule for target.
-3-LoadBalancing/fast:
-	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/build
-.PHONY : 3-LoadBalancing/fast
+2-BovineGenomics/fast:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
+.PHONY : 2-BovineGenomics/fast
+
+#=============================================================================
+# Target rules for targets named 2-BullInAChinaShop
+
+# Build rule for target.
+2-BullInAChinaShop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-BullInAChinaShop
+.PHONY : 2-BullInAChinaShop
+
+# fast build rule for target.
+2-BullInAChinaShop/fast:
+	$(MAKE) -f CMakeFiles\2-BullInAChinaShop.dir\build.make CMakeFiles/2-BullInAChinaShop.dir/build
+.PHONY : 2-BullInAChinaShop/fast
 
 #=============================================================================
 # Target rules for targets named debug
@@ -160,6 +173,19 @@ debug/fast:
 2-LoadBalancing/fast:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/build
 .PHONY : 2-LoadBalancing/fast
+
+#=============================================================================
+# Target rules for targets named 2-Portals
+
+# Build rule for target.
+2-Portals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Portals
+.PHONY : 2-Portals
+
+# fast build rule for target.
+2-Portals/fast:
+	$(MAKE) -f CMakeFiles\2-Portals.dir\build.make CMakeFiles/2-Portals.dir/build
+.PHONY : 2-Portals/fast
 
 #=============================================================================
 # Target rules for targets named 3-Teleportation
@@ -214,6 +240,19 @@ debug/fast:
 .PHONY : 2-Meetings/fast
 
 #=============================================================================
+# Target rules for targets named 3-Springboards
+
+# Build rule for target.
+3-Springboards: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Springboards
+.PHONY : 3-Springboards
+
+# fast build rule for target.
+3-Springboards/fast:
+	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/build
+.PHONY : 3-Springboards/fast
+
+#=============================================================================
 # Target rules for targets named 2-Triangles
 
 # Build rule for target.
@@ -238,19 +277,6 @@ debug/fast:
 1-FieldReduction/fast:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/build
 .PHONY : 1-FieldReduction/fast
-
-#=============================================================================
-# Target rules for targets named 2-BovineGenomics
-
-# Build rule for target.
-2-BovineGenomics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-BovineGenomics
-.PHONY : 2-BovineGenomics
-
-# fast build rule for target.
-2-BovineGenomics/fast:
-	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
-.PHONY : 2-BovineGenomics/fast
 
 #=============================================================================
 # Target rules for targets named 3-WheresBessie
@@ -381,6 +407,45 @@ debug/fast:
 2-MilkVisits/fast:
 	$(MAKE) -f CMakeFiles\2-MilkVisits.dir\build.make CMakeFiles/2-MilkVisits.dir/build
 .PHONY : 2-MilkVisits/fast
+
+#=============================================================================
+# Target rules for targets named 3-Permutation
+
+# Build rule for target.
+3-Permutation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Permutation
+.PHONY : 3-Permutation
+
+# fast build rule for target.
+3-Permutation/fast:
+	$(MAKE) -f CMakeFiles\3-Permutation.dir\build.make CMakeFiles/3-Permutation.dir/build
+.PHONY : 3-Permutation/fast
+
+#=============================================================================
+# Target rules for targets named 3-LoadBalancing
+
+# Build rule for target.
+3-LoadBalancing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-LoadBalancing
+.PHONY : 3-LoadBalancing
+
+# fast build rule for target.
+3-LoadBalancing/fast:
+	$(MAKE) -f CMakeFiles\3-LoadBalancing.dir\build.make CMakeFiles/3-LoadBalancing.dir/build
+.PHONY : 3-LoadBalancing/fast
+
+#=============================================================================
+# Target rules for targets named 3-FieldReduction
+
+# Build rule for target.
+3-FieldReduction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-FieldReduction
+.PHONY : 3-FieldReduction
+
+# fast build rule for target.
+3-FieldReduction/fast:
+	$(MAKE) -f CMakeFiles\3-FieldReduction.dir\build.make CMakeFiles/3-FieldReduction.dir/build
+.PHONY : 3-FieldReduction/fast
 
 #=============================================================================
 # Target rules for targets named GridPaths
@@ -703,6 +768,60 @@ USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s:
 	$(MAKE) -f CMakeFiles\2-LoadBalancing.dir\build.make CMakeFiles/2-LoadBalancing.dir/USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
 .PHONY : USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp.s
 
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.obj: USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.obj
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.obj
+
+# target to build an object file
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-BullInAChinaShop.dir\build.make CMakeFiles/2-BullInAChinaShop.dir/USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.obj
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.obj
+
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.i: USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.i
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.i
+
+# target to preprocess a source file
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.i:
+	$(MAKE) -f CMakeFiles\2-BullInAChinaShop.dir\build.make CMakeFiles/2-BullInAChinaShop.dir/USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.i
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.i
+
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.s: USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.s
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.s
+
+# target to generate assembly for a file
+USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.s:
+	$(MAKE) -f CMakeFiles\2-BullInAChinaShop.dir\build.make CMakeFiles/2-BullInAChinaShop.dir/USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.s
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.cpp.s
+
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.obj: USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.obj
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.obj
+
+# target to build an object file
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-FieldReduction.dir\build.make CMakeFiles/3-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.obj
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.obj
+
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.i: USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.i
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.i
+
+# target to preprocess a source file
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.i:
+	$(MAKE) -f CMakeFiles\3-FieldReduction.dir\build.make CMakeFiles/3-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.i
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.i
+
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.s: USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.s
+
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.s
+
+# target to generate assembly for a file
+USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.s:
+	$(MAKE) -f CMakeFiles\3-FieldReduction.dir\build.make CMakeFiles/3-FieldReduction.dir/USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.s
+.PHONY : USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.cpp.s
+
 USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj: USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.cpp.obj
 
 .PHONY : USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
@@ -1000,6 +1119,33 @@ USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s:
 	$(MAKE) -f CMakeFiles\2-Meetings.dir\build.make CMakeFiles/2-Meetings.dir/USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 .PHONY : USACO/2019-2020/1-Dec/Silver/2-Meetings.cpp.s
 
+USACO/2019-2020/2-Jan/Gold/3-Springboards.obj: USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.obj
+
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.obj
+
+# target to build an object file
+USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.obj
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.obj
+
+USACO/2019-2020/2-Jan/Gold/3-Springboards.i: USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.i
+
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.i
+
+# target to preprocess a source file
+USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.i:
+	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.i
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.i
+
+USACO/2019-2020/2-Jan/Gold/3-Springboards.s: USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.s
+
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.s
+
+# target to generate assembly for a file
+USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.s:
+	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.s
+.PHONY : USACO/2019-2020/2-Jan/Gold/3-Springboards.cpp.s
+
 USACO/2019-2020/3-Feb/Silver/2-Triangles.obj: USACO/2019-2020/3-Feb/Silver/2-Triangles.cpp.obj
 
 .PHONY : USACO/2019-2020/3-Feb/Silver/2-Triangles.obj
@@ -1162,6 +1308,60 @@ USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s:
 	$(MAKE) -f CMakeFiles\3-JustGreenEnough.dir\build.make CMakeFiles/3-JustGreenEnough.dir/USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s
 .PHONY : USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.cpp.s
 
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.obj: USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.obj
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.obj
+
+# target to build an object file
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-Portals.dir\build.make CMakeFiles/2-Portals.dir/USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.obj
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.obj
+
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.i: USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.i
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.i
+
+# target to preprocess a source file
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.i:
+	$(MAKE) -f CMakeFiles\2-Portals.dir\build.make CMakeFiles/2-Portals.dir/USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.i
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.i
+
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.s: USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.s
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.s
+
+# target to generate assembly for a file
+USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.s:
+	$(MAKE) -f CMakeFiles\2-Portals.dir\build.make CMakeFiles/2-Portals.dir/USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.s
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/2-Portals.cpp.s
+
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.obj: USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.obj
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.obj
+
+# target to build an object file
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-Permutation.dir\build.make CMakeFiles/3-Permutation.dir/USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.obj
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.obj
+
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.i: USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.i
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.i
+
+# target to preprocess a source file
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.i:
+	$(MAKE) -f CMakeFiles\3-Permutation.dir\build.make CMakeFiles/3-Permutation.dir/USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.i
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.i
+
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.s: USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s
+
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.s
+
+# target to generate assembly for a file
+USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s:
+	$(MAKE) -f CMakeFiles\3-Permutation.dir\build.make CMakeFiles/3-Permutation.dir/USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s
+.PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s
+
 debug.obj: debug.cpp.obj
 
 .PHONY : debug.obj
@@ -1195,18 +1395,20 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 3-LoadBalancing
+	@echo ... edit_cache
+	@echo ... 2-BovineGenomics
+	@echo ... 2-BullInAChinaShop
 	@echo ... debug
 	@echo ... 3-CountTheCows
 	@echo ... 2-LoadBalancing
+	@echo ... 2-Portals
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
 	@echo ... 2-CowSteepleChase-II
 	@echo ... 2-Meetings
+	@echo ... 3-Springboards
 	@echo ... 2-Triangles
 	@echo ... 1-FieldReduction
-	@echo ... edit_cache
-	@echo ... 2-BovineGenomics
 	@echo ... 3-WheresBessie
 	@echo ... 1-AngryCows
 	@echo ... 3-MultiplayerMoo
@@ -1217,6 +1419,9 @@ help:
 	@echo ... 1-StoneGame
 	@echo ... 2-Dishwashing
 	@echo ... 2-MilkVisits
+	@echo ... 3-Permutation
+	@echo ... 3-LoadBalancing
+	@echo ... 3-FieldReduction
 	@echo ... GridPaths
 	@echo ... rebuild_cache
 	@echo ... RoundTrip-II
@@ -1251,6 +1456,12 @@ help:
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.obj
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.i
 	@echo ... USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.s
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.obj
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.i
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/2-BullInAChinaShop.s
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.obj
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.i
+	@echo ... USACO/2015-2016/4-UsOpen/Bronze/3-FieldReduction.s
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.obj
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.i
 	@echo ... USACO/2015-2016/4-UsOpen/Silver/1-FieldReduction.s
@@ -1284,6 +1495,9 @@ help:
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.obj
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.i
 	@echo ... USACO/2019-2020/1-Dec/Silver/2-Meetings.s
+	@echo ... USACO/2019-2020/2-Jan/Gold/3-Springboards.obj
+	@echo ... USACO/2019-2020/2-Jan/Gold/3-Springboards.i
+	@echo ... USACO/2019-2020/2-Jan/Gold/3-Springboards.s
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.obj
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.i
 	@echo ... USACO/2019-2020/3-Feb/Silver/2-Triangles.s
@@ -1302,6 +1516,12 @@ help:
 	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.obj
 	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.i
 	@echo ... USACO/2020-2021/3-Feb/Silver/3-JustGreenEnough.s
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/2-Portals.obj
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/2-Portals.i
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/2-Portals.s
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.obj
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.i
+	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.s
 	@echo ... debug.obj
 	@echo ... debug.i
 	@echo ... debug.s

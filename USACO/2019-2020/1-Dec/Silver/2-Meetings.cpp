@@ -13,7 +13,7 @@ int main() {
     ifstream fin("../input.txt");
     ofstream fout("../output.txt");
 
-    //Take inputs
+    //Process inputs
 
     return 0;
 }
