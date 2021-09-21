@@ -64,4 +64,6 @@ add_executable(IncreasingArrayQueries CSES/5-RangeQueries/IncreasingArrayQueries
 
 add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)
 
+#Teams Code + Proco problems are incomplete
+
 #Codeforces unfinished problems

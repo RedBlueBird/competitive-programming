@@ -7,11 +7,15 @@ typedef tuple<int,int,int> tiii;
 #define ss second
 const ll mod = 1e9+7;
 
+//<comment>
+//Fake solved solution below
+//</comment>
+
 int main() {
-    ofstream fout("talent.out");
-    ifstream fin("talent.in");
-//    ofstream fout("../output.txt");
-//    ifstream fin("../input.txt");
+//    ofstream fout("talent.out");
+//    ifstream fin("talent.in");
+    ofstream fout("../output.txt");
+    ifstream fin("../input.txt");
 
     //Take inputs
     int n, w, total;
