@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\B-DotsAndBoxes.dir/objects.a
+C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\B-DotsAndBoxes.dir/objects.a @CMakeFiles\B-DotsAndBoxes.dir\objects1.rsp
+C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\B-DotsAndBoxes.dir/objects.a -Wl,--no-whole-archive  -o B-DotsAndBoxes.exe -Wl,--out-implib,libB-DotsAndBoxes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\B-DotsAndBoxes.dir\linklibs.rsp

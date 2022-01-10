@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 2-BovineGenomics
-
-# Build rule for target.
-2-BovineGenomics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-BovineGenomics
-.PHONY : 2-BovineGenomics
-
-# fast build rule for target.
-2-BovineGenomics/fast:
-	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
-.PHONY : 2-BovineGenomics/fast
-
-#=============================================================================
 # Target rules for targets named 2-BullInAChinaShop
 
 # Build rule for target.
@@ -147,6 +134,45 @@ debug: cmake_check_build_system
 debug/fast:
 	$(MAKE) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
 .PHONY : debug/fast
+
+#=============================================================================
+# Target rules for targets named 3-Springboards
+
+# Build rule for target.
+3-Springboards: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-Springboards
+.PHONY : 3-Springboards
+
+# fast build rule for target.
+3-Springboards/fast:
+	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/build
+.PHONY : 3-Springboards/fast
+
+#=============================================================================
+# Target rules for targets named 2-Triangles
+
+# Build rule for target.
+2-Triangles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-Triangles
+.PHONY : 2-Triangles
+
+# fast build rule for target.
+2-Triangles/fast:
+	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/build
+.PHONY : 2-Triangles/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named 3-CountTheCows
@@ -214,6 +240,19 @@ debug/fast:
 .PHONY : 1-SleepyCowHerding/fast
 
 #=============================================================================
+# Target rules for targets named 2-HILO
+
+# Build rule for target.
+2-HILO: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-HILO
+.PHONY : 2-HILO
+
+# fast build rule for target.
+2-HILO/fast:
+	$(MAKE) -f CMakeFiles\2-HILO.dir\build.make CMakeFiles/2-HILO.dir/build
+.PHONY : 2-HILO/fast
+
+#=============================================================================
 # Target rules for targets named 2-CowSteepleChase-II
 
 # Build rule for target.
@@ -240,32 +279,6 @@ debug/fast:
 .PHONY : 2-Meetings/fast
 
 #=============================================================================
-# Target rules for targets named 3-Springboards
-
-# Build rule for target.
-3-Springboards: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 3-Springboards
-.PHONY : 3-Springboards
-
-# fast build rule for target.
-3-Springboards/fast:
-	$(MAKE) -f CMakeFiles\3-Springboards.dir\build.make CMakeFiles/3-Springboards.dir/build
-.PHONY : 3-Springboards/fast
-
-#=============================================================================
-# Target rules for targets named 2-Triangles
-
-# Build rule for target.
-2-Triangles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2-Triangles
-.PHONY : 2-Triangles
-
-# fast build rule for target.
-2-Triangles/fast:
-	$(MAKE) -f CMakeFiles\2-Triangles.dir\build.make CMakeFiles/2-Triangles.dir/build
-.PHONY : 2-Triangles/fast
-
-#=============================================================================
 # Target rules for targets named 1-FieldReduction
 
 # Build rule for target.
@@ -277,6 +290,19 @@ debug/fast:
 1-FieldReduction/fast:
 	$(MAKE) -f CMakeFiles\1-FieldReduction.dir\build.make CMakeFiles/1-FieldReduction.dir/build
 .PHONY : 1-FieldReduction/fast
+
+#=============================================================================
+# Target rules for targets named 2-BovineGenomics
+
+# Build rule for target.
+2-BovineGenomics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2-BovineGenomics
+.PHONY : 2-BovineGenomics
+
+# fast build rule for target.
+2-BovineGenomics/fast:
+	$(MAKE) -f CMakeFiles\2-BovineGenomics.dir\build.make CMakeFiles/2-BovineGenomics.dir/build
+.PHONY : 2-BovineGenomics/fast
 
 #=============================================================================
 # Target rules for targets named 3-WheresBessie
@@ -329,6 +355,19 @@ debug/fast:
 1-LeftOut/fast:
 	$(MAKE) -f CMakeFiles\1-LeftOut.dir\build.make CMakeFiles/1-LeftOut.dir/build
 .PHONY : 1-LeftOut/fast
+
+#=============================================================================
+# Target rules for targets named Scratch
+
+# Build rule for target.
+Scratch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Scratch
+.PHONY : Scratch
+
+# fast build rule for target.
+Scratch/fast:
+	$(MAKE) -f CMakeFiles\Scratch.dir\build.make CMakeFiles/Scratch.dir/build
+.PHONY : Scratch/fast
 
 #=============================================================================
 # Target rules for targets named 1-ComfortableCows
@@ -525,6 +564,32 @@ NewFlightRoutes/fast:
 	$(MAKE) -f CMakeFiles\NewFlightRoutes.dir\build.make CMakeFiles/NewFlightRoutes.dir/build
 .PHONY : NewFlightRoutes/fast
 
+#=============================================================================
+# Target rules for targets named 1-PairedUp
+
+# Build rule for target.
+1-PairedUp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1-PairedUp
+.PHONY : 1-PairedUp
+
+# fast build rule for target.
+1-PairedUp/fast:
+	$(MAKE) -f CMakeFiles\1-PairedUp.dir\build.make CMakeFiles/1-PairedUp.dir/build
+.PHONY : 1-PairedUp/fast
+
+#=============================================================================
+# Target rules for targets named 3-BraceletCrossings
+
+# Build rule for target.
+3-BraceletCrossings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 3-BraceletCrossings
+.PHONY : 3-BraceletCrossings
+
+# fast build rule for target.
+3-BraceletCrossings/fast:
+	$(MAKE) -f CMakeFiles\3-BraceletCrossings.dir\build.make CMakeFiles/3-BraceletCrossings.dir/build
+.PHONY : 3-BraceletCrossings/fast
+
 CSES/1-IntroductoryProblems/GridPaths.obj: CSES/1-IntroductoryProblems/GridPaths.cpp.obj
 
 .PHONY : CSES/1-IntroductoryProblems/GridPaths.obj
@@ -686,6 +751,33 @@ CSES/5-RangeQueries/SalaryQueries.s: CSES/5-RangeQueries/SalaryQueries.cpp.s
 CSES/5-RangeQueries/SalaryQueries.cpp.s:
 	$(MAKE) -f CMakeFiles\SalaryQueries.dir\build.make CMakeFiles/SalaryQueries.dir/CSES/5-RangeQueries/SalaryQueries.cpp.s
 .PHONY : CSES/5-RangeQueries/SalaryQueries.cpp.s
+
+Scratch.obj: Scratch.cpp.obj
+
+.PHONY : Scratch.obj
+
+# target to build an object file
+Scratch.cpp.obj:
+	$(MAKE) -f CMakeFiles\Scratch.dir\build.make CMakeFiles/Scratch.dir/Scratch.cpp.obj
+.PHONY : Scratch.cpp.obj
+
+Scratch.i: Scratch.cpp.i
+
+.PHONY : Scratch.i
+
+# target to preprocess a source file
+Scratch.cpp.i:
+	$(MAKE) -f CMakeFiles\Scratch.dir\build.make CMakeFiles/Scratch.dir/Scratch.cpp.i
+.PHONY : Scratch.cpp.i
+
+Scratch.s: Scratch.cpp.s
+
+.PHONY : Scratch.s
+
+# target to generate assembly for a file
+Scratch.cpp.s:
+	$(MAKE) -f CMakeFiles\Scratch.dir\build.make CMakeFiles/Scratch.dir/Scratch.cpp.s
+.PHONY : Scratch.cpp.s
 
 USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj: USACO/2015-2016/2-Jan/Gold/1-AngryCows.cpp.obj
 
@@ -1362,6 +1454,114 @@ USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s:
 	$(MAKE) -f CMakeFiles\3-Permutation.dir\build.make CMakeFiles/3-Permutation.dir/USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s
 .PHONY : USACO/2020-2021/4-UsOpen/Gold/3-Permutation.cpp.s
 
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.obj: USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.obj
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.obj
+
+# target to build an object file
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.obj:
+	$(MAKE) -f CMakeFiles\1-PairedUp.dir\build.make CMakeFiles/1-PairedUp.dir/USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.obj
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.obj
+
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.i: USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.i
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.i
+
+# target to preprocess a source file
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.i:
+	$(MAKE) -f CMakeFiles\1-PairedUp.dir\build.make CMakeFiles/1-PairedUp.dir/USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.i
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.i
+
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.s: USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.s
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.s
+
+# target to generate assembly for a file
+USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.s:
+	$(MAKE) -f CMakeFiles\1-PairedUp.dir\build.make CMakeFiles/1-PairedUp.dir/USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.s
+.PHONY : USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp.s
+
+USACO/2021-2022/1-Dec/Gold/2-HILO.obj: USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.obj
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.obj
+
+# target to build an object file
+USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.obj:
+	$(MAKE) -f CMakeFiles\2-HILO.dir\build.make CMakeFiles/2-HILO.dir/USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.obj
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.obj
+
+USACO/2021-2022/1-Dec/Gold/2-HILO.i: USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.i
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.i
+
+# target to preprocess a source file
+USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.i:
+	$(MAKE) -f CMakeFiles\2-HILO.dir\build.make CMakeFiles/2-HILO.dir/USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.i
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.i
+
+USACO/2021-2022/1-Dec/Gold/2-HILO.s: USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.s
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.s
+
+# target to generate assembly for a file
+USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.s:
+	$(MAKE) -f CMakeFiles\2-HILO.dir\build.make CMakeFiles/2-HILO.dir/USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.s
+.PHONY : USACO/2021-2022/1-Dec/Gold/2-HILO.cpp.s
+
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.obj: USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.obj
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.obj
+
+# target to build an object file
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.obj:
+	$(MAKE) -f CMakeFiles\3-BraceletCrossings.dir\build.make CMakeFiles/3-BraceletCrossings.dir/USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.obj
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.obj
+
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.i: USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.i
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.i
+
+# target to preprocess a source file
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.i:
+	$(MAKE) -f CMakeFiles\3-BraceletCrossings.dir\build.make CMakeFiles/3-BraceletCrossings.dir/USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.i
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.i
+
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.s: USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.s
+
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.s
+
+# target to generate assembly for a file
+USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.s:
+	$(MAKE) -f CMakeFiles\3-BraceletCrossings.dir\build.make CMakeFiles/3-BraceletCrossings.dir/USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.s
+.PHONY : USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp.s
+
+USACO/test.obj: USACO/test.cpp.obj
+
+.PHONY : USACO/test.obj
+
+# target to build an object file
+USACO/test.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/USACO/test.cpp.obj
+.PHONY : USACO/test.cpp.obj
+
+USACO/test.i: USACO/test.cpp.i
+
+.PHONY : USACO/test.i
+
+# target to preprocess a source file
+USACO/test.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/USACO/test.cpp.i
+.PHONY : USACO/test.cpp.i
+
+USACO/test.s: USACO/test.cpp.s
+
+.PHONY : USACO/test.s
+
+# target to generate assembly for a file
+USACO/test.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/USACO/test.cpp.s
+.PHONY : USACO/test.cpp.s
+
 debug.obj: debug.cpp.obj
 
 .PHONY : debug.obj
@@ -1395,24 +1595,27 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... 2-BovineGenomics
 	@echo ... 2-BullInAChinaShop
 	@echo ... debug
+	@echo ... 3-Springboards
+	@echo ... 2-Triangles
+	@echo ... test
 	@echo ... 3-CountTheCows
 	@echo ... 2-LoadBalancing
 	@echo ... 2-Portals
 	@echo ... 3-Teleportation
 	@echo ... 1-SleepyCowHerding
+	@echo ... 2-HILO
 	@echo ... 2-CowSteepleChase-II
 	@echo ... 2-Meetings
-	@echo ... 3-Springboards
-	@echo ... 2-Triangles
 	@echo ... 1-FieldReduction
+	@echo ... edit_cache
+	@echo ... 2-BovineGenomics
 	@echo ... 3-WheresBessie
 	@echo ... 1-AngryCows
 	@echo ... 3-MultiplayerMoo
 	@echo ... 1-LeftOut
+	@echo ... Scratch
 	@echo ... 1-ComfortableCows
 	@echo ... 3-JustGreenEnough
 	@echo ... 2-FavoriateColors
@@ -1429,6 +1632,8 @@ help:
 	@echo ... SalaryQueries
 	@echo ... IncreasingArrayQueries
 	@echo ... NewFlightRoutes
+	@echo ... 1-PairedUp
+	@echo ... 3-BraceletCrossings
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.obj
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.i
 	@echo ... CSES/1-IntroductoryProblems/GridPaths.s
@@ -1447,6 +1652,9 @@ help:
 	@echo ... CSES/5-RangeQueries/SalaryQueries.obj
 	@echo ... CSES/5-RangeQueries/SalaryQueries.i
 	@echo ... CSES/5-RangeQueries/SalaryQueries.s
+	@echo ... Scratch.obj
+	@echo ... Scratch.i
+	@echo ... Scratch.s
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.obj
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.i
 	@echo ... USACO/2015-2016/2-Jan/Gold/1-AngryCows.s
@@ -1522,6 +1730,18 @@ help:
 	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.obj
 	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.i
 	@echo ... USACO/2020-2021/4-UsOpen/Gold/3-Permutation.s
+	@echo ... USACO/2021-2022/1-Dec/Gold/1-PairedUp.obj
+	@echo ... USACO/2021-2022/1-Dec/Gold/1-PairedUp.i
+	@echo ... USACO/2021-2022/1-Dec/Gold/1-PairedUp.s
+	@echo ... USACO/2021-2022/1-Dec/Gold/2-HILO.obj
+	@echo ... USACO/2021-2022/1-Dec/Gold/2-HILO.i
+	@echo ... USACO/2021-2022/1-Dec/Gold/2-HILO.s
+	@echo ... USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.obj
+	@echo ... USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.i
+	@echo ... USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.s
+	@echo ... USACO/test.obj
+	@echo ... USACO/test.i
+	@echo ... USACO/test.s
 	@echo ... debug.obj
 	@echo ... debug.i
 	@echo ... debug.s

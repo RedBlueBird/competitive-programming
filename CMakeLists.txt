@@ -4,6 +4,7 @@ project(competitive-programming)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(debug debug.cpp)
+add_executable(test USACO/test.cpp)
 
 #USACO Silver unfinished problems #14
 add_executable(2-LoadBalancing USACO/2015-2016/3-Feb/Silver/2-LoadBalancing.cpp)
@@ -67,3 +68,8 @@ add_executable(NewFlightRoutes CSES/11-AdditionalProblems/NewFlightRoutes.cpp)
 #Teams Code + Proco problems are incomplete
 
 #Codeforces unfinished problems
+
+add_executable(1-PairedUp USACO/2021-2022/1-Dec/Gold/1-PairedUp.cpp)
+add_executable(2-HILO USACO/2021-2022/1-Dec/Gold/2-HILO.cpp)
+add_executable(Scratch Scratch.cpp)
+add_executable(3-BraceletCrossings USACO/2021-2022/1-Dec/Gold/3-BraceletCrossings.cpp)

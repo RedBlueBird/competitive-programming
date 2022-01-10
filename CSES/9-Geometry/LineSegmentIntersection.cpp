@@ -32,7 +32,7 @@ int main() {
     int n;
     cin >> n;
 
-    //All there is to know in in the code
+    //All there is to know is in the code
     //Two line segment intersects if they cross
     //or they are partially contained within each other
     for (int i = 0; i < n; i++){
