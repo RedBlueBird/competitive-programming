@@ -1,2 +1,3 @@
 # Competitive Programming
-My cpp codes to cp related questions with brief comments
+My cpp codes to competitive programming problems,
+comments & explanation for each algorithm too...!
